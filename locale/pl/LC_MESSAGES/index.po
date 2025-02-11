@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Fortran-lang.org website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-01 14:47+0530\n"
-"PO-Revision-Date: 2023-11-14 17:04+0000\n"
-"Last-Translator: Dominik Gęgotek <ioutora@disroot.org>\n"
+"PO-Revision-Date: 2024-12-19 21:00+0000\n"
+"Last-Translator: Agnieszka Ziora <agaxx02@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/fortran-lang/"
 "webpage/pl/>\n"
 "Language: pl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.9.2-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/community.md:10
@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 "Społeczny projekt stworzenia 'standardowej' (de facto) biblioteki Fortranu. "
 "Projekt stdlib obejmuje zarówno specyfikację jak i referencyjną "
-"implementację, rozwijane we współpracy z Komitetem Standaryzacji Fortranu. "
+"implementację, rozwijane we współpracy z Komitetem Standardów Fortran. "
 "[GitHub](https://github.com/fortran-lang/"
 "stdlib),[Documentation](https://stdlib.fortran-lang.org/"
 "),[Contributing](https://github.com/fortran-lang/stdlib/blob/HEAD/WORKFLOW."
@@ -366,6 +366,12 @@ msgid ""
 "result on the [`gh-pages`](https://github.com/fortran-lang/webpage/tree/gh-"
 "pages) branch which is served up at <https://fortran-lang.org>."
 msgstr ""
+"Domyślna gałąź repozytorium Github zawiera tylko 'kod źródłowy' strony, a "
+"nie jej końcowy skompilowany wynik; zautomatyzowana usługa kompiluje ten kod "
+"źródłowy za każdym razem, gdy nowa aktualizacja jest przesyłana i "
+"przechowuje skompilowany wynik w gałęzi [`gh-pages`](https://github.com/"
+"fortran-lang/webpage/tree/gh-pages), która jest dostępna pod adresem <https"
+"://fortran-lang.org>."
 
 #: ../../source/community/contributing.md:34
 msgid ""
@@ -373,64 +379,78 @@ msgid ""
 "source code and not the compiled result, because this is built automatically "
 "from the source code on the default branch."
 msgstr ""
+"Zatem, jako kontrybutor musisz tylko przesłać zmiany w kodzie źródłowym "
+"witryny, a nie skompilowanym wyniku, ponieważ jest on budowany automatycznie "
+"na podstawie kodu źródłowego gałęzi domyślnej."
 
 #: ../../source/community/contributing.md:36
 msgid "Workflow"
-msgstr ""
+msgstr "Organizacja zadań"
 
 #: ../../source/community/contributing.md:38
 msgid ""
 "Contributions to the site are made by pull request to the github repository: "
 "<https://github.com/fortran-lang/webpage/>."
 msgstr ""
+"Kontrybucje do strony są tworzone poprzez prośbę o ściągnięcie wysyłaną do "
+"repozytorium github: <https://github.com/fortran-lang/webpage/>."
 
 #: ../../source/community/contributing.md:40
 msgid "The workflow for doing so takes the following form:"
-msgstr ""
+msgstr "Organizacja zadań w tym celu przyjmuje następującą formę:"
 
 #: ../../source/community/contributing.md:42
 msgid "Create/update a personal fork of webpage"
-msgstr ""
+msgstr "Stwórz/zaktualizuj osobiste rozgałęzienie strony"
 
 #: ../../source/community/contributing.md:44
 msgid ""
 "(See [github help: syncing a fork](https://help.github.com/en/github"
 "/collaborating-with-issues-and-pull-requests/syncing-a-fork) )"
 msgstr ""
+"(Zobacz [Github pomoc: synchronizowanie rozwidlenia](https://help.github.com/"
+"en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) )"
 
 #: ../../source/community/contributing.md:46
 msgid "Create a new branch in your fork"
-msgstr ""
+msgstr "Stwórz nową gałąź w rozgałęzieniu"
 
 #: ../../source/community/contributing.md:48
 msgid ""
 "The branch name should concisely describe your contribution, _e.g._ `fix-"
 "spelling-homepage`, `update-compiler-info`"
 msgstr ""
+"Nazwa gałęzi powinna treściwie opisywać twoją kontrybucję, _np._` naprawa-"
+"pisowni-strona-główna`, `zaktualizowanie-informacji-kompilatora`"
 
 #: ../../source/community/contributing.md:50
 msgid "Perform your changes on the local branch"
-msgstr ""
+msgstr "Wykonaj swoje zmiany w gałęzi lokalnej"
 
 #: ../../source/community/contributing.md:52
 msgid "Push your modified branch to your fork"
-msgstr ""
+msgstr "Prześlij swoją zmodyfikowaną gałąź do twojego rozgałęzienia"
 
 #: ../../source/community/contributing.md:54
 msgid "_e.g._ `git push --set-upstream origin fix-spelling-homepage`"
-msgstr ""
+msgstr "_n.p._`git push --set-upstream origin naprawa-pisowni-strona-główna`"
 
 #: ../../source/community/contributing.md:56
 msgid ""
 "Create a pull request in the fortran-lang/webpage from your modified fork "
 "branch"
 msgstr ""
+"Stwórz prośbę o ściągnięcie na stronie fortran-lang/webpage ze swojego "
+"zmodyfikowanego rozgałęzienia"
 
 #: ../../source/community/contributing.md:57
 msgid ""
 "(See [github help: creating a pull request](https://help.github.com/en/github"
 "/collaborating-with-issues-and-pull-requests/creating-a-pull-request) )"
 msgstr ""
+"(Zobacz [Github pomoc: tworzenia prośby o ściągnięcie](https://help.github."
+"com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-"
+"request) )"
 
 #: ../../source/community/contributing.md:59
 msgid ""
@@ -439,12 +459,18 @@ msgid ""
 "lang/webpage/HEAD/blob/README.md)) to verify that your changes build "
 "correctly and render as you expect.**"
 msgstr ""
+"**Uwaga: Przed utworzeniem prośby o ściągnięcie wymagane jest skompilowanie "
+"zmian lokalnie przy użyciu Sphinxa (zobacz [README.md](https://github.com/"
+"fortran-lang/webpage/HEAD/blob/README.md)) żeby zweryfikować, że twoje "
+"zmiany skompilują się prawidłowo i wyświetlane są zgodnie z oczekiwaniami**"
 
 #: ../../source/community/contributing.md:61
 msgid ""
 "**Note: You can continue to push changes to your fork branch after you open a"
 " pull request - the pull request will update accordingly**"
 msgstr ""
+"**Uwaga: Możesz kontynuować przesyłania zmian do swojej gałęzi po stworzeniu "
+"żądania o ściągnięcie - to żądanie zostanie odpowiednio zaktualizowane**"
 
 #: ../../source/community/contributing.md:63
 msgid ""
@@ -456,6 +482,14 @@ msgid ""
 "the local copy on your computer using `git pull` if you intend to push more "
 "edits from your computer."
 msgstr ""
+"Twoja prośba o ściągnięcie będzie oceniona przez innych członków "
+"społeczności, którzy mogą poprosić o wprowadzenie zmian. GitHub na swojej "
+"stronie zapewnia łatwy w obsłudze interfejs służący do zaakceptowania (lub "
+"odrzucenia) wszystkich sugestii oceniającego poprzez naciśnięcie jednego "
+"przycisku. To zapobiega manualnemu kopiowaniu sugestii do lokalnej kopii i "
+"przesyłaniu ich ponownie. Po naciśnięciu przycisku \"Commit suggestion\" "
+"wymagane jest zaktualizowanie lokalnej kopii na komputerze przy użyciu "
+"komendy `git pull`, aby przesłać więcej poprawek z komputera."
 
 #: ../../source/community/contributing.md:68
 msgid ""
@@ -463,6 +497,10 @@ msgid ""
 "members, it will be merged into the webpage default branch by the maintainers"
 " at which point it will be published to the fortran-lang.org site."
 msgstr ""
+"Po tym jak twoja prośba o ściągnięcie zostanie zaakceptowana, zazwyczaj "
+"przez dwóch lub więcej członków społeczności, zostanie ona przyłączona do "
+"domyślnej gałęzi strony przez opiekunów, po czym zostanie opublikowana na "
+"stronie fortran-lang.org."
 
 #: ../../source/community/contributing.md:70
 msgid ""
@@ -471,10 +509,16 @@ msgid ""
 "lang.org/pr/<pr_id>/` where `<pr_id>` is the numeric identifier of your pull "
 "request."
 msgstr ""
+"W razie potrzeby, opiekunowie repozytorium mogą stworzyć publiczny podgląd "
+"zaproponowanych przez ciebie zmian, który będzie dostępny do obejrzenia pod "
+"adresem `fortran-lang.org/pr/<pr_id>/`, gdzie `<pr_id>` to numeryczny "
+"identyfikator twojego żądania ściągnięcia."
 
 #: ../../source/community/contributing.md:72
 msgid "This allows reviewers to directly view the generated result of your PR."
 msgstr ""
+"Dzięki temu oceniający mogą bezpośrednio zobaczyć wygenerowany rezultat "
+"twoich zmian."
 
 #: ../../source/community/contributing.md:74
 msgid ""
@@ -482,12 +526,17 @@ msgid ""
 "must rebuild the pull request preview by commenting on the pull request with "
 "'#build_preview'."
 msgstr ""
+"**Uwaga** jeśli wyślesz kolejne zatwierdzenia (commit) do gałęzi żądania "
+"ściągnięcia, wymagane jest ponowne skompilowanie podglądu żądania "
+"ściągnięcia poprzez skomentowanie go sformułowaniem '#build_preview'."
 
 #: ../../source/community/contributing.md:77
 msgid ""
 "After a pull request has been merged and successfully rendered, the workflows"
 " will delete the preview build."
 msgstr ""
+"Po przyłączeniu żądania ściągnięcia i pomyślnym wyrenderowaniu go, "
+"kompilacja podglądu zostanie usunięta."
 
 #: ../../source/community/contributing.md:79
 msgid ""
@@ -498,14 +547,20 @@ msgid ""
 "force the GitHub content delivery network to serve you an updated version "
 "instead of a cached version which is out-of-date."
 msgstr ""
+"**Uwaga** jeśli link podglądu twojego żądania ściągnięcia nie działa lub nie "
+"aktualizuje się po ponownej kompilacji spróbuj dodać losowy parametr na "
+"końcu adresu URL _np._ ` https://fortran-lang.org/pr/98?v=2` - nazwa i "
+"wartość parametru nie mają znaczenia, ale używaj innej wartości dla każdej "
+"aktualizacji. To wymusi sieć dostarczania treści GitHub do dostarczenia ci "
+"zaktualizowanej wersji zamiast nieaktualnej wersji z pamięci podręcznej."
 
 #: ../../source/community/contributing.md:82
 msgid "Style guide"
-msgstr ""
+msgstr "Przewodnik stylu"
 
 #: ../../source/community/contributing.md:84
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: ../../source/community/contributing.md:86
 msgid ""
@@ -514,6 +569,11 @@ msgid ""
 "ticks (` ``` `). Use inline code style (`` `code` ``) for inline code "
 "excerpts, programming language keywords, variables names and file names."
 msgstr ""
+"Umieść fragmenty kodu w [blokach kodu](https://github.com/adam-p/"
+"markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting), "
+"oznaczone podwójnymi grawisami (` ``` `). Użyj stylu liniowego (`` `kod` ``) "
+"dla liniowych fragmentów kodu, słowach kluczowych języka programowania, nazw "
+"zmiennych oraz nazw plików."
 
 #: ../../source/community/contributing.md:89
 msgid ""
@@ -521,10 +581,13 @@ msgid ""
 "sentences across multiples lines - this is important to avoid large git diffs"
 " and code review blocks on github."
 msgstr ""
+"Nie używaj więcej niż jednego zdania w wersie kodu źródłowego, a długie "
+"zdania dziel na wiele wierszy - jest to ważne, aby uniknąć dużych wykazów "
+"różnic oraz blokad w przeglądach kodu na githubie."
 
 #: ../../source/community/contributing.md:92
 msgid "External links"
-msgstr ""
+msgstr "Linki zewnętrzne"
 
 #: ../../source/community/contributing.md:94
 msgid ""
@@ -533,14 +596,19 @@ msgid ""
 "tab icon; this gives site users prior expectation that the link will lead "
 "them off-site while keeping fortran-lang.org open in a previous tab."
 msgstr ""
+"Rekomendowaną praktyką jest otwieranie hiperłączy zewnętrznych w nowej "
+"karcie. Na stronie `Fortran-lang.org` wszystkie takie linki będą "
+"automatycznie opatrzone ikoną nowej karty; dzięki temu użytkownicy strony "
+"mogą oczekiwać, że link otworzy się poza witryną podczas gdy strona fortran-"
+"lang.org pozostanie otwarta w poprzedniej karcie."
 
 #: ../../source/community/contributing.md:98
 msgid "**Example:** Open link in new tab (HTML or markdown)"
-msgstr ""
+msgstr "**Przykład:** Otwórz link w nowej karcie (HTML lub typu Markdown)"
 
 #: ../../source/community/contributing.md:106
 msgid "Internal site links"
-msgstr ""
+msgstr "Linki wewnętrzne"
 
 #: ../../source/community/contributing.md:108
 msgid ""
@@ -549,54 +617,67 @@ msgid ""
 "generating pull request previews (see [here](https://byparker.com/blog/2014"
 "/clearing-up-confusion-around-baseurl/) for an explanation)."
 msgstr ""
+"Hiperłącza, które przenoszą użytkownika do innej części strony fortran-"
+"lang.org powinny być poprzedzone prefiksem `{{pathto('index',1)[:-5]}}` - ma "
+"to duże znaczenie przy generowaniu podglądów próśb ściągnięcia (kliknij "
+"[tutaj](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)"
+", aby uzyskać więcej informacji)."
 
 #: ../../source/community/contributing.md:110
 msgid "**Example:** markdown link"
-msgstr ""
+msgstr "**Przykład:** link Markdown"
 
 #: ../../source/community/contributing.md:116
 msgid "**Example:** html link"
-msgstr ""
+msgstr "**Przykład:** Link HTML"
 
 #: ../../source/community/contributing.md:122
 msgid "Icon packs"
-msgstr ""
+msgstr "Pakiety ikon"
 
 #: ../../source/community/contributing.md:124
 msgid ""
 "Icons are an easy way to improve page aesthetic by breaking-up otherwise "
 "monotonic text passages and drawing attention to headings or key information."
 msgstr ""
+"Ikony są prostym sposobem na poprawienie estetyki strony poprzez "
+"przełamywanie monotonicznych fragmentów tekstu oraz przykuwaniu uwagi na "
+"nagłówki i kluczowe informacje."
 
 #: ../../source/community/contributing.md:126
 msgid "Three icon packs are available for use on `fortran-lang.org`:"
 msgstr ""
+"Trzy pakiety ikon dostępnych do użycia można znaleźć pod adresem `fortran-"
+"lang.org`:"
 
 #: ../../source/community/contributing.md:127
 msgid ""
 "[Sphinx-design](https://sphinx-design.readthedocs.io/en/sbt-"
 "theme/badges_buttons.html#inline-icons) (MIT License)"
 msgstr ""
+"[Sphinx-styl](https://sphinx-design.readthedocs.io/en/sbt-theme/"
+"badges_buttons.html#inline-icons) (Licencja MIT)"
 
 #: ../../source/community/contributing.md:129
 msgid "[Font awesome](https://fontawesome.com/icons?d=gallery) (CC BY 4.0 License)"
 msgstr ""
+"[Font awesome](https://fontawesome.com/icons?d=gallery) (Licencja CC BY 4.0)"
 
 #: ../../source/community/contributing.md:132
 msgid "**Example:** Font awesome"
-msgstr ""
+msgstr "**Przykład:** Font awesome"
 
 #: ../../source/community/contributing.md:138
 msgid "**Example:** Sphinx design Myst directives"
-msgstr ""
+msgstr "**Przykład:** Styl Sphinx wytyczne Myst"
 
 #: ../../source/community/contributing.md:144
 msgid "Visit the respective websites to browse available icons."
-msgstr ""
+msgstr "Aby przeglądać dostępne ikony odwiedź poszczególne strony."
 
 #: ../../source/community/contributing.md:146
 msgid "Page contents"
-msgstr ""
+msgstr "Zawartość strony"
 
 #: ../../source/community/contributing.md:148
 msgid ""
@@ -605,40 +686,47 @@ msgid ""
 "current page. Whereas the method to generate TOC of the entire directory on "
 "`Fortran-lang.org` is:"
 msgstr ""
+"Czasem pomocnym jest wyświetlenie zawartości strony zawierającej hiperłącza "
+"w przypadku długich stron. Drzewo spisu treści strony zostało "
+"zautomatyzowane i wygeneruje spis treści dla bieżącej strony. Natomiast "
+"metodę generowania spisu treści dla całego katalogu na `Fortran-lang.org` "
+"jest następująca:"
 
 #: ../../source/community/contributing.md:150
 msgid "**For pages in MD:**"
-msgstr ""
+msgstr "**Dla stron typu Markdown:**"
 
 #: ../../source/community/contributing.md:152
 msgid ""
 "add the toc tree directive in md at the end of the index page of the "
 "directory with the names of the all files in that directory."
 msgstr ""
+"dodaj wytyczne drzewa TOC w md na końcu strony indeksowej katalogu "
+"zawierającego nazwy wszystkich plików w tym katalogu."
 
 #: ../../source/community/contributing.md:161
 msgid "Tutorials"
-msgstr ""
+msgstr "Poradniki"
 
 #: ../../source/community/contributing.md:163
 msgid "Guidelines for mini-book content."
-msgstr ""
+msgstr "Wytyczne dotyczące treści miniksiążek."
 
 #: ../../source/community/contributing.md:165
 msgid "General"
-msgstr ""
+msgstr "Ogólny"
 
 #: ../../source/community/contributing.md:167
 msgid "Use the `book` layout."
-msgstr ""
+msgstr "Użyj układu `book`."
 
 #: ../../source/community/contributing.md:169
 msgid "Follow the [Markdown guidelines](#markdown)."
-msgstr ""
+msgstr "Postępuj zgodnie z [wytycznymi Markdown](#markdown)."
 
 #: ../../source/community/contributing.md:171
 msgid "Code style"
-msgstr ""
+msgstr "Styl kodu"
 
 #: ../../source/community/contributing.md:173
 msgid ""
@@ -647,62 +735,84 @@ msgid ""
 "limit line length to 90 characters. These considerations should make the code"
 " more readable and easier to view on devices with smaller viewport widths."
 msgstr ""
+"Używaj dwóch spacji do stworzenia wcięcia. Wcinaj zawartości jednostek, "
+"umieszczając wyrażenie `contains` na tym samym poziomie co `module` lub "
+"`type`. Spróbuj ograniczyć długość wersu do 90 znaków. Te praktyki powinny "
+"sprawić, że kod będzie bardziej przejrzysty i łatwiejszy do czytania na "
+"urządzeniach o mniejszej szerokości ekranu."
 
 #: ../../source/community/contributing.md:199
 msgid ""
 "Each code block should have a base indentation level of 0, even if it would "
 "be indented if put into a larger context."
 msgstr ""
+"Każdy blok kodu powinien mieć podstawowy poziom wcięcia równy 0, nawet jeśli "
+"powinien być wcięty jeśli zostałby umieszczony w szerszym kontekście."
 
 #: ../../source/community/contributing.md:206
 msgid ""
 "Avoid vertically aligning `::` and inline comments since this adds "
 "maintenance burden and pushes the line length in most cases."
 msgstr ""
+"Unikaj pionowego wyrównywania `::` oraz komentarzy wbudowanych w kod, "
+"ponieważ w większości przypadków utrudnia to konserwację i wydłuża długość "
+"wersów."
 
 #: ../../source/community/contributing.md:208
 msgid ""
 "If a code block contains lines that are not valid Fortran, leave it as a "
 "language-less code block to avoid the syntax highlighter's red boxes."
 msgstr ""
+"Jeśli blok kodu zawiera wersy, które nie są poprawne w języku Fortran, "
+"pozostaw je jako bloki kodu bez języka, aby uniknąć czerwonych podkreśleń "
+"składni."
 
 #: ../../source/community/contributing.md:216
 msgid ""
 "Feel free to omit spacing in expressions where it helps with readability, but"
 " generally include whitespace around operators."
 msgstr ""
+"Możesz pominąć odstępy w wyrażeniach, jeśli poprawia to czytelność kodu, "
+"jednak z reguły umieszczaj białe znaki wokół operatorów."
 
 #: ../../source/community/contributing.md:226
 msgid ""
 "Generally add a space after commas, except when indexing with short index "
 "values or variables names."
 msgstr ""
+"Zwykle dodawaj spację po przecinkach, wyjątkiem jest indeksowanie krótkich "
+"wartości oraz nazwy zmiennych."
 
 #: ../../source/community/contributing.md:241
 msgid "Other situations besides simple indexings where white space can be omitted:"
 msgstr ""
+"Inne sytuacje oprócz prostego indeksowania, w których znaki białe mogą "
+"zostać pominięte:"
 
 #: ../../source/community/contributing.md:243
 msgid "Aliasing in imports"
-msgstr ""
+msgstr "Aliasing importów"
 
 #: ../../source/community/contributing.md:247
 msgid "String concatentation"
-msgstr ""
+msgstr "Łączenie łańcuchów znaków"
 
 #: ../../source/community/contributing.md:251
 msgid "Accessing components (attributes) of derived types"
-msgstr ""
+msgstr "Uzyskiwanie dostępu do komponentów (atrybutów) typu pochodnego"
 
 #: ../../source/community/contributing.md:256
 msgid "Around `=` when passing keyword arguments"
-msgstr ""
+msgstr "Obok `=` podczas przekazywania kluczowych argumentów"
 
 #: ../../source/community/contributing.md:263
 msgid ""
 "Capitalize the first letter for inline comments except for trailing inline "
 "comments that only consist of one word or a short phrase."
 msgstr ""
+"W komentarzach wbudowanych pierwszą literę pisz wielką literą, z wyjątkiem "
+"końcowych komentarzy wbudowanych, które składają się tylko z jednego słowa "
+"lub krótkiej frazy."
 
 #: ../../source/community/contributing.md:270
 msgid ""
@@ -710,20 +820,27 @@ msgid ""
 "guide](https://dftbplus-"
 "develguide.readthedocs.io/en/latest/fortranstyle.html)."
 msgstr ""
+"Te rekomendacje stylu kodu są podobne do tych przedstawionych [w przewodniku "
+"stylu DFTB+](https://dftbplus-develguide.readthedocs.io/en/latest/"
+"fortranstyle.html)."
 
 #: ../../source/community/contributing.md:272
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: ../../source/community/contributing.md:274
 msgid "Use sentence case (as opposed to title case) for page and section titles."
 msgstr ""
+"W tytułach stron i sekcji używaj kapitalizacji tak jak w zdaniach (w "
+"przeciwieństwie do kapitalizowania wszystkich pierwszych liter słów)."
 
 #: ../../source/community/contributing.md:276
 msgid ""
 "Use _emphasis_ (`*emphasis*`/`_emphasis_`, rendered as italic) for key "
 "words/phrases when they are first introduced, for emphasis, ..."
 msgstr ""
+"Używaj _emphasis_ (`*emphasis*`/`_emphasis_`, czyli zapisu kursywą) dla "
+"podkreślenia słów kluczowych/wyrażeń, które są pierwszy raz wprowadzane."
 
 #: ../../source/community/contributing.md:278
 msgid ""
@@ -731,24 +848,29 @@ msgid ""
 "since bold style is used for headings, drawing attention to examples "
 "(**Example:**), admonition/aside titles, etc."
 msgstr ""
+"Unikaj używania **strong**(`**strong**`, czyli pogrubienia) w zwykłych "
+"akapitach, ponieważ styl ten używany jest w nagłówkach, do przyciągnięcia "
+"uwagi do przykładów (**Przykład:**), ostrzeżeń/tytułów na boku, itp."
 
 #: ../../source/community/contributing.md:280
 msgid ""
 "Make use of the admonition/aside (_note_, _tip_, _important_) where "
 "appropriate."
 msgstr ""
+"W stosownych przypadkach skorzystaj z ostrzeżenia/przypisu na boku (_note_ "
+"(uwaga), _tip_(wskazówka), _important_(ważne))."
 
 #: ../../source/community/contributing.md:282
 msgid "to add a **note** to md document use:"
-msgstr ""
+msgstr "Aby dodać **note** (notatka) do dokumentu md użyj:"
 
 #: ../../source/community/contributing.md:288
 msgid "to add a **tip** to md document use:"
-msgstr ""
+msgstr "Aby dodać **tip** (wskazówka) do dokumentu md użyj:"
 
 #: ../../source/community/contributing.md:294
 msgid "to add an **important** text to md document use:"
-msgstr ""
+msgstr "Aby dodać **important** (ważne) do dokumentu md użyj:"
 
 #: ../../source/community/contributing.md:301
 msgid ""
@@ -756,68 +878,86 @@ msgid ""
 "comma](https://en.wikipedia.org/wiki/Serial_comma). It usually makes things "
 "more clear."
 msgstr ""
+"Preferuj użycie [przecinka oksfordzkiego](https://en.wikipedia.org/wiki/"
+"Serial_comma). Zazwyczaj sprawia, że sytuacja staje się bardziej jasna."
 
 #: ../../source/community/contributing.md:303
 msgid "Fortran is fast, fun, and famed."
-msgstr ""
+msgstr "Fortran jest szybki, fajny i sławny."
 
 #: ../../source/community/minibooks.md:1
 msgid "Mini-book Tutorials on fortran-lang.org"
-msgstr ""
+msgstr "Poradniki do mini-książek na fortran-lang.org"
 
 #: ../../source/community/minibooks.md:3
 msgid ""
 "This guide will cover how to write mini-book tutorials for the [Learn](https"
 "://fortran-lang.org/learn) section of <https://fortran-lang.org>."
 msgstr ""
+"W tym poradniku wyjaśniono jak pisać samouczki w formie mini-książek dla "
+"sekcji [Naucz się](https://fortran-lang.org/learn) na stronie <https"
+"://fortran-lang.org>."
 
 #: ../../source/community/minibooks.md:6
 msgid ""
 "See [contributing guidelines](contributing) for general guidance on "
 "contributing to <https://fortran-lang.org>."
 msgstr ""
+"Ogólne wskazówki dotyczące współtworzenia strony <https://fortran-lang.org> "
+"znajdziesz w [poradniki współtworzenia](contributing)."
 
 #: ../../source/community/minibooks.md:8
 msgid "0. Mini-book formats"
-msgstr ""
+msgstr "0. Formaty mini-książek"
 
 #: ../../source/community/minibooks.md:10
 msgid ""
 "Mini-books are designed to be mostly self-contained tutorials on a particular"
 " feature of the Fortran language."
 msgstr ""
+"Mini-książki zaprojektowano tak, aby w większości samodzielnie wyjaśniały "
+"daną funkcję języka Fortran."
 
 #: ../../source/community/minibooks.md:12
 msgid "There are two types of mini-book format:"
-msgstr ""
+msgstr "Istnieją dwa rodzaje formatów mini-książek:"
 
 #: ../../source/community/minibooks.md:14
 msgid ""
 "**Single-page:** all content is written within a single markdown file and "
 "displayed on a single webpage;"
 msgstr ""
+"**Jednostronicowy:** cała zawartość napisana jest w jednym pliku typu "
+"Markdown i wyświetla się na pojedynczej stronie internetowej;"
 
 #: ../../source/community/minibooks.md:17
 msgid ""
 "**Multi-page:** tutorial content is written across multiple markdown files "
 "and displayed as a collection of webpages."
 msgstr ""
+"**Wielostronicowy:** zawartość poradnika zapisana jest w wielu plikach typu "
+"Markdown i wyświetla się jako kolekcja stron internetowych."
 
 #: ../../source/community/minibooks.md:20
 msgid ""
 "The choice of book type depends on the length of your content and how you "
 "intend to structure it."
 msgstr ""
+"Wybór formatu poradnika zależy od długości jego treści i planowanej "
+"struktury."
 
 #: ../../source/community/minibooks.md:22
 msgid "Consider the table of contents that will be produced:"
-msgstr ""
+msgstr "Przemyśl strukturę oraz spis treści, który zostanie utworzony:"
 
 #: ../../source/community/minibooks.md:24
 msgid ""
 "Single-page books have **one level** of navigation: a link for each heading "
 "in the tutorial in inpage-toc (toc on the right hand side of the page)."
 msgstr ""
+"Jednostronicowe poradniki mają **jeden poziom** nawigacji: link do każdego "
+"nagłówka samouczka w spisie treści na stronie (spis treści po prawej stronie "
+"witryny)."
 
 #: ../../source/community/minibooks.md:26
 msgid ""
@@ -826,6 +966,10 @@ msgid ""
 "sidebar-toc (toc on the left hand side of the page showing different pages in"
 " directory)."
 msgstr ""
+"Wielostronicowe poradniki mają **dwa poziomy** nawigacji: link do każdego "
+"nagłówka samouczka w spisie treści na stronie (spis treści po prawej stronie "
+"witryny) oraz spis treści na pasku bocznym (spis treści po lewej stronie "
+"witryny pokazujący listę wszystkich stron w katalogu)."
 
 #: ../../source/community/minibooks.md:28
 msgid ""
@@ -833,54 +977,65 @@ msgid ""
 "topics or short tutorials that will eventually be subsumed into a more-"
 "comprehensive multi-page book."
 msgstr ""
+"Jednostronicowe mini-książki są łatwiejsze w tworzeniu i powinny być używane "
+"do krótszych tematów lub poradników, które ostatecznie zostaną ujęte w "
+"bardziej obszernych wielostronicowych książkach."
 
 #: ../../source/community/minibooks.md:31
 msgid ""
 "Multi-page books are recommended for more-comprehensive tutorials that can be"
 " structured with one subtopic per page."
 msgstr ""
+"Wielostronicowe książki rekomendowane są do bardziej obszernych poradników, "
+"gdzie jeden podtemat może być przedstawiony na jednej stronie."
 
 #: ../../source/community/minibooks.md:33
 msgid ""
 "The rest of this guide is split into two sections, one each for the single-"
 "page and multi-page book types."
 msgstr ""
+"Pozostała część tego poradniki podzielona jest na dwie części, po jednej dla "
+"jednostronicowych i wielostronicowych mini-książek."
 
 #: ../../source/community/minibooks.md:35
 msgid "1. Single-page mini-book"
-msgstr ""
+msgstr "1. Jednostronicowe mini-książki"
 
 #: ../../source/community/minibooks.md:37
 msgid "The steps required for publishing a single-page mini-book are:"
-msgstr ""
+msgstr "Kroki wymagane do opublikowania jednostronnicowej mini-książki:"
 
 #: ../../source/community/minibooks.md:39
 msgid "Create a new markdown document in the `./learn` directory"
-msgstr ""
+msgstr "Utwórz nowy dokument typu Markdown w katalogu `./learn`"
 
 #: ../../source/community/minibooks.md:41
 msgid "Write your tutorial content"
-msgstr ""
+msgstr "Napisz zawartość twojego poradnika"
 
 #: ../../source/community/minibooks.md:43 ../../source/community/minibooks.md:168
 msgid ""
 "Add an entry to [data/learning.yml](./data/learning.yml) for your new mini-"
 "book"
 msgstr ""
+"Dodaj wpis do [data/learning.yml](./data/learning.yml) dla twojej nowej mini-"
+"książki"
 
 #: ../../source/community/minibooks.md:45 ../../source/community/minibooks.md:170
 msgid "Open a pull request"
-msgstr ""
+msgstr "Otwórz żądanie ściągnięcia"
 
 #: ../../source/community/minibooks.md:47
 msgid "1.1 Writing your mini-book in markdown"
-msgstr ""
+msgstr "1.1 Pisanie twojej mini-książki w pliku typu markdown"
 
 #: ../../source/community/minibooks.md:49
 msgid ""
 "For single-page mini-books your tutorial will be entirely contained within a "
 "single markdown document."
 msgstr ""
+"W przypadku mini-książek jednostronicowych twój poradnik będzie w całości "
+"zawarty w jednym dokumencie typu markdown."
 
 #: ../../source/community/minibooks.md:51
 msgid ""
@@ -889,30 +1044,38 @@ msgid ""
 "describes the topic of your tutorial, _e.g._ "
 "`./learn/{{name_of_minibook}}/file_io.md`."
 msgstr ""
+"Na początku stwórz nowy dokument typu markdown w katalogu `./learn/"
+"{{nazwa_miniksiążki}}/` z rozszerzeniem `.md` i krótką nazwą, która zwięźle "
+"opisuje temat twojego poradnika, _np._ `./learn/{{nazwa_miniksiążki}}/file_io"
+".md`."
 
 #: ../../source/community/minibooks.md:54
 msgid ""
 "Open your new markdown file and append an entry in the toc of `learn.md` in "
 "the following format:"
 msgstr ""
+"Otwórz swój nowy dokument i dodaj wpis do spisu treści `learn.md` w "
+"następującym formacie:"
 
 #: ../../source/community/minibooks.md:69
 msgid ""
 "Replace `{{book-filename}}` with the filename of your markdown file but "
 "**excluding the `.md` extension**. There should also be no trailing slash."
 msgstr ""
+"Zamień `{{book-filename}}` na nazwę twojego pliku markdown z **wyłączeniem "
+"rozszerzenia `.md`**. Nie powinien się tam również znajdować ukośnik końcowy."
 
 #: ../../source/community/minibooks.md:72
 msgid "**Example:** header"
-msgstr ""
+msgstr "**Przykład:** nagłówek"
 
 #: ../../source/community/minibooks.md:87
 msgid "**NOT:** `permalink: /learn/file_io.md`"
-msgstr ""
+msgstr "**NIE:** `link bezpośredni: /learn/file_io.md`"
 
 #: ../../source/community/minibooks.md:89
 msgid "**NOT:** `permalink: /learn/file_io/`"
-msgstr ""
+msgstr "**NIE:** `link bezpośredni: /learn/file_io/`"
 
 #: ../../source/community/minibooks.md:91
 msgid ""
@@ -920,40 +1083,49 @@ msgid ""
 "markdown; see [Kramdown syntax](https://kramdown.gettalong.org/syntax.html) "
 "for documentation on the markdown implementation."
 msgstr ""
+"Teraz możesz uzupełnić resztę poradnika treścią napisaną w formacie markdown;"
+" kliknij [Kramdown syntax](https://kramdown.gettalong.org/syntax.html), aby "
+"zobaczyć dokumentację implementacji plików markdown."
 
 #: ../../source/community/minibooks.md:95
 msgid "1.2 Structuring your mini-book with headings"
-msgstr ""
+msgstr "1.2 Tworzenie struktury za pomocą nagłówków"
 
 #: ../../source/community/minibooks.md:97
 msgid ""
 "You should use headings to break-up your single-page mini-book into a logical"
 " structure. Each heading will show up in the hyperlinked table-of-contents."
 msgstr ""
+"Nagłówki powinny być używane, aby nadać twojemu poradnikowi logiczną "
+"strukturę. Każdy nagłówek pojawi się w spisie treści wraz z hiperłączem."
 
 #: ../../source/community/minibooks.md:100
 msgid "In markdown, headings can be written as:"
-msgstr ""
+msgstr "W dokumentach markdown nagłówki mogą być zapisane jako:"
 
 #: ../../source/community/minibooks.md:116
 msgid "**Note:** make sure to include a blank line before your heading."
-msgstr ""
+msgstr "**Uwaga:** pamiętaj o umieszczeniu pustej linii przed nagłówkiem."
 
 #: ../../source/community/minibooks.md:118
 msgid "1.3 Add your mini-book to the Learn page"
-msgstr ""
+msgstr "1.3 Dodaj swoją mini-książkę do strony Ucz się"
 
 #: ../../source/community/minibooks.md:120 ../../source/community/minibooks.md:220
 msgid ""
 "To add your new mini-book to the _Learn_ page, you need to add a new entry in"
 " the [data/learning.yml](./data/learning.yml) datafile."
 msgstr ""
+"Aby dodać swoją mini-książkę do strony _Ucz się_, musisz stworzyć nowy wpis "
+"w pliku [data/learning.yml](./data/learning.yml)."
 
 #: ../../source/community/minibooks.md:123 ../../source/community/minibooks.md:223
 msgid ""
 "Open this file and create a new entry under the `books:` field in the "
 "following format:"
 msgstr ""
+"Otwórz ten plik i stwórz nowy wpis pod polem `books:` w następującym "
+"formacie:"
 
 #: ../../source/community/minibooks.md:132
 msgid ""
@@ -961,12 +1133,17 @@ msgid ""
 "mini-book and should generally be the same as the `title` field in your "
 "markdown file, but this isn't required."
 msgstr ""
+"To co wpiszesz pod polem `title` będzie nazwą twojego poradnika, która "
+"będzie się wyświetlać na stronie _Ucz się _ i z reguły powinna być taka sama "
+"jak pole `title` w twoim pliku markdown, jednak nie jest to wymagane."
 
 #: ../../source/community/minibooks.md:135 ../../source/community/minibooks.md:239
 msgid ""
 "The contents of the `description` field is also displayed on the _Learn_ page"
 " and should briefly summarise the contents of your mini-book tutorial."
 msgstr ""
+"Zawartość pola `description` (opis) jest także wyświetlana na stronie _Ucz "
+"się _ i powinna krótko streszczać zawartość twojego poradnika."
 
 #: ../../source/community/minibooks.md:138 ../../source/community/minibooks.md:242
 msgid ""
@@ -974,16 +1151,21 @@ msgid ""
 "the data file (under the `categories:` field) and is used to group tutorials "
 "on the Learn page."
 msgstr ""
+"Pole `category` (kategoria) powinno odpowiadać jednej z kategorii "
+"wymienionych na górze pliku danych (pod polem `categories:`) i służy do "
+"grupowania poradników na stronie Ucz się."
 
 #: ../../source/community/minibooks.md:141
 msgid ""
 "The `link` field should exactly match the `permalink` field in your markdown "
 "document."
 msgstr ""
+"Pole `link` powinno dokładnie odpowiadać polu `permalink` w twoim dokumencie "
+"markdown."
 
 #: ../../source/community/minibooks.md:143 ../../source/community/minibooks.md:249
 msgid "**Example:** `learning.yml` book entry"
-msgstr ""
+msgstr "**Przykład:** wpis `learning.yml`"
 
 #: ../../source/community/minibooks.md:152
 msgid ""
@@ -992,6 +1174,10 @@ msgid ""
 "successful, a new link should appear on the \\_Learn* page with the title of "
 "your new mini-book."
 msgstr ""
+"Zapisz zmodyfikowany plik `learning.yml`, następnie uruchom "
+"fortran_package.py i skompiluj ponownie stronę na swoim komputerze lokalnym. "
+"Jeśli wszystko się powiodło, nowy link z tytułem twojego poradnika powinien "
+"pojawić się na stronie \\_Learn* (Ucz się)."
 
 #: ../../source/community/minibooks.md:155
 msgid ""
@@ -999,30 +1185,35 @@ msgid ""
 "`learning.yml` data file, open a pull request at <https://github.com/fortran-"
 "lang/webpage> (see [CONTRIBUTING](./CONTRIBUTING.md))."
 msgstr ""
+"Po ukończeniu swojej mini-książki i dodaniu wpisu do `learning.yml`, utwórz "
+"żądanie ściągnięcia na <https://github.com/fortran-lang/webpage> (zobacz "
+"[KONTRYBUCJE](./CONTRIBUTING.md))."
 
 #: ../../source/community/minibooks.md:158
 msgid "2. Multi-page mini-books"
-msgstr ""
+msgstr "2. Wielostronicowe mini-książki"
 
 #: ../../source/community/minibooks.md:160
 msgid "The steps required for publishing a multi-page mini-book are:"
-msgstr ""
+msgstr "Kroki wymagane do opublikowania wielostronicowej mini-książki:"
 
 #: ../../source/community/minibooks.md:162
 msgid "Create a new folder in the `./learn/` directory"
-msgstr ""
+msgstr "Utwórz nowy folder w katalogu `./learn/`"
 
 #: ../../source/community/minibooks.md:164
 msgid "Create an `index.md` file in your new folder"
-msgstr ""
+msgstr "Utwórz plik `index.md` w twoim nowym folderze"
 
 #: ../../source/community/minibooks.md:166
 msgid "Write your tutorial content in markdown files in your new folder"
 msgstr ""
+"Napisz zawartość twojego poradnika w plikach typu markdown w twoim nowym "
+"folderze"
 
 #: ../../source/community/minibooks.md:172
 msgid "2.1 Create a new folder for your mini-book"
-msgstr ""
+msgstr "2.1 Utwórz nowy folder dla swojego poradnika"
 
 #: ../../source/community/minibooks.md:174
 msgid ""
@@ -1030,6 +1221,9 @@ msgid ""
 "concisely describes the topic of your tutorial, _e.g._ `./learn/coarrays/`. "
 "All pages of your mini-book will be contained within this folder."
 msgstr ""
+"Utwórz nowy folder w katalogu `./learn/`, z tytułem który będzie zwięźle "
+"opisywał treść twojego poradnika _np._`./learn/coarrays/`. Wszystkie strony "
+"twojej mini-książki będą znajdowały się w tym folderze."
 
 #: ../../source/community/minibooks.md:177
 msgid ""
@@ -1037,18 +1231,22 @@ msgid ""
 " markdown file in your mini-book folder called `index.md`, and add a toc in "
 "the following format in all the markdown files:"
 msgstr ""
+"Pierwsza strona twojej mini-książki powinna mieć nazwę `index.md`, dlatego "
+"utwórz nowy plik typu markdown o nazwie `index.md` w folderze twojej mini-"
+"książki oraz do twoich wszystkich plików markdown dodaj spis treści w "
+"następującym formacie:"
 
 #: ../../source/community/minibooks.md:189
 msgid "**There should be no trailing slash.**"
-msgstr ""
+msgstr "**Na końcu nie powinno być żadnego ukośnika.**"
 
 #: ../../source/community/minibooks.md:191
 msgid "**Example:** toc for `index.md`"
-msgstr ""
+msgstr "**Przykład:** spis treści dla `index.md`"
 
 #: ../../source/community/minibooks.md:205
 msgid "**NOT:** `permalink: /learn/coarrays/`"
-msgstr ""
+msgstr "**NIE:** `link bezpośredni: /learn/coarrays/`"
 
 #: ../../source/community/minibooks.md:208
 msgid ""
@@ -1057,16 +1255,22 @@ msgid ""
 "prerequisites; and any references to other related mini-books or useful "
 "third-party resources."
 msgstr ""
+"Powinieneś wypełnić pozostałą część pliku `index.md` wprowadzeniem do "
+"twojego samouczka, które może zawierać: podsumowanie omawianych pojęć; "
+"wszelkie niezbędne wymogi; oraz odniesienia do innych powiązanych mini-"
+"książek lub przydatnych zasobów stron trzecich."
 
 #: ../../source/community/minibooks.md:210
 msgid "2.2 Add pages to your mini-book"
-msgstr ""
+msgstr "2.2 Dodaj strony do twojej mini-książki"
 
 #: ../../source/community/minibooks.md:212
 msgid ""
 "For each new page in your mini-book, create a new markdown file in your mini-"
 "book folder."
 msgstr ""
+"Dla każdej nowej strony twojego poradnika stwórz nowy plik typu markdown w "
+"folderze twojej mini-książki."
 
 #: ../../source/community/minibooks.md:214
 msgid ""
@@ -1074,10 +1278,13 @@ msgid ""
 " into a logical structure. Each heading on the current page will show up in "
 "the inpage table-of-contents."
 msgstr ""
+"Tak jak w przypadku jednostronicowych mini-książek, powinieneś używać "
+"nagłówków, aby nadać każdej stronie logiczną strukturę. Każdy nagłówek "
+"pojawi się w spisie treści na stronie."
 
 #: ../../source/community/minibooks.md:218
 msgid "2.3 Add your mini-book to the Learn page"
-msgstr ""
+msgstr "2.3 Dodaj swoją mini-książkę do strony Ucz się"
 
 #: ../../source/community/minibooks.md:236
 msgid ""
@@ -1085,18 +1292,25 @@ msgid ""
 "mini-book and should generally be the same as the `title` field in your "
 "`index.md` markdown file, but this isn't required."
 msgstr ""
+"To co wpiszesz pod polem `title` będzie nazwą twojego poradnika, która "
+"będzie się wyświetlać na stronie _Ucz się _ i z reguły powinna być taka sama "
+"jak pole `title` w pliku markdown `index.md`, jednak nie jest to wymagane."
 
 #: ../../source/community/minibooks.md:245
 msgid ""
 "The top-level `link` field should exactly match the `permalink` field in your"
 " `index.md` file."
 msgstr ""
+"Pierwsze pole `link` powinno dokładnie odpowiadać polu `permalink` w pliku "
+"`index.md`."
 
 #: ../../source/community/minibooks.md:247
 msgid ""
 "Each `link` field under `pages` should exactly match the `permalink` field in"
 " each of your subsequent mini-book pages."
 msgstr ""
+"Każde pole `link` w sekcji `pages` powinno dokładnie odpowiadać polu "
+"`permalink` na każdej kolejnej stronie miniksiążki."
 
 #: ../../source/community/minibooks.md:262
 msgid ""
@@ -1105,6 +1319,10 @@ msgid ""
 "successful, a new link should appear on the \\_Learn* page with the title of "
 "your new mini-book."
 msgstr ""
+"Zapisz zmodyfikowany plik `learning.yml`, a następnie uruchom fortran*"
+"package.py i skompiluj ponownie stronę na swoim komputerze lokalnym. Jeśli "
+"wszystko się powiodło, nowy link z tytułem twojego poradnika powinien "
+"pojawić się na stronie \\_Learn* (Ucz się)."
 
 #: ../../source/community/minibooks.md:265
 msgid ""
@@ -1112,18 +1330,23 @@ msgid ""
 "`learning.yml` data file, open a pull request at <https://github.com/fortran-"
 "lang/fortran-lang.org> (see [CONTRIBUTING](./CONTRIBUTING.md))."
 msgstr ""
+"Po ukończeniu swojej mini-książki i dodaniu wpisu do `learning.yml`, utwórz "
+"żądanie ściągnięcia na <https://github.com/fortran-lang/fortran-lang.org> ("
+"zobacz [KONTRYBUCJE](./CONTRIBUTING.md))."
 
 #: ../../source/community/packages.md:1
 msgid "Fortran-lang.org package index"
-msgstr ""
+msgstr "Spis pakietów Fortran-lang.org"
 
 #: ../../source/community/packages.md:3
 msgid "Package criteria"
-msgstr ""
+msgstr "Kryteria pakietu"
 
 #: ../../source/community/packages.md:5
 msgid "The following criteria are required of packages to be indexed:"
 msgstr ""
+"Wymagane jest spełnienie następujących wymagań, aby pakiety zostały "
+"zaindeksowane:"
 
 #: ../../source/community/packages.md:7
 msgid ""
@@ -1131,6 +1354,10 @@ msgid ""
 "provide a complete Fortran interface to an existing package or be purposed "
 "solely towards software development in Fortran."
 msgstr ""
+"**Związek z tematem**: pakiet musi być przede wszystkim zaimplementowany w "
+"języku Fortran lub zapewniać kompletny interfejs Fortran dla istniejącego "
+"pakietu lub być przeznaczony wyłącznie do tworzenia oprogramowania w języku "
+"Fortran."
 
 #: ../../source/community/packages.md:11
 msgid ""
@@ -1138,12 +1365,18 @@ msgid ""
 "No prototype, testing or partially complete packages will be accepted. If the"
 " package is hosted on github or similar, it should have at least 5 'stars'."
 msgstr ""
+"**Kompletność**: podstawowa funkcjonalność pakietu powinna być "
+"zaimplementowana. Żadne pakiety prototypowe, testowe lub częściowo kompletne "
+"nie będą akceptowane. Jeśli pakiet jest hostowany na githubie lub podobnym "
+"serwisie, powinien mieć co najmniej 5 „gwiazdek”."
 
 #: ../../source/community/packages.md:15
 msgid ""
 "**Availability**: the package source shall be freely available for browsing "
 "online or cloning or downloading"
 msgstr ""
+"**Dostępność**: źródło pakietu powinno być dostępne za darmo do przeglądania "
+"online, klonowania oraz pobierania"
 
 #: ../../source/community/packages.md:18
 msgid ""
@@ -1151,12 +1384,17 @@ msgid ""
 "source license](https://opensource.org/licenses) with the license file "
 "clearly included with the source code"
 msgstr ""
+"**Open source**: pakiet powinien być objęty odpowiednią [licencją open-"
+"source](https://opensource.org/licenses), a plik z nią powinien być wyraźnie "
+"dołączony do kodu źródłowego"
 
 #: ../../source/community/packages.md:21
 msgid ""
 "**Uniqueness**: the package shall not be a fork or minor revision of existing"
 " packages"
 msgstr ""
+"**Wyjątkowość**: pakiet nie może być rozwidleniem ani drobną korektą "
+"istniejących pakietów"
 
 #: ../../source/community/packages.md:23
 msgid ""
@@ -1165,84 +1403,106 @@ msgid ""
 "contain information on the package dependencies and the steps required to "
 "build and run."
 msgstr ""
+"**README**: pakiet powinien zawierać jakąś formę pliku README lub strony, "
+"która przejrzyście określa przeznaczenie i funkcjonalność pakietu. Powinien "
+"on także zawierać informacje na temat zależności pakietu i kroki wymagane do "
+"uruchomienia go."
 
 #: ../../source/community/packages.md:26
 msgid "The following criteria are not required but are recommended:"
 msgstr ""
+"Następujące wymagania nie są konieczne, lecz spełnienie ich jest zalecane:"
 
 #: ../../source/community/packages.md:28
 msgid ""
 "**Documentation**: any form of written documentation aimed at users of the "
 "package. Ideally this should cover:"
 msgstr ""
+"**Dokumentacja**: dowolna forma pisemnej dokumentacji pakietu przeznaczona "
+"dla jego użytkowników. Powinna ona obejmować:"
 
 #: ../../source/community/packages.md:31
 msgid "Supported / tested compilers"
-msgstr ""
+msgstr "Wspierane / przetestowane kompilatory"
 
 #: ../../source/community/packages.md:32
 msgid "Dependencies"
-msgstr ""
+msgstr "Zależności"
 
 #: ../../source/community/packages.md:33
 msgid "Build and install process"
-msgstr ""
+msgstr "Proces budowania i instalacji"
 
 #: ../../source/community/packages.md:34
 msgid "Modules contained within the package"
-msgstr ""
+msgstr "Moduły zawarte w pakiecie"
 
 #: ../../source/community/packages.md:35
 msgid "Procedures made available and their interfaces"
-msgstr ""
+msgstr "Udostępnione procedury i ich interfejsy"
 
 #: ../../source/community/packages.md:36
 msgid "Example code"
-msgstr ""
+msgstr "Przykładowy kod"
 
 #: ../../source/community/packages.md:38
 msgid ""
 "**Contributing**: details on how users may submit issues and contribute to "
 "the development of the package"
 msgstr ""
+"**Kontrybucje**: szczegóły dotyczące sposobu, w jaki użytkownicy mogą "
+"zgłaszać problemy i przyczyniać się do rozwoju pakietu"
 
 #: ../../source/community/packages.md:41
 msgid ""
 "**Tests**: any form of executable test(s) that can be used to verify the "
 "functionality of the package"
 msgstr ""
+"**Testy**: dowolna forma testów, których można użyć do sprawdzenia "
+"funkcjonalności pakietu"
 
 #: ../../source/community/packages.md:43
 msgid ""
 "**Portability**: no non-standard language extensions or proprietary "
 "dependencies"
 msgstr ""
+"**Przenaszalność**: brak niestandardowych rozszerzeń językowych i "
+"zastrzeżonych zależności"
 
 #: ../../source/community/packages.md:45
 msgid ""
 "**FPM**: support installation by the Fortran Package Manager "
 "[fpm](https://github.com/fortran-lang/fpm)"
 msgstr ""
+"**FPM**: obsługa instalacji przez Menedżera pakietów Fortran "
+"[fpm](https://github.com/fortran-lang/fpm)"
 
 #: ../../source/community/packages.md:47
 msgid "Process for adding packages"
-msgstr ""
+msgstr "Proces dodawania pakietów"
 
 #: ../../source/community/packages.md:49
 msgid ""
 "Users should confirm that their project meets the minimum requirements for "
 "listing in the Fortran-lang package index, as written in this document"
 msgstr ""
+"Użytkownicy pownni potwierdzić, że ich projekty spełniają wszystkie "
+"wymagania do umieszczenia w indeksie pakietów Fortran-lang zgodnie z tym jak "
+"napisano w tym dokumencie"
 
 #: ../../source/community/packages.md:52
 msgid "Users should open a pull request using the 'Package index request' template"
 msgstr ""
+"Użytkownicy powinni utworzyć żądanie ściągnięcia używając szablonu 'Package "
+"index request'"
 
 #: ../../source/community/packages.md:54
 msgid ""
 "At least three Fortran-lang community members shall review the request "
 "against the criteria above"
 msgstr ""
+"Minimum trzech użytkowników społeczności Fortran-lang rozpatrzy wniosek pod "
+"względem powyższych kryteriów"
 
 #: ../../source/community/packages.md:56
 msgid ""
@@ -1250,10 +1510,13 @@ msgid ""
 " be listed and there is no significant objection, then the pull request will "
 "be merged"
 msgstr ""
+"Jeśli trzech lub więcej użytkowników społeczności Fortran-lang zgodzi się, "
+"aby pakiet został umieszczony na liście i nie ma żadnych poważnych "
+"sprzeciwów, żądanie ściągnięcia zostanie zaakceptowane i przyłączone"
 
 #: ../../source/community/packages.md:58
 msgid "Package index requests"
-msgstr ""
+msgstr "Żądanie zaindeksowania pakietu"
 
 #: ../../source/community/packages.md:60
 msgid ""
@@ -1262,10 +1525,15 @@ msgid ""
 "guide](https://guides.github.com/activities/forking/) for guidance on forking"
 " and making pull requests."
 msgstr ""
+"Żądania zaindeksowania pakietu są wysyłane za pomocą żądania ściągnięcia ("
+"pull request) do [repozytorium fortran-lang.org](https://github.com/"
+"fortran-lang/webpage/). Zobacz [ten poradnik](https://guides.github.com/"
+"activities/forking/), aby otrzymać pomoc w tworzeniu rozwidleń oraz żądań "
+"ściągnięcia."
 
 #: ../../source/community/packages.md:63
 msgid "Package details are listed in the `data/package_index.yml` data file."
-msgstr ""
+msgstr "Szczegóły pakietu wypisane są w pliku `data/package_index.yml`."
 
 #: ../../source/community/packages.md:65
 msgid ""
@@ -1273,54 +1541,65 @@ msgid ""
 " ordered by high-level categories merely to aid in navigation; find the "
 "appropriate category for your package and create a new entry."
 msgstr ""
+"Aby dodać pakiet stwórz nowy wpis w tym pliku. Plik ten podzielony jest na "
+"kategorie wyższego stopnia, aby ułatwić nawigację; znajdź odpowiednią "
+"kategorię dla twojego pakietu i stwórz nowy wpis."
 
 #: ../../source/community/packages.md:69
 msgid ""
 "After adding a new entry to package index, run the github action "
 "fortran_packages before building the sphinx build."
 msgstr ""
+"Po dodaniu nowego wpisu do indeksu pakietów, uruchom akcję GitHub "
+"fortran_packages przed wykonaniem kompilacji Sphinx."
 
 #: ../../source/community/packages.md:71
 msgid "Github hosted packages"
-msgstr ""
+msgstr "Pakiety hostowane na Githubie"
 
 #: ../../source/community/packages.md:83
 msgid "Valid categories:"
-msgstr ""
+msgstr "Prawidłowe kategorie:"
 
 #: ../../source/community/packages.md:85
 msgid "`libraries`: general libraries"
-msgstr ""
+msgstr "`libraries`: ogólne biblioteki"
 
 #: ../../source/community/packages.md:86
 msgid ""
 "`interfaces`: libraries that provide interfaces to other libraries, software "
 "or devices"
 msgstr ""
+"`interfaces`: biblioteki tworzące interfejsy dla innych bibliotek, "
+"oprogramowania lub urządzeń"
 
 #: ../../source/community/packages.md:87
 msgid ""
 "`programming`: general programming utilities: errors, logging, testing, "
 "documentation _etc._"
 msgstr ""
+"`programming`: ogólne narzędzia programistyczne: błędy, logowanie, "
+"testowanie, dokumentacja _itp._"
 
 #: ../../source/community/packages.md:88
 msgid ""
 "`data-types`: libraries providing advanced data types: containers, datetime, "
 "resizable arrays _etc._"
 msgstr ""
+"`data-types`: biblioteki zapewniające zaawansowane typy danych: kontenery, "
+"datetime, tablice o zmiennym rozmiarze _itp._"
 
 #: ../../source/community/packages.md:89
 msgid "`strings`: string handling libraries"
-msgstr ""
+msgstr "`strings`: biblioteki obsługujące ciągi znaków"
 
 #: ../../source/community/packages.md:90
 msgid "`io`: libraries that parse and generate various file formats"
-msgstr ""
+msgstr "`io`: biblioteki analizujące i generujące różne formaty plików"
 
 #: ../../source/community/packages.md:91
 msgid "`graphics`: plotting and GUIs"
-msgstr ""
+msgstr "`graphics`: mapowanie i graficzne interfejsy użytkownika"
 
 #: ../../source/community/packages.md:92
 msgid ""
@@ -1328,32 +1607,41 @@ msgid ""
 "optimization, differential eqns, statistics, machine learning, random numbers"
 " _etc._"
 msgstr ""
+"`numerical`: macierze, algebra liniowa, urządzenia do rozwiązywania "
+"matematycznych problemów, liczenie pierwiastków, interpolacja, "
+"optymalizacja, równania różniczkowe, statystyka, uczenie maszynowe, liczby "
+"losowe _itp._"
 
 #: ../../source/community/packages.md:93
 msgid "`scientific`: domain-specific scientific libraries or applications"
-msgstr ""
+msgstr "`scientific`: biblioteki lub aplikacje specyficzne dla danej dziedziny"
 
 #: ../../source/community/packages.md:94
 msgid ""
 "`examples`: repositories offering language feature demonstrations, tutorials "
 "and benchmarks"
 msgstr ""
+"`examples`: repozytoria oferujące demonstracje funkcji języka, poradniki i "
+"porównawcze"
 
 #: ../../source/community/packages.md:96
 msgid ""
 "**Projects listing more than one category must provide good justification "
 "thereof in the pull request.**"
 msgstr ""
+"**Projekty chcące wpisać więcej niż jedną kategorię muszą zawrzeć dobre "
+"wyjaśnienie w żądaniu ściągnięcia**"
 
 #: ../../source/community/packages.md:98 ../../source/community/packages.md:127
 msgid "**Notes:**"
-msgstr ""
+msgstr "**Uwagi:**"
 
 #: ../../source/community/packages.md:100
 msgid ""
 "The package description should clearly describe the functionality of the "
 "package in a single sentence."
 msgstr ""
+"Opis pakietu powinien w jednym zdaniu jasno wyjaśniać funkcjonalność pakietu."
 
 #: ../../source/community/packages.md:102
 msgid ""
@@ -1361,106 +1649,127 @@ msgid ""
 " description that users may search directly for. Tags should be separate by "
 "spaces."
 msgstr ""
+"Tagi (opcjonalnie) powinny zawierać wszystkie terminy, których użytkownicy "
+"mogą szukać, a które nie są jeszcze zawarte w nazwie lub opisie. Powinny one "
+"być oddzielone spacją."
 
 #: ../../source/community/packages.md:104
 msgid "Package version"
-msgstr ""
+msgstr "Wersja pakietu"
 
 #: ../../source/community/packages.md:106
 msgid ""
 "this can be determined automatically if a versioned release has been created "
 "on github"
 msgstr ""
+"Można to ustalić automatycznie opublikowana wersja została stworzona na "
+"Githubie"
 
 #: ../../source/community/packages.md:107
 msgid "if version is specified, it will override any detected github version"
-msgstr ""
+msgstr "Jeśli określono wersję, zastąpi ona każda inną wykrytą wersję GitHub"
 
 #: ../../source/community/packages.md:108
 msgid ""
 "if version is 'none', then no version information will be displayed. (Use "
 "this if your package has no version.)"
 msgstr ""
+"Jeśli wersja ma wartość 'none' wówczas nie zostanie wyświetlona żadna "
+"informacja o wersji. (Użyj tego jeśli twój pakiet nie ma wersji.)"
 
 #: ../../source/community/packages.md:111
 msgid "Package license"
-msgstr ""
+msgstr "Licencja pakietu"
 
 #: ../../source/community/packages.md:112
 msgid ""
 "this can be determined automatically if github is able to detect a known "
 "license"
 msgstr ""
+"Można to ustalić automatycznie jeśli GitHub jest w stanie wykryć znaną "
+"licencję"
 
 #: ../../source/community/packages.md:113
 msgid "license must be specified if github is unable to detect a known license"
 msgstr ""
+"W przypadku, gdy GitHub nie jest w stanie wykryć żadnej znanej licencji, "
+"musi ona zostać określona"
 
 #: ../../source/community/packages.md:115
 msgid "Non-github hosted packages"
-msgstr ""
+msgstr "Pakiety hostowane poza Githubem"
 
 #: ../../source/community/packages.md:129
 msgid ""
 "License and version information cannot be detected automatically for non-"
 "github repositories"
 msgstr ""
+"Informacje o licencji i wersji nie mogą zostać automatycznie wykryte dla "
+"repozytoriów poza Githubem"
 
 #: ../../source/community/packages.md:130
 msgid "if your package has no version, then omit the version field"
-msgstr ""
+msgstr "Jeśli twój pakiet nie ma wersji, pomiń to pole"
 
 #: ../../source/community/packages.md:131
 msgid "a license must be specified for non-github repositories"
-msgstr ""
+msgstr "Licencja musi być określona dla repozytoriów spoza Githuba"
 
 #: ../../source/community/packages.md:133
 msgid "Member review checklist"
-msgstr ""
+msgstr "Lista kontrolna recenzji członków społeczności"
 
 #: ../../source/community/packages.md:135
 msgid "Community members reviewing packages should cover the following points:"
 msgstr ""
+"Członkowie społeczności oceniający pakiety powinni uwzględnić następujące "
+"punkty:"
 
 #: ../../source/community/packages.md:137
 msgid "Ensure the package meets the minimum criteria as written in this document"
 msgstr ""
+"Upewnij się, że pakiet spełnia minimalne kryteria wymienione wyżej w tym "
+"dokumencie"
 
 #: ../../source/community/packages.md:139
 msgid "Check the package metadata"
-msgstr ""
+msgstr "Sprawdź metadane pakietu"
 
 #: ../../source/community/packages.md:141
 msgid "Repository exists and is accessible"
-msgstr ""
+msgstr "Repozytorium istnieje i jest dostępne"
 
 #: ../../source/community/packages.md:142
 msgid "Description clearly and concisely describes the package"
-msgstr ""
+msgstr "Opis jasno i zwięźle opisuje pakiet"
 
 #: ../../source/community/packages.md:143
 msgid "Assigned category is appropriate"
-msgstr ""
+msgstr "Przypisana kategoria jest odpowiednia"
 
 #: ../../source/community/packages.md:145
 msgid "Check license information"
-msgstr ""
+msgstr "Sprawdź informacje o licencji"
 
 #: ../../source/community/packages.md:146
 msgid "If license field has been omitted: check that github has detected the license"
 msgstr ""
+"Jeśli pole licencji zostało ominięte: sprawdź czy GitHub wykrył licencję"
 
 #: ../../source/community/packages.md:147
 msgid "If license field is included: check that it matches repository license file"
 msgstr ""
+"Jeśli pole licencji jest uwzględnione: sprawdź czy pasuje do pliku licencji "
+"repozytorium"
 
 #: ../../source/community/packages.md:149
 msgid "After merge:"
-msgstr ""
+msgstr "Po połączeniu:"
 
 #: ../../source/community/packages.md:151
 msgid "Check that package is available in expected category and search"
 msgstr ""
+"Sprawdź czy pakiet jest widoczny w odpowiedniej kategorii i po wyszukaniu"
 
 #: ../../source/compilers.md:8
 #: ../../source/news/2020/09-01-Fortran-Newsletter-September-2020.md:70
@@ -1486,13 +1795,16 @@ msgstr ""
 #: ../../source/news/2022/05-05-Fortran-Newsletter-May-2022.md:160
 #: ../../source/news/2022/06-09-Fortran-Newsletter-June-2022.md:143
 msgid "Compilers"
-msgstr ""
+msgstr "Kompilatory"
 
 #: ../../source/compilers.md:14
 msgid ""
 "[GNU Fortran Compiler (gfortran)](https://gcc.gnu.org/fortran/) is a mature "
 "free and open source compiler, part of the GNU Compiler Collection."
 msgstr ""
+"[Kompilator Fortran GNU (gfortran)](https://gcc.gnu.org/fortran/) jest "
+"rozwiniętym, darmowym kompilatorem o otwartym kodzie źródłowym, będącym "
+"częścią kolekcji kompilatorów GNU."
 
 #: ../../source/compilers.md:17
 msgid ""
@@ -1500,6 +1812,9 @@ msgid ""
 "wrapper around gfortran which enables the parallel programming features of "
 "Fortran 2018 with gfortran."
 msgstr ""
+"[OpenCoarrays](http://www.opencoarrays.org/) to biblioteka i wrapper "
+"kompilatora gfortran, która umożliwia równolegle używać funkcji Fortran 2018 "
+"z gfortran."
 
 #: ../../source/compilers.md:23
 msgid ""
@@ -1508,12 +1823,19 @@ msgid ""
 "in modern C++ and uses a Fortran-oriented MLIR dialect for lowering to LLVM "
 "IR. This project is under active development."
 msgstr ""
+"[Flang](https://github.com/llvm/llvm-project/tree/main/flang) to nowy front-"
+"end Fortran 2018, który niedawno został dodany do LLVM. Jest "
+"zaimplementowany w nowoczesnym C++ i używa i wykorzystuje zorientowany na "
+"Fortran dialekt MLIR do obniżania do LLVM IR. Projekt ten jest w fazie "
+"aktywnego rozwoju."
 
 #: ../../source/compilers.md:31
 msgid ""
 "[Flang](https://github.com/flang-compiler/flang) is an open source compiler "
 "based on the NVIDIA/PGI commercial compiler."
 msgstr ""
+"[Flang](https://github.com/flang-compiler/flang) to kompilator o otwartym "
+"kodzie źródłowym bazowany na komercyjnym kompilatorze NVIDIA/PGI."
 
 #: ../../source/compilers.md:36
 msgid ""
@@ -1522,6 +1844,10 @@ msgid ""
 "[dev.lfortran.org](https://dev.lfortran.org/) using a statically served, WASM"
 " based LFortran Compiler for running code in web browsers."
 msgstr ""
+"[LFortran](https://lfortran.org) to nowoczesny, interaktywny, bazowany na "
+"LLVM kompilator Fortran. Jest on również dostępny online na [dev.lfortran."
+"org](https://dev.lfortran.org/) używając statycznie obsługiwanego "
+"kompilatora LFortran do uruchamiania kodu w przeglądarkach internetowych."
 
 #: ../../source/compilers.md:43
 msgid ""
@@ -1532,18 +1858,27 @@ msgid ""
 "compilers](https://software.intel.com/content/www/us/en/develop/articles"
 "/intel-oneapi-fortran-compiler-release-notes.html):"
 msgstr ""
+"[Intel oneAPI](https://software.intel.com/content/www/us/en/develop/tools/"
+"oneapi/all-toolkits.html) to zestaw kompilatorów, narzędzi i bibliotek firmy "
+"Intel dla języków Fortran, C, C++ i Python. Zestaw Intel oneAPI HPC "
+"udostępnia [dwa kompilatory Fortran](https://software.intel.com/content/www/"
+"us/en/develop/articles/intel-oneapi-fortran-compiler-release-notes.html):"
 
 #: ../../source/compilers.md:48
 msgid ""
 "Intel Fortran Compiler Classic (`ifort`), a mature compiler with full Fortran"
 " 2018 support; and"
 msgstr ""
+"Intel Fortran Compiler Classic (`ifort`), dojrzały kompilator z pełną "
+"obsługą Fortran 2018; i"
 
 #: ../../source/compilers.md:50
 msgid ""
 "Intel Fortran Compiler Beta (`ifx`), a new, LLVM-based compiler that supports"
 " Fortran 95 and partially newer versions of the standard."
 msgstr ""
+"Intel Fortran Compiler Beta (`ifx`), nowy kompilator oparty na LLVM "
+"obsługujący Fortran 95 i częściowo nowsze wersje standardu."
 
 #: ../../source/compilers.md:53
 msgid ""
@@ -1553,6 +1888,11 @@ msgid ""
 "forum](https://community.intel.com/t5/Intel-Fortran-Compiler/bd-p/fortran-"
 "compiler)."
 msgstr ""
+"Intel oneAPI jest dostępny za darmo. Obecnie kompilator ten obsługuje "
+"platformy Linux, MacOS oraz Windows oraz architektury x86_64. Wsparcie "
+"społeczności jest dostępne dla darmowej wersji na [forum Intel "
+"Developer](https://community.intel.com/t5/Intel-Fortran-Compiler/bd-p/"
+"fortran-compiler)."
 
 #: ../../source/compilers.md:59
 msgid ""
@@ -1561,6 +1901,11 @@ msgid ""
 "parallel programming with coarrays, as well as additional support for "
 "programming with OpenMP."
 msgstr ""
+"Najnowsza odsłona (7.0) [NAG Fortran Compiler](https://www.nag.com/nag-"
+"compiler)zapewnia szerokie wsparcie w kwestii obsługi starszych i "
+"nowoczesnych funkcji Fortran, w tym programowania równoległego przy użyciu "
+"tablic co-array, jak również dodatkowego wsparcia programowania dzięki "
+"OpenMP."
 
 #: ../../source/compilers.md:62
 msgid ""
@@ -1571,6 +1916,13 @@ msgid ""
 "polishers, dependency generator for module and include files, call-graph "
 "generator, interface builder and a precision unifier."
 msgstr ""
+"Kompilator wspiera również Fortran 2018 (operacje atomowe, zdarzenia i "
+"zadania oraz inne pomniejsze funkcje), prawie cały Fortran 2008, całkowite "
+"wsparcie Fortran 2003 i całe OpenMP 3.1. Wszystkie platformy zawierają "
+"narzędzia wspierające tworzenie oprogramowania: narzędzia do wykańczania "
+"plików źródłowych, generator zależności dla modułów i plików załączanych, "
+"generator wykresów wywołań, narzędzie do tworzenia interfejsów i precyzyjny "
+"unifikator."
 
 #: ../../source/compilers.md:71
 msgid ""
@@ -1582,6 +1934,14 @@ msgid ""
 "maximize performance on common HPC algorithms, and optimized communications "
 "libraries enable standards-based multi-GPU and scalable systems programming."
 msgstr ""
+"[NVIDIA HPC SDK](https://developer.nvidia.com/hpc-sdk) kompilator C, C++ "
+"oraz Fortran, dawniej [kompilatory PGI](https://www.pgroup.com/products/index"
+".htm), obsługują akcelerację GPU aplikacji do modelowania i symulacji HPC za "
+"pomocą języków C++ i Fortran, dyrektyw OpenACC® oraz CUDA®. Przyspieszane "
+"przed procesor graficzny biblioteki matematyczne maksymalizują wydajność "
+"algorytmów HPC, a zoptymalizowane biblioteki komunikacyjne pozwalają na "
+"oparte na standardach multi-GPU oraz możliwego do wyskalowania programowania "
+"systemów."
 
 #: ../../source/compilers.md:73
 msgid ""
@@ -1591,6 +1951,10 @@ msgid ""
 "forum](https://forums.developer.nvidia.com/c/accelerated-computing/hpc-"
 "compilers/nvc-nvc-and-nvfortran/313)."
 msgstr ""
+"Kompilatory NVHPC są dostępne bezpłatnie. Obecnie obsługują platformy Linux "
+"oraz architektury x86_64, ppc64le oraz aarch64. Projekt można wspierać na ["
+"forum kompilatora HPC](https://forums.developer.nvidia.com/c/"
+"accelerated-computing/hpc-compilers/nvc-nvc-and-nvfortran/313)."
 
 #: ../../source/compilers.md:79
 msgid ""
@@ -1603,6 +1967,14 @@ msgid ""
 "compilers that automatically exploit the scalar, vector and multithreading "
 "hardware capabilities of the Cray system. CCE supports Fortran, C and C++."
 msgstr ""
+"[Środowisko Cray Compiling Environment (CCE)](https://www.cray.com/sites/"
+"default/files/SB-Cray-Programming-Environment.pdf) to podstawowa innowacja "
+"paradygmatu przetwarzania adaptacyjnego firmy Cray. CCE opiera się na dobrze "
+"rozwiniętej i zaawansowanej bazie technologii Cray, która identyfikuje "
+"obszary obliczeń, które są skalarnymi sekwencjami, równoległe wektorowo lub "
+"wysoce wielowątkowe. Obejmuje optymalizację kompilatorów, które "
+"automatycznie wykorzystują możliwości sprzętowe, skalarne, wektorowe i "
+"wielowątkowe systemu Cray. CCE obsługuje Fortran, C i C++."
 
 #: ../../source/compilers.md:89
 msgid ""
@@ -1614,12 +1986,22 @@ msgid ""
 "for Linux optimizes your infrastructure on IBM Power Systems™ in support of "
 "extensive numerical, scientific and high-performance computing."
 msgstr ""
+"[IBM® XL Fortran](https://www.ibm.com/us-en/marketplace/xl-fortran-linux-"
+"compiler-power) dla systemu Linux to oparte na standardach narzędzie "
+"programistyczne służące do tworzenia dużych i złożonych aplikacji w języku "
+"programowania Fortran. Generuje ono kod, który wykorzystuje możliwości "
+"najnowszej architektury POWER9 i maksymalizuje wykorzystanie sprzętu. IBM XL "
+"Fortran dla systemu Linux optymalizuje infrastrukturę IBM Power Systems™, "
+"aby obsługiwać szeroko zakrojone obliczenia numeryczne, naukowe oraz o "
+"wysokiej wydajności."
 
 #: ../../source/compilers.md:97
 msgid ""
 "A community edition of the IBM XL compilers are available free of charge. The"
 " compilers support Linux and AIX platforms and ppc64le architectures."
 msgstr ""
+"Społecznościowa edycja kompilatorów IBM XL dostępne jest bezpłatnie. "
+"Kompilatory obsługują systemy Linux, platformy AIX oraz architektury ppc64le."
 
 #: ../../source/compilers.md:102
 msgid ""
@@ -1635,12 +2017,26 @@ msgid ""
 " when utilized. The AOCC Compiler Suite simplifies and accelerates "
 "development and tuning for x86 applications."
 msgstr ""
+"Kompilator [AMD Optimizing C/C++ Compiler (AOCC)](https://developer.amd.com/"
+"amd-aocc/) to wydajne narzędzie do produkcji wysokiej jakości kodu. "
+"Środowisko AOCC zapewnia różnorodne opcje dla deweloperów podczas budowania "
+"i optymalizacji aplikacji w językach C, C++ oraz Fortran przeznaczonych na "
+"32-bitowe i 64-bitowe platformy Linux®. System kompilatorów AOCC oferuje "
+"wysoki poziom zaawansowanych optymalizacji, wielowątkowość oraz wsparcie "
+"procesora zwierające globalną optymalizację, wektoryzację, analizę "
+"międzyprocesową, transformację pętli oraz generowanie kodu. AMD zapewnia "
+"również wysoce zoptymalizowane biblioteki, które zapewniają optymalną "
+"wydajność z każdego rdzenia procesora x86 w trakcie jego używania. Zestaw "
+"kompilatorów AOCC upraszcza I przyspiesza tworzenie i regulację aplikacji "
+"x86."
 
 #: ../../source/compilers.md:114
 msgid ""
 "The AOCC compilers are available free of charge and support Linux platforms "
 "with x86_64 architectures."
 msgstr ""
+"Kompilatory AOCC są dostępne bezpłatnie i obsługują platformy Linux z "
+"architekturą x86_64."
 
 #: ../../source/compilers.md:118
 msgid ""
@@ -1652,6 +2048,14 @@ msgid ""
 " code generation back-end. Available as part of the Arm Compiler for Linux "
 "package."
 msgstr ""
+"[Kompilator Linux user-space Fortran](https://developer.arm.com/"
+"tools-and-software/server-and-hpc/compile/arm-compiler-for-linux/arm-fortran-"
+"compiler). Stworzony z myślą o HPC i kodach naukowych, obsługuje Fortran "
+"oraz standardy OpenMP oraz dostosowany do wiodących platform opartych na "
+"architekturze ARM. Front-end zbudowany został na podstawie interfejsu Flang "
+"o otwartym kodzie źródłowym, natomiast back-end zawiera optymalizację i "
+"generację kodu bazowaną na LLVM. Jest dostępny jako część pakietu Arm "
+"Compiler dla systemu Linux."
 
 #: ../../source/compilers.md:126
 msgid ""
@@ -1662,6 +2066,13 @@ msgid ""
 "and more. Pro Fortran includes Fast Data Visualization, an Absoft exclusive "
 "technology for graphical rendering and data output."
 msgstr ""
+"[Kompilatory Absoft](https://www.absoft.com/products/) obejmują Pro Fortran "
+"dostarczający ekskluzywne równoważenie obciążenia AP, AVX, OpenMP 3.1, "
+"rozszerzony kompilator Fortran 95 z funkcjami F2003 i F2008, debuger "
+"graficzny FX3, natywny pakiet narzędzi integracji, bibliotekę naukową i "
+"inżynieryjną AMDAL HPC i nie tylko. Pro Fortran zawiera Fast Data "
+"Visualization, ekskluzywną technologię Absoft do renderowania graficznego i "
+"wyprowadzania danych."
 
 #: ../../source/compilers.md:135
 msgid ""
@@ -1669,24 +2080,33 @@ msgid ""
 "development/technologies/developerstudio-features.html) is highly optimized "
 "for Oracle systems, on-premise and in the cloud"
 msgstr ""
+"[Kompilator Oracle C, C++, Fortran](https://www.oracle.com/"
+"application-development/technologies/developerstudio-features.html) jest "
+"wysoce zoptymalizowany pod kątem systemów Oracle, lokalnie jak i w chmurze"
 
 #: ../../source/compilers.md:138
 msgid ""
 "Advanced code generation technology for the latest Oracle SPARC and x86 based"
 " systems"
 msgstr ""
+"Zaawansowana technologia generowania kodu na najnowsze systemy Oracle SPARC "
+"oraz x86"
 
 #: ../../source/compilers.md:139
 msgid ""
 "Support for the latest industry standards, including C++14, C++11, C11 and "
 "OpenMP 4.0 and extensive GCC compatibility features"
 msgstr ""
+"Obsługa najnowszych standardów branżowych, w tym C++14, C++11, C11 oraz "
+"OpenMP 4.0 i rozbudowane funkcje zgodności GCC"
 
 #: ../../source/compilers.md:140
 msgid ""
 "Automatic code analysis during compilation and automatic stack overflow "
 "protection at application runtime"
 msgstr ""
+"Automatyczna analiza kodu podczas kompilacji oraz automatyczna ochrona przed "
+"przepełnieniem stosu podczas działania aplikacji"
 
 #: ../../source/compilers.md:144
 msgid ""
@@ -1698,6 +2118,13 @@ msgid ""
 " 95 compiler, Visual Studio Fortran support, Winteracter WiSK Graphics "
 "package, and more."
 msgstr ""
+"LF Professional v7.8 łączy 32/64-bitowy kompilator LGF Rainer z klasycznym "
+"kompilatorem [Lahey/Fujitsu LF95](https://lahey.com/). LGF Rainer ma pełną "
+"zgodność z Fortran 95/90/77 z pełną obsługą standardów Fortran 2003 i 2008. "
+"Lahey/Fujitsu LF95 najlepiej sprawdza się w diagnostyce klas. Zawiera "
+"automatyczny równoległy kompilator GFortran, kompilator Lahey/Fujitsu "
+"Fortran 95, obsługę Visual Studio Fortran, pakiet Winteracter WiSK Graphics "
+"I wiele więcej."
 
 #: ../../source/compilers.md:153
 msgid ""
@@ -1712,6 +2139,16 @@ msgid ""
 " Silverfrost Fortran runs on Windows / x86_64. There is a free personal "
 "edition."
 msgstr ""
+"[Silverfrost FTN95](https://www.silverfrost.com/) to kompilator zgodny zee "
+"standardami Fortran 95, zdolny do tworzenia plików wykonywalnych dla Win32 "
+"oraz Microsoft .NET. FTN95 zawiera najlepszą na świecie funkcję sprawdzania "
+"czasu działania oraz szeroką gamę oprogramowania pomocniczego. Obsługuje "
+"wszystkie języki standardowe, jak i wiele funkcji starszych języków, dzięki "
+"temu projekty Fortran mogą być dowolną kombinacją Fortran 77, Fortran 90 "
+"oraz Fortran 95. Niektóre funkcje Fortran 2003 oraz 2008 zostały także "
+"[dodane](https://www.silverfrost.com/19/ftn95/support/ftn95_revision_history."
+"aspx). Silverfrost Fortran działa na Windows / x86_64. Dostępna jest "
+"bezpłatna edycja osobista."
 
 #: ../../source/compilers.md:164
 msgid ""
@@ -1720,6 +2157,9 @@ msgid ""
 " to the Fortran-2003 standard (ISO/IEC 1539-1:2004) and supports many "
 "features from Fortran-2008 (ISO/IEC 1539-1:2010)."
 msgstr ""
+"[Kompilator Fortran](https://www.nec.com/en/global/solutions/hpc/sx/tools."
+"html) jest zgodny ze standardami Fortran-2003 (ISO/IEC 1539-1:2004) i "
+"obsługuje wiele funkcji Fortan-2008 (ISO/IEC 1539-1:2010)."
 
 #: ../../source/compilers.md:170
 msgid ""
@@ -1729,44 +2169,52 @@ msgid ""
 "1539:2018). Used for russian processor architectures Elbrus (e2k) and SPARC "
 "(MCST-R), also a cross-compiler for x86_64 architecture is available."
 msgstr ""
+"[Kompilator MCST C, C++, Fortran](http://mcst.ru/lcc) obsługuje w pełni "
+"Fortran-95 (ISO/IEC 1539:1997) oraz częściowo Fortran-2003 (ISO/IEC "
+"1539:2004), Fortran-2008 (ISO/IEC 1539:2010) i Fortran-2018 (ISO/IEC "
+"1539:2018). Używany w do rosyjskich architekturach procesorów Elbrus (e2k) "
+"oraz SPARC (MCST-R), dostępny również jako kompilator skrośny dla "
+"architektury x86-64."
 
 #: ../../source/compilers.md:178
 msgid ""
 "The following is a list of Fortran compilers that seem discontinued, so we do"
 " not list them above:"
 msgstr ""
+"Poniżej znajduje się lista kompilatorów Fortran, które wydają się być "
+"wycofane z użytku, dlatego nie zostały wypisane powyżej:"
 
 #: ../../source/compilers.md:181
 msgid "Apogee"
-msgstr ""
+msgstr "Apogee"
 
 #: ../../source/compilers.md:182
 msgid "Edinburgh Portable Compilers"
-msgstr ""
+msgstr "Edinburgh Portable Compilers"
 
 #: ../../source/compilers.md:183
 msgid "Hewlett Packard"
-msgstr ""
+msgstr "Hewlett Packard"
 
 #: ../../source/compilers.md:184
 msgid "Watcom"
-msgstr ""
+msgstr "Watcom"
 
 #: ../../source/compilers.md:185
 msgid "PathScale"
-msgstr ""
+msgstr "PathScale"
 
 #: ../../source/compilers.md:186
 msgid "G95"
-msgstr ""
+msgstr "G95"
 
 #: ../../source/compilers.md:187
 msgid "Open64"
-msgstr ""
+msgstr "Open64"
 
 #: ../../source/compilers.md:188
 msgid "Unisys"
-msgstr ""
+msgstr "Unisys"
 
 #: ../../source/compilers.md:192
 msgid ""
@@ -1774,10 +2222,13 @@ msgid ""
 "listed a compiler in the Discontinued section and it is in fact actively "
 "maintained."
 msgstr ""
+"Prosimy o kontakt jeśli istnieje jakiś kompilator, który nie znajduje na "
+"liście lub jeśli kompilator znajdujący się w sekcji wycofane jest aktywnie "
+"utrzymywany."
 
 #: ../../source/index.md:5
 msgid "The Fortran Programming Language"
-msgstr ""
+msgstr "Język programowania Fortran"
 
 #: ../../source/index.md:8
 msgid "Fortran <br> High-performance parallel programming language"
@@ -1789,11 +2240,11 @@ msgstr "{bdg-link-primary}`Rozpocznij <learn/>`"
 
 #: ../../source/index.md:16
 msgid "Features"
-msgstr ""
+msgstr "Możliwości"
 
 #: ../../source/index.md:20
 msgid "High performance"
-msgstr ""
+msgstr "Wysoka wydajność"
 
 #: ../../source/index.md:23
 msgid ""
@@ -1801,6 +2252,10 @@ msgid ""
 "applications in science and engineering. Mature and battle-tested compilers "
 "and libraries allow you to write code that runs close to the metal, fast."
 msgstr ""
+"Fortran został zaprojektowany od podstaw z myślą o aplikacjach wymagających "
+"dużej siły obliczeń stosowanych w nauce oraz inżynierii. Dojrzałe i "
+"przetestowane w boju kompilatory I biblioteki pozwalają na szybkie pisanie "
+"kodu bliżej poziomu sprzętu."
 
 #: ../../source/index.md:26
 msgid "Statically and strongly typed"
@@ -1818,7 +2273,7 @@ msgstr ""
 
 #: ../../source/index.md:32
 msgid "Easy to learn and use"
-msgstr ""
+msgstr "Łatwy w nauce i użyciu"
 
 #: ../../source/index.md:35
 msgid ""
@@ -1826,20 +2281,26 @@ msgid ""
 " use. Expressing most mathematical and arithmetic operations over large "
 "arrays is as simple as writing them as equations on a whiteboard."
 msgstr ""
+"Fortran jest stosunkowo małym językiem, który jest zaskakująco łatwy do "
+"nauce i użyciu. Zapisywanie większości operacji matematycznych i "
+"arytmetycznych na dużych tablicach jest tak proste jak zapisanie ich w "
+"postaci równań na tablicy."
 
 #: ../../source/index.md:38
 msgid "Versatile"
-msgstr ""
+msgstr "Uniwersalny"
 
 #: ../../source/index.md:41
 msgid ""
 "Fortran allows you to write code in a style that best fits your problem: "
 "imperative, procedural, array-oriented, object-oriented, or functional."
 msgstr ""
+"Fortran pozwala na pisanie kodu w stylu, który najbardziej ci odpowiada: "
+"imperatywnym, proceduralnym, tablicowym, obiektowym lub funkcyjnym."
 
 #: ../../source/index.md:44
 msgid "Natively parallel"
-msgstr ""
+msgstr "Natywnie równoległy"
 
 #: ../../source/index.md:47
 msgid ""
@@ -1850,14 +2311,21 @@ msgid ""
 "subroutines allow you to express different parallel programming patterns that"
 " best fit your problem at hand."
 msgstr ""
+"Fortran jest natywnie równoległym językiem programowania z intuicyjną "
+"składnią przypominająca tablice służąca do przesyłania danych pomiędzy "
+"procesorami. Możesz uruchomić prawie ten sam kod na pojedynczym procesorze, "
+"w systemie wielordzeniowym, systemie HPC z pamięcią rozproszoną lub w "
+"chmurze. Tablice co-array, teamy, eventy oraz podprogramy zbiorcze pozwalają "
+"na używanie różnorakich wzorów programowania równoległego, które najbardziej "
+"odpowiadają konkretnemu problemowi."
 
 #: ../../source/index.md:50
 msgid "FAQ"
-msgstr ""
+msgstr "Często zadawane pytania"
 
 #: ../../source/index.md:54
 msgid "What is the status of Fortran?"
-msgstr ""
+msgstr "Jaki jest status Fortranu?"
 
 #: ../../source/index.md:57
 msgid ""
@@ -1871,10 +2339,19 @@ msgid ""
 "Library](https://github.com/fortran-lang/stdlib) and the [Fortran Package "
 "Manager](https://fpm.fortran-lang.org) are under active development."
 msgstr ""
+"Fortran to dojrzały język programowania, który jest w trakcie aktywnego "
+"rozwoju. Najnowsza wersja języka to [Fortran 2018](https://isotc.iso.org/"
+"livelink/livelink?func=ll&objId=19441669&objAction=Open). Kolejna odsłona, ["
+"Fortran 2023](https://wg5-fortran.org/N2151-N2200/N2194.pdf), planowana jest "
+"na rok 2023. Istnieje kilkanaście open source jak również zastrzeżonych ["
+"kompilatorów Fortran](kompilatory). Dodatkowo, projekty o otwartym kodzie "
+"źródłowym takie jak [Standard Library](https://github.com/fortran-lang/"
+"stdlib) oraz [Fortran Package Manager](https://fpm.fortran-lang.org) są "
+"ciągle rozwijane."
 
 #: ../../source/index.md:71
 msgid "What is Fortran used for?"
-msgstr ""
+msgstr "Do czego służy Fortran?"
 
 #: ../../source/index.md:74
 msgid ""
@@ -1884,10 +2361,16 @@ msgid ""
 "is the dominant language of High Performance Computing and is used to "
 "[benchmark the fastest supercomputers in the world](https://top500.org/)."
 msgstr ""
+"Fortran jest głównie używany w dziedzinach, które używają obliczeń - nauki "
+"ścisłe i inżynieria. Należą do nich numeryczne przewidywanie pogody i "
+"oceanów, obliczeniowa mechanika płynów, matematyka stosowana, statystyka "
+"oraz finanse. Fortran jest językiem dominującym w dziedzinie wysokowydajnych "
+"obliczeń i jest używany do [testowania najszybszych superkomputerów na "
+"świecie](https://top500.org/)."
 
 #: ../../source/index.md:77
 msgid "Should I use Fortran for my new project?"
-msgstr ""
+msgstr "Czy powinienem użyć Fortranu w moim nowym projekcie?"
 
 #: ../../source/index.md:80
 msgid ""
@@ -1895,14 +2378,17 @@ msgid ""
 "computation over large numeric arrays, Fortran is the optimal tool for the "
 "job."
 msgstr ""
+"Jeśli piszesz program lub bibliotekę wykonującą szybkie obliczenia "
+"arytmetyczne na dużych tablicach numerycznych Fortran jest optymalnym "
+"narzędziem do tego zadania."
 
 #: ../../source/index.md:109
 msgid "Make Fortran better"
-msgstr ""
+msgstr "Pomóż ulepszyć Fortran"
 
 #: ../../source/index.md:119
 msgid "Write proposals"
-msgstr ""
+msgstr "Napisz propozycję"
 
 #: ../../source/index.md:122
 msgid ""
@@ -1910,10 +2396,13 @@ msgid ""
 "or contribute to existing proposals to the Fortran Standard Committee on "
 "[GitHub](https://github.com/j3-fortran/fortran_proposals)."
 msgstr ""
+"Masz jakiś pomysł na to jak ulepszyć język Fortran? Napisz własną propozycję "
+"lub wesprzyj istniejące dla Komitetu Standardów Fortran na "
+"[GitHubie](https://github.com/j3-fortran/fortran_proposals)."
 
 #: ../../source/index.md:130
 msgid "Develop tools"
-msgstr ""
+msgstr "Opracuj narzędzia"
 
 #: ../../source/index.md:133
 msgid ""
@@ -1922,136 +2411,166 @@ msgid ""
 "Manager](https://github.com/fortran-lang/fpm), [this "
 "website](https://github.com/fortran-lang/webpage)."
 msgstr ""
+"Mozesz również pomóc ulepszyć Fortran poprzez wspieranie jego zestawu "
+"narzędzi, takich jak [Standard Library](https://github.com/fortran-lang/"
+"stdlib), [Package Manager](https://github.com/fortran-lang/fpm) lub [ta "
+"strona internetowa](https://github.com/fortran-lang/webpage)."
 
 #: ../../source/index.md:144
 msgid "Write Fortran software"
-msgstr ""
+msgstr "Używaj oprogramowania Fortran"
 
 #: ../../source/index.md:147
 msgid ""
 "Or just write Fortran software for your research, business, or schoolwork. "
 "You can learn how to [get started here](learn)."
 msgstr ""
+"Możesz także używać oprogramowania Fortran dla własnych badań, biznesu lub "
+"szkoły. Tutaj możesz nauczyć się [jak zacząć](learn)."
 
 #: ../../source/learn.md:5
 msgid "Learn"
-msgstr ""
+msgstr "Naucz się"
 
 #: ../../source/learn.md:8
 msgid "Learn Fortran"
-msgstr ""
+msgstr "Naucz się języka Fortran"
 
 #: ../../source/learn.md:12
 msgid "Learning resources for beginners and experts alike"
-msgstr ""
+msgstr "Zasoby edukacyjne zarówno dla początkujących, jak i ekspertów"
 
 #: ../../source/learn.md:16
 msgid "Getting Started"
-msgstr ""
+msgstr "Pierwsze kroki"
 
 #: ../../source/learn.md:31
 msgid ""
 "Try the quickstart Fortran tutorial, to get an overview of the language "
 "syntax and capabilities."
 msgstr ""
+"Zapoznaj się z poradnikiem szybkiego startu żeby zapoznać się z "
+"możliwościami i składnią języka."
 
 #: ../../source/learn.md:40
 msgid "{octicon}``book;1em;sd-text-info`` Quickstart tutorial"
-msgstr ""
+msgstr "{octicon}``book;1em;sd-text-info``Poradnik szybkiego startu"
 
 #: ../../source/learn.md:55
 msgid ""
 "Ask a question in the Fortran-lang discourse - a forum for friendly "
 "discussion of all things Fortran."
 msgstr ""
+"Dołącz do dyskusji i zadaj pytanie na Fortran-lang - forum przeznaczonym do "
+"przyjemnych rozmów dotyczących wszystkiego co ma związek z Fortranem."
 
 #: ../../source/learn.md:64
 msgid "{octicon}``check-circle;1em;sd-text-info`` Fortran-lang Discourse"
 msgstr ""
+"{octicon}``check-circle;1em;sd-text-info`` Forum dyskusyjne Fortran-lang"
 
 #: ../../source/learn.md:73
 msgid "Mini-book Tutorials"
-msgstr ""
+msgstr "Poradniki mini-książek"
 
 #: ../../source/learn.md:80 ../../source/learn/building_programs/project_make.md:33
 msgid "Getting started"
-msgstr ""
+msgstr "Pierwsze kroki"
 
 #: ../../source/learn.md:94
 msgid ""
 "{octicon}`book;1em;sd-text-info` <a href='../learn/quickstart/'>Quickstart "
 "Fortran Tutorial</a>"
 msgstr ""
+"{octicon}`book;1em;sd-text-info` <a href='../learn/quickstart/'>Poradnik "
+"szybkiego startu Fortran</a>"
 
 #: ../../source/learn.md:96
 msgid "An introduction to the Fortran syntax and its capabilities"
-msgstr ""
+msgstr "Wprowadzenie do składni języka Fortran i jego możliwości"
 
 #: ../../source/learn.md:108
 msgid ""
 "{octicon}`book;1em;sd-text-info` <a "
 "href='../learn/building_programs/'>Building programs</a>"
 msgstr ""
+"{octicon}`book;1em;sd-text-info` <a href='../learn/building_programs/"
+"'>Tworzenie programów</a>"
 
 #: ../../source/learn.md:110
 msgid "How to use the compiler to build an executable program"
-msgstr ""
+msgstr "Jak używać kompilatora do zbudowania wykonywalnego programu"
 
 #: ../../source/learn.md:122
 msgid ""
 "{octicon}`book;1em;sd-text-info` <a href='../learn/os_setup/'>Setting up your"
 " OS</a>"
 msgstr ""
+"{octicon}`book;1em;sd-text-info` <a href='../learn/os_setup/'>Konfiguracja "
+"systemu operacyjnego </a>"
 
 #: ../../source/learn.md:124
 msgid ""
 "How to install a Fortran compiler and set up a development environment in "
 "Windows, Linux and macOS."
 msgstr ""
+"Jak zainstalować kompilator Fortran i stworzyć środowisko programistyczne na "
+"systemach Windows, Linux i macOS."
 
 #: ../../source/learn.md:136
 msgid ""
 "{octicon}`book;1em;sd-text-info` <a href='../learn/best_practices/'>Fortran "
 "Best Practices</a>"
 msgstr ""
+"{octicon}`book;1em;sd-text-info` <a href='../learn/best_practices/"
+"'>Najlepsze praktyki Fortran</a>"
 
 #: ../../source/learn.md:138
 msgid "This tutorial collects a modern canonical way of doing things in Fortran."
 msgstr ""
+"W tym poradniku przedstawione są nowoczesne i kanoniczne praktyki pisania w "
+"Fortranie."
 
 #: ../../source/learn.md:147
 msgid "Fortran Documentation"
-msgstr ""
+msgstr "Dokumentacja Fortran"
 
 #: ../../source/learn.md:169
 msgid ""
 "{octicon}`book;1em;sd-text-info` <a href='../learn/intrinsics/'>Fortran "
 "Intrinsics</a>"
 msgstr ""
+"{octicon}`book;1em;sd-text-info` <a href='../learn/intrinsics/'>Zawartość "
+"Fortran</a>"
 
 #: ../../source/learn.md:171
 msgid "man-pages for the Fortran Intrinsics"
-msgstr ""
+msgstr "Strony instrukcji obsługi zawartości Fortran"
 
 #: ../../source/learn.md:179
 msgid "Other Resources"
-msgstr ""
+msgstr "Inne źródła"
 
 #: ../../source/learn.md:184
 msgid "On the web"
-msgstr ""
+msgstr "Internetowe"
 
 #: ../../source/learn.md:190
 msgid ""
 "[Fortran wiki](http://fortranwiki.org/) A rich collection of Fortran articles"
 " and resources in an editable wiki format"
 msgstr ""
+"[Fortran wiki](http://fortranwiki.org/) Bogata kolekcja artykułów dot. "
+"Fortran i źródeł dostępnych w edytowalnym formacie wiki"
 
 #: ../../source/learn.md:194
 msgid ""
 "[Fortran 90 org](https://www.fortran90.org/) Fortran Best Practices guide, "
 "Python/Fortran Rosetta Stone, Fortran FAQ"
 msgstr ""
+"[Fortran 90 org](https://www.fortran90.org/) Poradnik najlepszych praktyk "
+"Fortran, Kamień z Rosetty Fortranu/Pythona, Najczęściej zadawane pytania "
+"dot. Fortranu"
 
 #: ../../source/learn.md:198
 msgid ""
@@ -2059,6 +2578,8 @@ msgid ""
 "Document](https://j3-fortran.org/doc/year/18/18-007r1.pdf) J3/18-007r1 F2018,"
 " specification of the base Fortran 2018 language"
 msgstr ""
+"[Fortran 2018 Standard Interpretation Document](https://j3-fortran.org/doc/"
+"year/18/18-007r1.pdf) J3/18-007r1 F2018, specyfikacja języka Fortran 2018"
 
 #: ../../source/learn.md:202
 msgid ""
@@ -2066,18 +2587,24 @@ msgid ""
 "repository for community collaboration on proposals for the Fortran Standards"
 " Committee"
 msgstr ""
+"[J3 Fortran Proposals](https://github.com/j3-fortran/fortran_proposals) "
+"repozytorium służące do współpracy społeczności nad propozycjami dla "
+"Komitetu Standardów Fortran"
 
 #: ../../source/learn.md:206
 msgid ""
 "[J3: US Fortran Standards Committee](https://j3-fortran.org/) J3 is the US "
 "National Body for the international Fortran standards committee"
 msgstr ""
+"[J3: US Fortran Standards Committee](https://j3-fortran.org/) J3 jest "
+"amerykańskim organem krajowym międzynarodowego Komitetu Standardów Fortran"
 
 #: ../../source/learn.md:210
 msgid ""
 "[WG5: International Fortran Standards Committee](https://wg5-fortran.org/) "
 "None"
 msgstr ""
+"[WG5: International Fortran Standards Committee](https://wg5-fortran.org/)"
 
 #: ../../source/learn.md:214
 msgid ""
@@ -2085,16 +2612,21 @@ msgid ""
 "Examples](https://github.com/scivision/fortran2018-examples) A github "
 "repository containing code samples for various Fortran 2018 features"
 msgstr ""
+"[Scivision Fortran 2018 Examples](https://github.com/scivision/"
+"fortran2018-examples) Repozytorium Github zawierające fragmenty kodu dla "
+"różnych funkcji Fortran 2018"
 
 #: ../../source/learn.md:218
 msgid ""
 "[Doctor Fortran Blog](https://stevelionel.com/drfortran) A collection of "
 "posts on interesting or little-understood aspects of the Fortran language"
 msgstr ""
+"[Doctor Fortran Blog](https://stevelionel.com/drfortran) Kolekcja postów na "
+"temat interesujących lub trudnych do zrozumienia aspektów języka Fortran"
 
 #: ../../source/learn.md:226
 msgid "Online Courses"
-msgstr ""
+msgstr "Kursy online"
 
 #: ../../source/learn.md:232
 msgid ""
@@ -2102,6 +2634,8 @@ msgid ""
 "Fortran](https://doku.lrz.de/display/PUBLIC/Programming+with+Fortran) course "
 "offered at the Leibniz-Rechenzentrum"
 msgstr ""
+"[Programming in Fortran](https://doku.lrz.de/display/PUBLIC/"
+"Programming+with+Fortran) Kurs oferowany przez Leibniz-Rechenzentrum"
 
 #: ../../source/learn.md:236
 msgid ""
@@ -2109,12 +2643,16 @@ msgid ""
 "Computing](https://www.futurelearn.com/courses/fortran-for-scientific-"
 "computing)"
 msgstr ""
+"[PRACE Course: Fortran for Scientific Computing](https://www.futurelearn.com/"
+"courses/fortran-for-scientific-computing)"
 
 #: ../../source/learn.md:240
 msgid ""
 "[PRACE Course: Advanced Fortran "
 "Topics](https://doku.lrz.de/display/PUBLIC/PRACE+Course%3A+Advanced+Fortran+Topics)"
 msgstr ""
+"[PRACE Course: Advanced Fortran Topics](https://doku.lrz.de/display/PUBLIC/"
+"PRACE+Course%3A+Advanced+Fortran+Topics)"
 
 #: ../../source/learn.md:244
 msgid ""
@@ -2123,6 +2661,10 @@ msgid ""
 " modern Fortran for developing an extensible library that can be used to "
 "solve conservation laws (PDEs) using spectral and spectral element methods"
 msgstr ""
+"[The 'F' Word - Programming in Fortran](https://www.youtube.com/"
+"playlist?list=PLRO4xf5MdhAv9CNTETor75rANZtBqPVgQ) nowoczesny Fortran użyty "
+"do tworzenia rozszerzalnej biblioteki, którą można wykorzystać do "
+"rozwiązywania praw zachowania (PDE) przy użyciu metod i elementów widmowych"
 
 #: ../../source/learn.md:248
 msgid ""
@@ -2131,12 +2673,18 @@ msgid ""
 "/modern-fortran/2017) from Bálint Aradi at Bremen Center for Computational "
 "Materials Science (German)"
 msgstr ""
+"[Kursmaterial für Wissenschaftliches Programmieren (Modern Fortran, "
+"2017)](https://www.bccms.uni-bremen.de/cms/people/b-aradi/wissen-progr/"
+"modern-fortran/2017) opracowany przez Bálinta Aradiego z Center for "
+"Computational Materials Science w Bremen (Niemcy)"
 
 #: ../../source/learn.md:252
 msgid ""
 "[Formations Fortran](http://www.idris.fr/formations/fortran/) Fortran course "
 "from beginner to expert level (French)"
 msgstr ""
+"[Formations Fortran](http://www.idris.fr/formations/fortran/) Kurs Fortran "
+"od podstaw do poziomu zaawansowanego (Francuski)"
 
 #: ../../source/learn.md:256
 msgid ""
@@ -2144,24 +2692,33 @@ msgid ""
 "Physicists](http://www.chem.helsinki.fi/~manninen/fortran2014/) course by "
 "Pekka Manninen from University of Helsinki (includes coarrays)"
 msgstr ""
+"[Modern Fortran Programming for Chemists and Physicists](http://www.chem."
+"helsinki.fi/~manninen/fortran2014/) kurs stworzony przez Pekka Manninen z "
+"Uniwersytetu w Helsinkach (zawiera tablice co-array)"
 
 #: ../../source/learn.md:260
 msgid ""
 "[Expressing Object-Oriented Concepts in "
 "Fortran90](http://www.cs.rpi.edu/~szymansk/OOF90/Forum.html)"
 msgstr ""
+"[Expressing Object-Oriented Concepts in Fortran90](http://www.cs.rpi.edu/~"
+"szymansk/OOF90/Forum.html)"
 
 #: ../../source/learn.md:264
 msgid ""
 "[Coarray tutorial](https://github.com/tkoenig1/coarray-"
 "tutorial/blob/main/tutorial.md) by Thomas Koenig"
 msgstr ""
+"[Coarray tutorial](https://github.com/tkoenig1/coarray-tutorial/blob/main/"
+"tutorial.md) opracowany przez Thomasa Koeniga"
 
 #: ../../source/learn.md:268
 msgid ""
 "[Parallel Programming Workshop](https://fs.hlrs.de/projects/par/par_prog_ws/)"
 " materials from the High-Performance Computing Center in Stuttgart"
 msgstr ""
+"[Parallel Programming Workshop](https://fs.hlrs.de/projects/par/par_prog_ws/)"
+" materiały z High-Performance Computing Center w Stuttgarcie"
 
 #: ../../source/learn.md:272
 msgid ""
@@ -2169,18 +2726,24 @@ msgid ""
 "Fortran](https://cyber.dabamos.de/programming/modernfortran/) by Philipp "
 "Engel"
 msgstr ""
+"[Programming in Modern Fortran](https://cyber.dabamos.de/programming/"
+"modernfortran/) opracowane przez Philippa Engela"
 
 #: ../../source/learn.md:276
 msgid ""
 "[2018 Workshop on Fortran Modernization for Scientific "
 "Applications](https://tcevents.chem.uzh.ch/event/3/)"
 msgstr ""
+"[2018 Workshop on Fortran Modernization for Scientific "
+"Applications](https://tcevents.chem.uzh.ch/event/3/)"
 
 #: ../../source/learn.md:280
 msgid ""
 "[Introduction to Programming using Fortran "
 "95/2003/2008](http://www.egr.unlv.edu/~ed/fortran.html)"
 msgstr ""
+"[Introduction to Programming using Fortran 95/2003/2008](http://www.egr.unlv."
+"edu/~ed/fortran.html)"
 
 #: ../../source/learn.md:284
 msgid ""
@@ -2188,6 +2751,9 @@ msgid ""
 "Computation](http://homepage.ntu.edu.tw/~wttsai/fortran/) course by Wu-ting "
 "Tsai from National Taiwan University"
 msgstr ""
+"[Scientific Programing and Numerical Computation](http://homepage.ntu.edu.tw/"
+"~wttsai/fortran/) kurs opracowany przez Wu-ting Tsai z National Taiwan "
+"University"
 
 #: ../../source/learn.md:288
 msgid ""
@@ -2196,12 +2762,18 @@ msgid ""
 "from the University of Cambridge Computing Service, derived from a course by "
 "Steve Morgan from the University of Liverpool"
 msgstr ""
+"[Introduction to Modern Fortran](https://www-uxsup.csx.cam.ac.uk/courses/"
+"moved.Fortran/) kurs prowadzony przez Nicka Maclarena z University of "
+"Cambridge Computing Service, stworzony na podstawie kursu Steve'a Morgana z "
+"University of Liverpool"
 
 #: ../../source/learn.md:292
 msgid ""
 "[User Notes on Fortran Programming "
 "(UNFP)](http://www.ibiblio.org/pub/languages/fortran/unfp.html)"
 msgstr ""
+"[User Notes on Fortran Programming (UNFP)](http://www.ibiblio.org/pub/"
+"languages/fortran/unfp.html)"
 
 #: ../../source/learn.md:296
 msgid ""
@@ -2210,6 +2782,9 @@ msgid ""
 "descriptions of several non-standard Fortran dialects like Fortran M and High"
 " Performance Fortran)"
 msgstr ""
+"[Designing and Building Parallel Programs](https://www.mcs.anl.gov/~itf/dbpp/"
+") opracowany przez Iana Fostera, zawiera opisy wielu niestandardowych "
+"dialektów Fortran, takich jak Fortran M oraz High Performance Fortran"
 
 #: ../../source/learn.md:300
 msgid ""
@@ -2217,6 +2792,9 @@ msgid ""
 "coarrays](https://coarrays.sourceforge.io/doc.html) course by Anton "
 "Shterenlikht from the University of Bristol"
 msgstr ""
+"[Parallel programming with Fortran 2008 and 2018 coarrays](https://coarrays."
+"sourceforge.io/doc.html) kurs stworzony przez Antona Shterenlikhta z "
+"University of Bristol"
 
 #: ../../source/learn.md:304
 msgid ""
@@ -2224,6 +2802,8 @@ msgid ""
 "Fortran77](https://www.star.le.ac.uk/~cgp/prof77.html) by Clive G. Page, "
 "University of Leicester, UK"
 msgstr ""
+"[Professional Programmer's Guide to Fortran77](https://www.star.le.ac.uk/~"
+"cgp/prof77.html) stworzony przez Clive'a G. Page, University of Leicester, UK"
 
 #: ../../source/learn.md:308
 msgid ""
@@ -2231,6 +2811,8 @@ msgid ""
 "Programmers](https://www.star.le.ac.uk/~cgp/f90course/f90.html) by Clive G. "
 "Page"
 msgstr ""
+"[Fortran90 for Fortran77 Programmers](https://www.star.le.ac.uk/~cgp/"
+"f90course/f90.html) stworzony przez Clive'a G. Page"
 
 #: ../../source/learn.md:312
 msgid ""
@@ -2239,6 +2821,10 @@ msgid ""
 "material/2014/08/F95_CCFE/Fortran95CourseNotes.pdf) training materials from "
 "ARCHER, the UK National Supercomputing Service"
 msgstr ""
+"[Introduction to Computer Programming Using Fortran 95](https://www.archer.ac"
+".uk/training/course-material/2014/08/F95_CCFE/Fortran95CourseNotes.pdf) "
+"materiały treningowe od ARCHER, National Supercomputing Service w Wielkiej "
+"Brytanii"
 
 #: ../../source/learn.md:316
 msgid ""
@@ -2247,6 +2833,10 @@ msgid ""
 "-combining-object-oriented-techniques-co-arrays-fortran.pdf) by Robert W. "
 "Numrich"
 msgstr ""
+"[Combining Object-Oriented Techniques with Co-arrays in Fortran "
+"2008](https://www.ecmwf.int/sites/default/files/elibrary/2008/15361"
+"-combining-object-oriented-techniques-co-arrays-fortran.pdf) stworzony przez "
+"Roberta W. Numricha"
 
 #: ../../source/learn.md:320
 msgid ""
@@ -2254,6 +2844,8 @@ msgid ""
 "Coarrays](ftp://ftp.numerical.rl.ac.uk/pub/talks/jkr.reading.5XI08.pdf) by "
 "John Reid"
 msgstr ""
+"[Parallel programming in Fortran with Coarrays](ftp://ftp.numerical.rl.ac.uk/"
+"pub/talks/jkr.reading.5XI08.pdf) stworzony przez Johna Reida"
 
 #: ../../source/learn.md:324
 msgid ""
@@ -2261,6 +2853,8 @@ msgid ""
 "Fortran](https://faculty.csbsju.edu/mheroux/fall2011_csci317/NumrichCafTalk.pdf)"
 " by Robert W. Numrich"
 msgstr ""
+"[Introduction to Co-Array Fortran](https://faculty.csbsju.edu/mheroux/"
+"fall2011_csci317/NumrichCafTalk.pdf) stworzony przez Roberta W. Numricha"
 
 #: ../../source/learn.md:328
 msgid ""
@@ -2268,6 +2862,8 @@ msgid ""
 "Programmer](https://www.nsc.liu.se/~boein/f77to90/f77to90.html) by Bo "
 "Einarsson and Yurij Shokin"
 msgstr ""
+"[Fortran 90 for the Fortran 77 Programmer](https://www.nsc.liu.se/~boein/"
+"f77to90/f77to90.html) stworzony przez Bo Einarsson i Yurij Shokin"
 
 #: ../../source/learn.md:332
 msgid ""
@@ -2275,12 +2871,17 @@ msgid ""
 "tuebingen.de/~kley/lehre/ftn77/tutorial/) older tutorial by Erik Boman, "
 "Stanford University"
 msgstr ""
+"[Fortran Tutorial](https://www.tat.physik.uni-tuebingen.de/~kley/lehre/ftn77/"
+"tutorial/) starszy poradnik Erika Bomana z Uniwersytetu w Stanford"
 
 #: ../../source/learn.md:336
 msgid ""
 "[Fortran 90 Tutorial](https://web.stanford.edu/class/me200c/tutorial_90/) "
 "older tutorial by Paul Hargrove and Sarah Whitlock, Stanford University"
 msgstr ""
+"[Fortran 90 Tutorial](https://web.stanford.edu/class/me200c/tutorial_90/) "
+"starszy poradnik stworzony przez Paula Hargrove'a i Sarah Whitlock, Stanford "
+"University"
 
 #: ../../source/learn.md:340
 #, python-format
@@ -2289,6 +2890,8 @@ msgid ""
 "Tutorial](https://pages.mtu.edu/%7eshene/COURSES/cs201/NOTES/fortran.html) by"
 " C.-K. Shene, Michigan Technologial University"
 msgstr ""
+"[Fortran 90 Tutorial](https://pages.mtu.edu/%7eshene/COURSES/cs201/NOTES/"
+"fortran.html) stworzony przez C.-K. Shene, Michigan Technologial University"
 
 #: ../../source/learn.md:344
 msgid ""
@@ -2296,10 +2899,13 @@ msgid ""
 "modern-fortran-basics) by Milan Curcic, excerpt (Chapters 2, 3, and 4) from "
 "Modern Fortran - Building Efficient Parallel Applications"
 msgstr ""
+"[Exploring Modern Fortran Basics](https://www.manning.com/books/exploring-"
+"modern-fortran-basics) stworzony przez Milana Curcica, fragmenty (Rozdziały "
+"2, 3, and 4) z Modern Fortran - Building Efficient Parallel Applications"
 
 #: ../../source/learn.md:352
 msgid "In print"
-msgstr ""
+msgstr "W druku"
 
 #: ../../source/learn.md:358
 msgid ""
@@ -2309,6 +2915,11 @@ msgid ""
 "Theory-and-Quantum-Computing-An/Ramkarthik-Solanki/p/book/9780367759285) 1st "
 "ed Boca Raton. CRC Press"
 msgstr ""
+"Ramkarthik, M. S., and Solanki, P. D. 2021 [Numerical Recipes in Quantum "
+"Information Theory and Quantum Computing: An Adventure in FORTRAN "
+"90](https://www.routledge.com/"
+"Numerical-Recipes-in-Quantum-Information-Theory-and-Quantum-Computing-An/"
+"Ramkarthik-Solanki/p/book/9780367759285) 1st ed Boca Raton. CRC Press"
 
 #: ../../source/learn.md:367
 msgid ""
@@ -2316,6 +2927,9 @@ msgid ""
 "Explained](https://global.oup.com/academic/product/modern-fortran-"
 "explained-9780198811893) 5th ed Oxford, UK. Oxford University Press"
 msgstr ""
+"Metcalf, M., Reid, J. and Cohen, M. 2018 [Modern Fortran "
+"Explained](https://global.oup.com/academic/product/modern-fortran-"
+"explained-9780198811893) 5 edycja Oxford, UK. Oxford University Press"
 
 #: ../../source/learn.md:376
 msgid ""
@@ -2323,6 +2937,9 @@ msgid ""
 "Applications](https://www.manning.com/books/modern-fortran) 1st ed Shelter "
 "Island, NY. Manning Publications"
 msgstr ""
+"Curcic, M. 2020 [Modern Fortran: Building Efficient Parallel "
+"Applications](https://www.manning.com/books/modern-fortran) pierwsza edycja "
+"Shelter Island, NY. Manning Publications"
 
 #: ../../source/learn.md:385
 msgid ""
@@ -2330,6 +2947,9 @@ msgid ""
 "Using Fortran](https://www.ce-fortran.com/) 1st ed Oxford, UK. Oxford "
 "University Press"
 msgstr ""
+"Fehr, H. and Kindermann, F. 2020 [Introduction to Computational Economics "
+"Using Fortran](https://www.ce-fortran.com/) pierwsza edycja Oxford, UK. "
+"Oxford University Press"
 
 #: ../../source/learn.md:394
 msgid ""
@@ -2338,6 +2958,9 @@ msgid ""
 "practice/BC5BD23B2E478B4D457C5D6265BA9363) 1st ed Cambridge, UK. Cambridge "
 "University Press"
 msgstr ""
+"Markus, A. 2012 [Modern Fortran in Practice](https://www.cambridge.org/core/"
+"books/modern-fortran-in-practice/BC5BD23B2E478B4D457C5D6265BA9363) pierwsza "
+"edycja Cambridge, UK. Cambridge University Press"
 
 #: ../../source/learn.md:403
 msgid ""
@@ -2345,6 +2968,9 @@ msgid ""
 "Fortran](https://doi.org/10.1007/978-3-319-75502-1) 4th ed . Springer "
 "International Publishing"
 msgstr ""
+"Chivers, I. and Sleightholme, J. 2018 [Introduction to Programming with "
+"Fortran](https://doi.org/10.1007/978-3-319-75502-1) 4 edycja. Springer "
+"International Publishing"
 
 #: ../../source/learn.md:412
 msgid ""
@@ -2352,6 +2978,9 @@ msgid ""
 "Engineers](https://www.mheducation.com/highered/product/fortran-scientists-"
 "engineers-chapman/M9780073385891.html) 4th ed New York. McGraw-Hill Education"
 msgstr ""
+"Chapman, S. J. 2018 [Fortran for Scientists and Engineers](https://www."
+"mheducation.com/highered/product/fortran-scientists-engineers-chapman/"
+"M9780073385891.html) 4 edycja New York. McGraw-Hill Education"
 
 #: ../../source/learn.md:421
 msgid ""
@@ -2359,6 +2988,9 @@ msgid ""
 "Programming](https://www.routledge.com/Fortran-2018-with-Parallel-"
 "Programming/Ray/p/book/9780367218430) 1st ed . Chapman and Hall/CRC"
 msgstr ""
+"Ray, S. 2019 [Fortran 2018 with Parallel Programming](https://www.routledge."
+"com/Fortran-2018-with-Parallel-Programming/Ray/p/book/9780367218430) "
+"pierwsza edycja. Chapman and Hall/CRC"
 
 #: ../../source/learn.md:430
 msgid ""
@@ -2366,6 +2998,8 @@ msgid ""
 "Programming](https://doi.org/10.1007/978-1-4471-6759-4) 1st ed London. "
 "Springer-Verlag"
 msgstr ""
+"Brainerd, W. S. 2015 [Guide to Fortran 2008 Programming](https://doi.org/10."
+"1007/978-1-4471-6759-4) pierwsza edycja London. Springer-Verlag"
 
 #: ../../source/learn.md:439
 msgid ""
@@ -2373,6 +3007,8 @@ msgid ""
 "arrays](https://doi.org/10.1201/9780429437182) 1st ed New York. Chapman and "
 "Hall/CRC"
 msgstr ""
+"Numrich, R. W. 2018 [Parallel Programming with Co-arrays](https://doi.org/10."
+"1201/9780429437182) pierwsza edycja New York. Chapman and Hall/CRC"
 
 #: ../../source/learn.md:448
 msgid ""
@@ -2380,6 +3016,9 @@ msgid ""
 "90/95](https://doi.org/10.1017/CBO9780511530111) 1st ed Cambridge. Cambridge "
 "University Press"
 msgstr ""
+"Akin, E. 2003 [Object-Oriented Programming via Fortran 90/95](https://doi."
+"org/10.1017/CBO9780511530111) pierwsza edycja Cambridge. Cambridge "
+"University Press"
 
 #: ../../source/learn.md:457
 msgid ""
@@ -2387,6 +3026,10 @@ msgid ""
 "Fortran](https://www.lulu.com/en/gb/shop/drew-mccormack/scientific-software-"
 "development-in-fortran/ebook/product-1gvmw8p6.html) 1st ed None. Lulu Press"
 msgstr ""
+"McCormack, D. 2009 [Scientific Software Development with Fortran](https://www"
+".lulu.com/en/gb/shop/drew-mccormack/"
+"scientific-software-development-in-fortran/ebook/product-1gvmw8p6.html) "
+"pierwsza edycja, Nieznane. Lulu Press"
 
 #: ../../source/learn.md:466
 msgid ""
@@ -2396,6 +3039,10 @@ msgid ""
 "general-interest/scientific-software-design-object-oriented-way) 2nd ed "
 "Cambridge. Cambridge University Press"
 msgstr ""
+"Rouson, D., Xia, J., and Xiaofeng, X. 2014 [Scientific Software Design: The "
+"Object-Oriented Way](https://www.cambridge.org/gb/academic/subjects/"
+"engineering/engineering-general-interest/scientific-software-design-object-"
+"oriented-way) druga edycja Cambridge. Cambridge University Press"
 
 #: ../../source/learn.md:475
 msgid ""
@@ -2403,6 +3050,9 @@ msgid ""
 "Earth System Sciences](https://doi.org/10.1007/978-3-642-37009-0) 1st ed "
 "Berlin. Springer-Verlag"
 msgstr ""
+"Chirila, D. B., and Lohmann, G. 2015 [Introduction to Modern Fortran for the "
+"Earth System Sciences](https://doi.org/10.1007/978-3-642-37009-0) pierwsza "
+"edycja Berlin. Springer-Verlag"
 
 #: ../../source/learn.md:484
 msgid ""
@@ -2410,6 +3060,9 @@ msgid ""
 "Usage](https://doi.org/10.1017/CBO9781139027687) 1st ed Cambridge. Cambridge "
 "University Press"
 msgstr ""
+"Clerman, N. S. and Spector, W. 2011 [Modern Fortran: Style and "
+"Usage](https://doi.org/10.1017/CBO9781139027687) pierwsza edycja Cambridge. "
+"Cambridge University Press"
 
 #: ../../source/learn.md:493
 msgid ""
@@ -2417,6 +3070,9 @@ msgid ""
 "Fortran](https://doi.org/10.1137/1.9781611973129.fm) 1st ed Philadelphia. "
 "SIAM"
 msgstr ""
+"Hanson, R. J. and Hopkins, T. 2013 [Numerical Computing with Modern "
+"Fortran](https://doi.org/10.1137/1.9781611973129.fm) pierwsza edycja "
+"Philadelphia. SIAM"
 
 #: ../../source/learn.md:502
 msgid ""
@@ -2425,6 +3081,10 @@ msgid ""
 "/scientific-computing-scientific-software/writing-scientific-software-guide-"
 "good-style) 1st ed Cambridge. Cambridge University Press"
 msgstr ""
+"Oliveira, S. and Steward, D. 2006 [Writing Scientific Software: A Guide to "
+"Good Style](https://www.cambridge.org/gb/academic/subjects/computer-science/"
+"scientific-computing-scientific-software/writing-scientific-software-guide-"
+"good-style) pierwsza edycja Cambridge. Cambridge University Press"
 
 #: ../../source/learn.md:511
 msgid ""
@@ -2432,11 +3092,14 @@ msgid ""
 "Programming](https://www.oreilly.com/library/view/the-practice-"
 "of/9780133133448/) 1st ed Reading. Addison-Wesley Professional"
 msgstr ""
+"Kernighan, B. and Pike, R. 1999 [The Practice of Programming](https://www."
+"oreilly.com/library/view/the-practice-of/9780133133448/) Pierwsza edycja "
+"Reading. Addison-Wesley Professional"
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:1
 #: ../../source/learn/best_practices/index.md:12
 msgid "Allocatable Arrays"
-msgstr ""
+msgstr "Tablice możliwe do przydzielenia"
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:3
 msgid ""
@@ -2446,18 +3109,28 @@ msgid ""
 "out-of-scope. Using `allocatable` variables removes the possibility to create"
 " memory leaks in an application."
 msgstr ""
+"Atrybut `allocatable` pozwala na bezpieczną obsługę pamięci. W porównaniu z "
+"atrybutem zmiennych `pointer` pamięć jest obsługiwana automatycznie i "
+"zostanie zwolniona w momencie, gdy zmienna wyjdzie poza zakres. Używanie "
+"atrybutu `allocatable` dla zmiennych zmniejsza prawdopodobieństwo powstania "
+"przecieków pamięci w aplikacji."
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:9
 msgid ""
 "They can be used in subroutines to create scratch or work arrays, where "
 "automatic arrays would become too large to fit on the stack."
 msgstr ""
+"Mogą być używane w podprogramach, aby stworzyć tablice podstawowe lub "
+"robocze, gdzie automatyczne tablice mogłyby stać się zbyt duże, aby zmieścić "
+"się na stosie."
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:17
 msgid ""
 "The allocation status can be checked using the `allocated` intrinsic to avoid"
 " uninitialized access"
 msgstr ""
+"Status przydziału można sprawdzić za pomocą funkcji `allocated`, aby uniknąć "
+"niezainicjowanego dostępu"
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:30
 msgid ""
@@ -2465,10 +3138,13 @@ msgid ""
 "`allocatable` attribute. Using it in combination with `intent(out)` will "
 "deallocate previous allocations before entering the procedure:"
 msgstr ""
+"Aby przydzielić zmienne wewnątrz procedury fikcyjny argument musi posiadać "
+"atrybut `allocatable`. Użycie go w połączeniu z `intent(out)` zwolni "
+"poprzednie przydziały zanim rozpocznie się wykonywanie procedury:"
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:41
 msgid "The allocated array can be used afterwards like a normal array"
-msgstr ""
+msgstr "Przydzielona tablica może być później używana jak normalna tablica"
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:48
 msgid ""
@@ -2476,12 +3152,18 @@ msgid ""
 "deallocation. Similarly, deallocation can only be invoked for allocated "
 "arrays. To reallocate an array use"
 msgstr ""
+"Przydzielona już tablica nie może zostać przydzielona ponownie bez "
+"wcześniejszego zwolnienia przydziału. Zwolnienie przydziału również może być "
+"rozpoczęte tylko dla przydzielonych już tablic. Aby zmienić przydział "
+"tablicy użyj"
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:57
 msgid ""
 "Passing allocated arrays to procedures does not require the `allocatable` "
 "attribute for the dummy arguments anymore."
 msgstr ""
+"Przekazywanie przydzielonych tablic do procedur nie wymaga już użycia "
+"atrybutu `allocatable` dla fikcyjnego argumentu."
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:80
 msgid ""
@@ -2491,12 +3173,21 @@ msgid ""
 "attribute is not limited to arrays and can also be associated with scalars, "
 "which can be useful in combination with `optional` dummy arguments."
 msgstr ""
+"Przekazywanie nieprzydzielonej tablicy w tym kontekście doprowadzi do "
+"niepoprawnego dostępu do pamięci. Przydzielone tablice mogą być przekazywane "
+"do opcjonalnych (`optional`) argumentów fikcyjnych - w przypadku "
+"nieprzydzielenia tablicy argument nie będzie obecny. Atrybut `allocatable` "
+"nie jest ograniczony tylko do tablic i może być używany również do wielkości "
+"skalarnych, co może być przydatne w połączeniu z opcjonalnymi ( `optional`) "
+"argumentami fikcyjnymi."
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:86
 msgid ""
 "Allocations can be moved between different arrays with `allocatable` "
 "attribute using the `move_alloc` intrinsic subroutine."
 msgstr ""
+"Przydziały mogą być zmieniane pomiędzy różnymi tablicami przy użyciu "
+"atrybutu `allocatable` oraz wewnętrznego podprogramu `move_alloc`."
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:118
 msgid ""
@@ -2505,54 +3196,63 @@ msgid ""
 "at the respective address. The allocation supports initialization using the "
 "source attribute:"
 msgstr ""
+"Na koniec, przydziały nie inicjują tablic. Zawartością niezainicjowanej "
+"tablicy są prawdopodobnie bajty tego, co poprzednio znajdowało się pod tym "
+"adresem. Przydziały obsługują inicjalizację przy użyciu atrybutu source:"
 
 #: ../../source/learn/best_practices/allocatable_arrays.md:127
 msgid "The `source` keyword supports scalar and array valued variables and constants."
 msgstr ""
+"Słowo kluczowe `source` obsługuje wartości skalarne, zmienne oraz stałe."
 
 #: ../../source/learn/best_practices/arrays.md:1
 #: ../../source/learn/best_practices/index.md:12
 msgid "Arrays"
-msgstr ""
+msgstr "Tablice"
 
 #: ../../source/learn/best_practices/arrays.md:3
 msgid ""
 "Arrays are a central object in Fortran. The creation of dynamic sized arrays "
 "is discussed in the [allocatable arrays section](./allocatable_arrays.html)."
 msgstr ""
+"Tablice są głównymi obiektami w języku Fortran. Tworzenie tablic o "
+"dynamicznym rozmiarze opisane jest w sekcji [tablice możliwe do "
+"przydzielenia](./allocatable_arrays.html)."
 
 #: ../../source/learn/best_practices/arrays.md:6
 msgid "To pass arrays to procedures four ways are available"
-msgstr ""
+msgstr "Istnieją cztery sposoby, aby przekazać tablicę do procedury"
 
 #: ../../source/learn/best_practices/arrays.md:8
 msgid "_assumed-shape_ arrays"
-msgstr ""
+msgstr "Tablice o _assumed-shape_"
 
 #: ../../source/learn/best_practices/arrays.md:9
 msgid "_assumed-rank_ arrays"
-msgstr ""
+msgstr "Tablice _assumed-rank_"
 
 #: ../../source/learn/best_practices/arrays.md:10
 #: ../../source/learn/best_practices/element_operations.md:6
 msgid "_explicit-shape_ arrays"
-msgstr ""
+msgstr "Tablice _explicit-shape_"
 
 #: ../../source/learn/best_practices/arrays.md:11
 msgid "_assumed-size_ arrays"
-msgstr ""
+msgstr "Tablice _assumed-size_"
 
 #: ../../source/learn/best_practices/arrays.md:13
 msgid "The preferred way to pass arrays to procedures is as _assumed-shape_ arrays"
 msgstr ""
+"Preferowaną metodą przekazywania tablic do procedur jest metoda tablic "
+"_assumed-shape_ (o założonym kształcie)"
 
 #: ../../source/learn/best_practices/arrays.md:26
 msgid "Higher-dimensional arrays can be passed in a similar way."
-msgstr ""
+msgstr "Wielowymiarowe tablice mogą być przekazywane w podobny sposób."
 
 #: ../../source/learn/best_practices/arrays.md:35
 msgid "The array is simply passed by"
-msgstr ""
+msgstr "Tablica jest prosto przekazywana przez"
 
 #: ../../source/learn/best_practices/arrays.md:42
 msgid ""
@@ -2561,6 +3261,11 @@ msgid ""
 " optionally at runtime. Similarly, array strides can be passed without "
 "requiring a copy of the array but as _assumed-shape_ descriptor:"
 msgstr ""
+"W tym przypadku nie jest tworzona żadna kopia tablicy, co sprawia, że "
+"informacje o kształcie i rozmiarze mogą być automatycznie przekazywane i "
+"sprawdzane przy kompilowaniu lub opcjonalnie w trakcie wykonywania programu. "
+"Podobnie, postępy w tablicach nie wymagają tworzenia kopii tablicy, ale mogą "
+"być przekazywane jako deskryptor _assumed-shape_:"
 
 #: ../../source/learn/best_practices/arrays.md:54
 msgid ""
@@ -2568,12 +3273,18 @@ msgid ""
 "subroutines. Avoid passing arrays as whole slices, as it obfuscates the "
 "actual intent of the code:"
 msgstr ""
+"To powinna być podstawowa forma przekazywania tablic do i z podprogramów. "
+"Unikaj przekazywania tablic jako całych wycinków, ponieważ utrudnia to "
+"zobaczenie rzeczywistych celi kodu:"
 
 #: ../../source/learn/best_practices/arrays.md:62
 msgid ""
 "In case more general arrays should be passed to a procedure the _assumed-"
 "rank_ functionality introduced in the Fortran 2018 standard can be used"
 msgstr ""
+"W przypadku, gdy do procedury należy przekazać bardziej ogólne tablice, "
+"można wykorzystać funkcjonalność _assumed-rank_ wprowadzoną w standardzie "
+"Fortran 2018"
 
 #: ../../source/learn/best_practices/arrays.md:77
 msgid ""
@@ -2581,6 +3292,9 @@ msgid ""
 "This easily allows to create more generic functions that have to deal with "
 "different array ranks."
 msgstr ""
+"Rzeczywistą rangę można sprawdzić w trakcie wykonywania programu, używając "
+"konstrukcji `select rank`. Pozwala to łatwo tworzyć bardziej ogólne funkcje, "
+"będą obsługiwać tablice różnych rang."
 
 #: ../../source/learn/best_practices/arrays.md:81
 msgid ""
@@ -2589,26 +3303,38 @@ msgid ""
 " arrays but they find frequent use for interfacing with C or in legacy "
 "Fortran procedures, therefore they will be discussed briefly here."
 msgstr ""
+"Tablice _explicit-shape_ (o jawnym kształcie) mogą być przydatne do "
+"zwracania danych z funkcji. Większa część ich funkcjonalności zostanie "
+"opisana w sekcjach o tablicach _assumed-shape_ oraz _assumed-rank_ jednak są "
+"one często używane do współdziałania z C i starszymi procedurami Fortran, "
+"dlatego zostaną tu krótko przedstawione."
 
 #: ../../source/learn/best_practices/arrays.md:86
 msgid ""
 "To use _explicit-shape_ arrays, the dimension has to be passed explicitly as "
 "dummy argument like in the example below"
 msgstr ""
+"Aby użyć tablic _explicit-shape_ wymiar musi zostać przekazany jawnie jako "
+"argument fikcyjny, tak jak przestawiono w poniższym przykładzie"
 
 #: ../../source/learn/best_practices/arrays.md:100
 msgid "For high-dimensional arrays additional indices have to be passed."
 msgstr ""
+"W przypadku tablic wielowymiarowych konieczne jest przekazanie dodatkowych "
+"indeksów."
 
 #: ../../source/learn/best_practices/arrays.md:110
 msgid "The routines can be invoked by"
-msgstr ""
+msgstr "Procedury te można wywołać za pomocą"
 
 #: ../../source/learn/best_practices/arrays.md:118
 msgid ""
 "Note that the shape is not checked, so the following would be legal code that"
 " will potentially yield incorrect results:"
 msgstr ""
+"Zwróć uwagę, że kształt tablic nie jest sprawdzany, więc następujący "
+"przykład nie jest poprawnym kodem i może potencjalnie skutkować "
+"nieprawidłowymi rezultatami:"
 
 #: ../../source/learn/best_practices/arrays.md:127
 msgid ""
@@ -2616,10 +3342,14 @@ msgid ""
 "_explicit-shape_ arrays require contiguous memory and will create temporary "
 "arrays in case non-contiguous array strides are passed."
 msgstr ""
+"W tym przypadku układ pamięci jest zachowany, jednak kształt zmieniony. "
+"Dodatkowo, tablice _explicit-shape_ wymagają ciągłego dostępu do pamięci i "
+"utworzą tymczasowe tablice w przypadku przekazania nieciągłych wycinków "
+"tablic."
 
 #: ../../source/learn/best_practices/arrays.md:131
 msgid "To return an array from a function with _explicit-shape_ use"
-msgstr ""
+msgstr "Aby zwrócić tablicę z funkcji _explicit-shape_ należy użyć"
 
 #: ../../source/learn/best_practices/arrays.md:144
 msgid ""
@@ -2630,6 +3360,12 @@ msgid ""
 "dimension, this disables the usage of this array with many intrinsic "
 "functions, like `size` or `shape`."
 msgstr ""
+"Na koniec, istnieją również tablice _assumed-size_, które zapewniają "
+"najmniejsze sprawdzanie w czasie kompilacji i wykonywania programu i mogą "
+"być często spotykane w starszym kodzie. Należy ich unikać na rzecz tablic "
+"_assumed-shape_ lub _assumed-rank_. Fikcyjny argument tablicy _assumed-size_ "
+"jest identyfikowany gwiazdką jako ostatni wymiar, co uniemożliwia użycie tej "
+"tablicy z wieloma funkcjami wewnętrznymi, takimi jak `size` lub `shape`."
 
 #: ../../source/learn/best_practices/arrays.md:151
 msgid ""
@@ -2637,37 +3373,45 @@ msgid ""
 "`size` and `shape` intrinsic functions can be used to query for those "
 "properties"
 msgstr ""
+"Aby sprawdzić poprawny rozmiar i kształt tablicy _assumed-shape_, mogą "
+"zostać użyte wewnętrzne funkcje `size` i `shape`, które zapewnią te "
+"właściwości"
 
 #: ../../source/learn/best_practices/arrays.md:159
 msgid ""
 "Note that `size` returns the total size of all dimensions. To obtain the "
 "shape of a specific dimension add it as second argument to the function."
 msgstr ""
+"Należy pamiętać, że `size` zwróci całkowity rozmiar wszystkich wymiarów. Aby "
+"otrzymać kształt konkretnego wymiaru należy przekazać go do funkcji jako "
+"drugi argument."
 
 #: ../../source/learn/best_practices/arrays.md:162
 msgid "Arrays can be initialized by using an array constructor"
-msgstr ""
+msgstr "Tablice można inicjować przez użycie konstruktora tablicy"
 
 #: ../../source/learn/best_practices/arrays.md:169
 msgid "The array constructor can be annotated with the type of the constructed array"
 msgstr ""
+"Konstruktor tablicy może zawierać adnotację określającą typ tworzonej tablicy"
 
 #: ../../source/learn/best_practices/arrays.md:176
 msgid "Implicit do loops can be used inside an array constructor as well"
 msgstr ""
+"Pętle \"do loop\" mogą być używane również wewnątrz konstruktora tablicy"
 
 #: ../../source/learn/best_practices/arrays.md:184
 msgid "In order for the array to start with different index than 1, do:"
-msgstr ""
+msgstr "Aby rozpocząć tablicę z indeksem innym niż 1:"
 
 #: ../../source/learn/best_practices/callbacks.md:1
 #: ../../source/learn/best_practices/index.md:12
 msgid "Callbacks"
-msgstr ""
+msgstr "Wywołania zwrotne (callbacks)"
 
 #: ../../source/learn/best_practices/callbacks.md:3
 msgid "A callback is a function that is passed as an argument to another function."
-msgstr ""
+msgstr "Wywołanie zwrotne to funkcja przekazywana innej funkcji jako argument."
 
 #: ../../source/learn/best_practices/callbacks.md:5
 msgid ""
@@ -2675,54 +3419,72 @@ msgid ""
 "interface_ declaring the signature of the callback. This allows to use "
 "compile time checks for the passed callback."
 msgstr ""
+"Preferowanym sposobem tworzenia wywołań zwrotnych jest zapewnienie "
+"_abstrakcyjnego interfejsu_ deklarującego sygnaturę wywołania zwrotnego. "
+"Pozwala to na użycie kontroli czasu kompilacji dla przekazanego wywołania "
+"zwrotnego."
 
 #: ../../source/learn/best_practices/callbacks.md:37
 msgid ""
 "The function can then be used with a callback by importing the module as "
 "shown in the following example"
 msgstr ""
+"Funkcja może być następnie użyta z wywołaniem zwrotnym przez zaimportowanie "
+"modułu, tak jak pokazano w następującym przykładzie"
 
 #: ../../source/learn/best_practices/callbacks.md:66
 msgid ""
 "Exporting the abstract interface allows you to create procedure pointers with"
 " the correct signature and also to extend the callback further as shown here"
 msgstr ""
+"Eksportowanie abstrakcyjnego interfejsu pozwala na tworzenie wskaźników "
+"procedur z poprawną sygnaturą oraz na dalsze wydłużenie wywołania zwrotnego, "
+"tak jak pokazano poniżej"
 
 #: ../../source/learn/best_practices/element_operations.md:1
 msgid "Element-wise Operations on Arrays"
-msgstr ""
+msgstr "Operacje na tablicach z uwzględnieniem elementów"
 
 #: ../../source/learn/best_practices/element_operations.md:3
 msgid ""
 "There are three approaches to perform element-wise operations on arrays when "
 "using subroutines and functions:"
 msgstr ""
+"Istnieją trzy sposoby przeprowadzenia operacji na tablicach z uwzględnieniem "
+"elementów przy użyciu podprogramów i funkcji:"
 
 #: ../../source/learn/best_practices/element_operations.md:5
 msgid "`elemental` procedures"
-msgstr ""
+msgstr "procedury `elementalne`"
 
 #: ../../source/learn/best_practices/element_operations.md:7
 msgid ""
 "implementing the operation for vectors and write simple wrapper subroutines "
 "(that use `reshape` internally) for each array shape"
 msgstr ""
+"implementacja operacji dla wektorów oraz pisanie prostych podprogramów "
+"opakowujących (które używają `reshape` wewnętrznie) dla każdego kształtu "
+"tablic"
 
 #: ../../source/learn/best_practices/element_operations.md:10
 msgid ""
 "In the first approach, one uses the `elemental` keyword to create a function "
 "like this:"
 msgstr ""
+"W pierwszym sposobie, używane jest słowo kluczowe `elemental`, aby stworzyć "
+"poniższą funkcję:"
 
 #: ../../source/learn/best_practices/element_operations.md:21
 msgid ""
 "All arguments (in and out) must be scalars. You can then use this function "
 "with arrays of any (compatible) shape, for example:"
 msgstr ""
+"Wszystkie argumenty (w środku i na zewnątrz) muszą być skalarne. Funkcja ta "
+"może być użyta z tablicami każdego (kompatybilnego) kształtu, na przykład:"
 
 #: ../../source/learn/best_practices/element_operations.md:32
 msgid "The output will be:"
-msgstr ""
+msgstr "Rezultat będzie następujący:"
 
 #: ../../source/learn/best_practices/element_operations.md:42
 msgid ""
@@ -2732,6 +3494,12 @@ msgid ""
 "arguments must be either arrays of the same shape or scalars). If it does "
 "not, you will get a compiler error."
 msgstr ""
+"Zazwyczaj `n` jest parametrem, a `x` tablicą dowolnego kształtu, jednak jak "
+"można zobaczyć w powyższym przykładzie, Fortran nie zwraca na to uwagi "
+"dopóki ostateczna operacja ma sens (jeśli jeden argument jest tablicą to "
+"pozostałe argumenty też muszą być tablicami o tym samym kształcie lub "
+"wartościami skalarnymi). Jeśli warunek ten nie jest spełniony, wyświetli się "
+"błąd kompilatora."
 
 #: ../../source/learn/best_practices/element_operations.md:48
 msgid ""
@@ -2739,6 +3507,10 @@ msgid ""
 "pure. It results that `elemental procedures` can only use `pure` procedures "
 "and have no side effects."
 msgstr ""
+"Słowo kluczowe `elemental` implikuje słowo kluczowe `pure`, tak więc "
+"procedura musi być procedurą czystą. Skutkuje to tym, że procedury "
+"elementarne mogą używać tylko procedur czystych i nie mają żadnych efektów "
+"ubocznych."
 
 #: ../../source/learn/best_practices/element_operations.md:51
 msgid ""
@@ -2748,31 +3520,37 @@ msgid ""
 "make `nroot` operate on a vector and write a simple wrapper for other array "
 "shapes, e.g.:"
 msgstr ""
+"Jeśli algorytm procedury elementarnej może zostać przyspieszony używając "
+"wewnątrz niej operacji tablicowych lub jeśli z jakichś powodów argumenty są "
+"tablicami niekompatybilnych kształtów, należy użyć dwóch pozostałych "
+"sposobów. Można sprawić, aby `nroot` działał na wektorze i napisać prostą "
+"funkcję opakowującą dla innych kształtów tablic, np.:"
 
 #: ../../source/learn/best_practices/element_operations.md:82
 msgid "And use as follows:"
-msgstr ""
+msgstr "I użyć w następujący sposób:"
 
 #: ../../source/learn/best_practices/element_operations.md:90
 msgid "This will print:"
-msgstr ""
+msgstr "Rezultat będzie następujący:"
 
 #: ../../source/learn/best_practices/element_operations.md:98
 msgid "Or one can use _explicit-shape_ arrays as follows:"
 msgstr ""
+"Można również użyć tablic _explicit-shape_, jak w poniższym przykładzie:"
 
 #: ../../source/learn/best_practices/element_operations.md:110
 msgid "Use as follows:"
-msgstr ""
+msgstr "Użyj jak poniżej:"
 
 #: ../../source/learn/best_practices/element_operations.md:118
 msgid "The output is the same as before:"
-msgstr ""
+msgstr "Rezultat jest taki sam jak wcześniej:"
 
 #: ../../source/learn/best_practices/file_io.md:1
 #: ../../source/learn/best_practices/index.md:12
 msgid "File Input/Output"
-msgstr ""
+msgstr "Informacje wejściowe/wyjściowe pliku"
 
 #: ../../source/learn/best_practices/file_io.md:3
 msgid ""
@@ -2781,6 +3559,11 @@ msgid ""
 "procedures. Generally, the workflow is to open a file to a unit identifier, "
 "read and/or write to it and close it again."
 msgstr ""
+"W Fortranie plikami można zarządzać przed identyfikatory jednostek. "
+"Interakcje z systemem plików wykonywane są głównie przez wbudowane procedury "
+"`open` oraz `inquire`. Zazwyczaj przepływ pracy polega na otwarciu pliku "
+"dzięki identyfikatorowi jednostki, odczytaniu lub/i zapisaniu go, a "
+"następnie jego ponownym zamknięciu."
 
 #: ../../source/learn/best_practices/file_io.md:15
 msgid ""
@@ -2788,36 +3571,50 @@ msgid ""
 "for both reading and writing. Writing to an existing file will start in the "
 "first record (line) and therefore overwrite the file by default."
 msgstr ""
+"Domyślnie, plik zostanie utworzony jeśli jeszcze nie istnieje, a następnie "
+"otworzony do odczytu oraz zmodyfikowania. Pisanie w istniejącym pliku "
+"rozpocznie się w pierwszym rejestrze (wersie), a więc plik domyślnie "
+"zostanie nadpisany."
 
 #: ../../source/learn/best_practices/file_io.md:19
 msgid ""
 "To create a read-only access to a file the `status` and `action` have to be "
 "specified with"
 msgstr ""
+"Aby plik mógł zostać otwarty tylko do odczytu pola `status` oraz `action` "
+"muszą zostać określone"
 
 #: ../../source/learn/best_practices/file_io.md:29
 msgid ""
 "In case the file is not present a runtime error will occur. To check for the "
 "existence of a file prior to opening it the `inquire` function can be used"
 msgstr ""
+"W przypadku kiedy plik nie istnieje pojawi się błąd czasu wykonania. Aby "
+"sprawdzić czy dany plik istnieje przed otwarciem go funkcja `inquire` może "
+"zostać użyta"
 
 #: ../../source/learn/best_practices/file_io.md:40
 msgid ""
 "Alternatively, the `open` procedure can return an optional _iostat_ and "
 "_iomsg_:"
 msgstr ""
+"Ewentualnie, procedura `open` może opcjonalnie zwrócić _iostat_ i _iomsg_:"
 
 #: ../../source/learn/best_practices/file_io.md:52
 msgid ""
 "Note that _iomsg_ requires a fixed-length character variable with sufficient "
 "storage size to hold the error message."
 msgstr ""
+"Należy pamiętać, że _iomsg_ wymaga zmiennej o stałej długości i "
+"wystarczającej pojemności do przechowywaniu komunikatu błędu."
 
 #: ../../source/learn/best_practices/file_io.md:55
 msgid ""
 "Similarly, writing to a file happens by using the _status_ and _action_ "
 "keyword. To create a new file use"
 msgstr ""
+"Podobnie, pisanie w pliku dzieje się poprzez użycie słów kluczowych _status_ "
+"oraz _action_. Aby stworzyć nowy plik użyj"
 
 #: ../../source/learn/best_practices/file_io.md:65
 msgid ""
@@ -2826,6 +3623,10 @@ msgid ""
 "before deciding on the _status_ to use. To append to an output file the "
 "_position_ keyword can be specified explicitly with"
 msgstr ""
+"Ewentualnie, `status=\"replace\"` może zostać użyty do nadpisania "
+"istniejącego pliku. Zaleca się jednak najpierw sprawdzić czy dany plik "
+"istnieje przed zdecydowaniem się na użycie _status_. Aby dołączyć do pliku "
+"wyjściowego, słowo kluczowe _position_ może zostać określone jawnie za pomocą"
 
 #: ../../source/learn/best_practices/file_io.md:79
 msgid ""
@@ -2833,12 +3634,17 @@ msgid ""
 "`backspace` can be used. `rewind` will reset to the first record (line), "
 "while `backspace` will return to the previous record (line)."
 msgstr ""
+"Do zresetowania pozycji w pliku mogą zostać użyte wbudowane procedury "
+"`rewind` oraz `backspace`. `rewind` zresetuje pierwszy rejestr (wers), "
+"natomiast `backspace` powróci do poprzedniego rejestru (wersu)."
 
 #: ../../source/learn/best_practices/file_io.md:83
 msgid ""
 "Finally, to delete a file the file has to be opened and can be deleted after "
 "closing with"
 msgstr ""
+"Na koniec, aby usunąć plik najpierw musi zostać otwarty i może zostać "
+"usunięty po jego zamknięciu przy pomocy"
 
 #: ../../source/learn/best_practices/file_io.md:96
 msgid ""
@@ -2846,11 +3652,14 @@ msgid ""
 "`status=\"scratch\"`. They are automatically deleted after closing the unit "
 "identifier."
 msgstr ""
+"Przydatną funkcji IO są pliki robocze, które mogą być otwarte dzięki `status="
+"\"scratch\"`. Są one automatycznie usuwane po zamknięciu identyfikatora "
+"jednostki."
 
 #: ../../source/learn/best_practices/floating_point.md:1
 #: ../../source/learn/best_practices/index.md:12
 msgid "Floating Point Numbers"
-msgstr ""
+msgstr "Liczby zmiennoprzecinkowe"
 
 #: ../../source/learn/best_practices/floating_point.md:3
 msgid ""
@@ -2859,16 +3668,24 @@ msgid ""
 "precision is required. For this purpose a custom kind parameter can be "
 "defined. The recommended way of defining kind parameters is to use"
 msgstr ""
+"Domyślnie liczby zmiennoprzecinkowe są reprezentowane poprzez użycie "
+"pojedynczej precyzji (zwykle 32 bity / 4 bajty). Dla większości aplikacji "
+"wymagana jest większa precyzja. W tym celu można zdefiniować niestandardowy "
+"parametr rodzaju. Zalecanym sposobem zdefiniowania takiego parametru jest "
+"użycie"
 
 #: ../../source/learn/best_practices/floating_point.md:12
 msgid ""
 "For many purposes it also suffices to directly infer the kind parameter from "
 "a literal like here"
 msgstr ""
+"W wielu przypadkach wystarcza również bezpośrednie wywnioskowanie parametru "
+"rodzaju z literału, tak jak tutaj"
 
 #: ../../source/learn/best_practices/floating_point.md:19
 msgid "or to rename the imported kind parameter from the `iso_fortran_env` module"
 msgstr ""
+"lub zmienić nazwę importowanego parametru rodzaju z modułu `iso_fortran_env`"
 
 #: ../../source/learn/best_practices/floating_point.md:25
 msgid ""
@@ -2877,6 +3694,11 @@ msgid ""
 "/doctor-fortran-in-it-takes-all-kinds/\">Doctor Fortran in it takes all "
 "KINDs</a>."
 msgstr ""
+"Aby zapoznać się z bardziej szczegółowymi przemyśleniami na temat parametrów "
+"rodzaju zobacz <a href=\"https://web.archive.org/web/20200930090137/"
+"https://stevelionel.com/drfortran/2017/03/27/"
+"doctor-fortran-in-it-takes-all-kinds/\">Doctor Fortran in it takes all "
+"KINDs</a>."
 
 #: ../../source/learn/best_practices/floating_point.md:28
 msgid ""
@@ -2884,18 +3706,25 @@ msgid ""
 "include them with use as necessary. An example for such a module is given "
 "with"
 msgstr ""
+"Zalecane jest posiadanie centralnego modułu do definiowania parametrów "
+"rodzaju oraz używania ich tam, gdzie jest to potrzebne. Przykładem takiego "
+"modułu jest"
 
 #: ../../source/learn/best_practices/floating_point.md:56
 msgid ""
 "Floating point constants should always be declared including a kind parameter"
 " suffix:"
 msgstr ""
+"Stałe zmiennoprzecinkowe powinny zawsze być deklarowane z uwzględnieniem "
+"sufiksu parametru rodzaju:"
 
 #: ../../source/learn/best_practices/floating_point.md:65
 msgid ""
 "It is safe to assign integers to floating point numbers without losing "
 "accuracy:"
 msgstr ""
+"Można bezpiecznie przydzielać liczby całkowite do liczb zmiennoprzecinkowych "
+"bez utraty dokładności:"
 
 #: ../../source/learn/best_practices/floating_point.md:72
 msgid ""
@@ -2903,10 +3732,16 @@ msgid ""
 "`3/4` equal to `0`), one can convert the integer to a floating point number "
 "by:"
 msgstr ""
+"Aby wymusić dzielenie liczb zmiennoprzecinkowych (w przeciwieństwie do "
+"dzielenia liczb całkowitych, gdzie `3/4` jest równe `0`), liczba całkowita "
+"może zostać przekonwertowana na liczbę zmiennoprzecinkową w następujący "
+"sposób:"
 
 #: ../../source/learn/best_practices/floating_point.md:81
 msgid "or simply separate the integer division with multiplication by `1.0_dp`"
 msgstr ""
+"lub po prostu oddzieleniem dzielenia liczb całkowitych mnożeniem przez `1."
+"0_dp`"
 
 #: ../../source/learn/best_practices/floating_point.md:88
 msgid ""
@@ -2914,39 +3749,42 @@ msgid ""
 "format specifier `(g0)` or the exponential representation `(es24.16e3)`, "
 "which will give you 17 significant digits of printout."
 msgstr ""
+"Aby wydrukować liczbę zmiennoprzecinkową bez utraty precyzji użyj "
+"nieograniczonego specyfikatora formatu `(g0)` lub reprezentacji wykładniczej "
+"`(es24.16e3)`, dzięki której wydrukowane zostanie 17 najważniejszych cyfr."
 
 #: ../../source/learn/best_practices/index.md:12
 #: ../../source/learn/best_practices/style_guide.md:1
 msgid "Fortran Style Guide"
-msgstr ""
+msgstr "Przewodnik stylu Fortran"
 
 #: ../../source/learn/best_practices/index.md:12
 #: ../../source/learn/best_practices/integer_division.md:1
 msgid "Integer Division"
-msgstr ""
+msgstr "Dzielenie całkowite"
 
 #: ../../source/learn/best_practices/index.md:12
 #: ../../source/learn/best_practices/modules_programs.md:1
 msgid "Modules and Programs"
-msgstr ""
+msgstr "Moduły i programy"
 
 #: ../../source/learn/best_practices/index.md:12
 #: ../../source/learn/best_practices/multidim_arrays.md:1
 msgid "Multidimensional Arrays"
-msgstr ""
+msgstr "Tablice wielowymiarowe"
 
 #: ../../source/learn/best_practices/index.md:12
 msgid "Element-wise Operations on Array"
-msgstr ""
+msgstr "Operacje na tablicach z uwzględnieniem elementów"
 
 #: ../../source/learn/best_practices/index.md:12
 #: ../../source/learn/best_practices/type_casting.md:1
 msgid "Type Casting in Callbacks"
-msgstr ""
+msgstr "Rzutowanie typów w wywołaniach zwrotnych"
 
 #: ../../source/learn/best_practices/index.md:4
 msgid "Fortran Best Practices"
-msgstr ""
+msgstr "Najlepsze praktyki Fortran"
 
 #: ../../source/learn/best_practices/index.md:6
 msgid ""
@@ -2956,6 +3794,12 @@ msgid ""
 " discussed. It is meant for programmers with basic familiarity of the Fortran"
 " syntax and programming in general."
 msgstr ""
+"Ten mini-poradnik zawiera nowoczesny kanoniczny sposób robienia rzeczy w "
+"języku Fortran. Służy on jako przewodnik stylu i opisuje najlepsze praktyki "
+"dla popularnych tematów i zadań. Kanoniczne rozwiązania lub wzorce są tutaj "
+"przedstawiane i wyjaśniane. Jest on przeznaczony dla programistów "
+"posiadających ogólną wiedzę na temat programowania oraz znających podstawy "
+"składni Fortran."
 
 #: ../../source/learn/best_practices/integer_division.md:3
 msgid ""
@@ -2967,6 +3811,13 @@ msgid ""
 " left to right. Consider the following example for integer division of an odd"
 " number:"
 msgstr ""
+"Fortran rozróżnia arytmetykę zmiennoprzecinkową oraz całkowitą. Ważne jest, "
+"aby zauważyć, że dzielenie liczb całkowitych zawsze odbywa się za pomocą "
+"arytmetyki całkowitej. Co więcej, Fortran używa standardowej kolejności "
+"wykonywania działań (np. mnożenie i dzielenie przed dodawaniem i "
+"odejmowaniem w przypadku braku nawiasów), działania tego samego priorytetu "
+"wykonywane są od lewej do prawej. Rozważ poniższy przykład przedstawiający "
+"dzielenie liczby nieparzystej przez liczbę całkowitą:"
 
 #: ../../source/learn/best_practices/integer_division.md:21
 msgid ""
@@ -2975,6 +3826,11 @@ msgid ""
 "cast to reals before using the division operator, or separate the integers by"
 " multiplying by `1.0_dp`:"
 msgstr ""
+"Zwróć uwagę czy na pewno chcesz użyć arytmetyki całkowitej w poniższym "
+"przykładzie. Jeśli zamiast tego chcesz użyć arytmetyki zmiennoprzecinkowej "
+"upewnij się, że przed użyciem operatora dzielenia dokonałeś rzutowania liczb "
+"rzeczywistych lub oddzielileś liczby całkowite poprzez pomnożenie ich przez "
+"`1.0_dp`:"
 
 #: ../../source/learn/best_practices/modules_programs.md:3
 msgid ""
@@ -2985,10 +3841,16 @@ msgid ""
 "with the library name to avoid name clashes when used as dependency in other "
 "projects."
 msgstr ""
+"Moduły są preferowanym sposobem tworzenia nowoczesnych bibliotek i aplikacji "
+"Fortran. Dobrą praktyką jest, aby jeden plik źródłowy zawierał tylko jeden "
+"moduł, a nazwa modułu powinna odpowiadać ścieżce pliku, aby ułatwić "
+"nawigację w większych projektach. Zaleca się również, aby do nazw modułów "
+"dodać prefiks z nazwą biblioteki, aby uniknąć kolizji nazw, gdy są używane "
+"jako zależności w innych projektach."
 
 #: ../../source/learn/best_practices/modules_programs.md:9
 msgid "An example for such a module file is given here"
-msgstr ""
+msgstr "Oto przykładowa nazwa takiego modułu"
 
 #: ../../source/learn/best_practices/modules_programs.md:45
 msgid ""
@@ -2999,6 +3861,12 @@ msgid ""
 "the most important parts of creating long-living software, regardless of "
 "language."
 msgstr ""
+"Jest kilka rzeczy, które powinny zostać podkreślone w powyższym przykładzie. "
+"Po pierwsze, każdy moduł zaczyna się komentarzem, który określa cel i "
+"zawartość modułu. Każda procedura również zaczyna się komentarzem, który "
+"zwięźle opisuje jej cel oraz intencję fikcyjnych argumentów. Dokumentacja "
+"jest jednym z najważniejszych części tworzenia długotrwałego oprogramowania "
+"niezależnie od języka."
 
 #: ../../source/learn/best_practices/modules_programs.md:51
 msgid ""
@@ -3010,12 +3878,21 @@ msgid ""
 " on a single line and explicitly listing all exported symbols in _public_ "
 "statements."
 msgstr ""
+"Po drugie, importy (_use_) oraz eksporty (_public_) są wyraźnie podane, co "
+"pozwala na szybkie sprawdzenie dostępnych procedur, stałych i typów "
+"pochodnych. Importy są zazwyczaj ograniczone do zakresu modułu, a nie "
+"ponownie importowanie w każdym zakresie procedury lub interfejsu. Podobnie, "
+"eksporty są wykonywanie jawne poprzez dodanie instrukcji _private_ w "
+"pojedynczym wersie i wymieniają wszystkie eksportowane symbole w "
+"instrukcjach _public_."
 
 #: ../../source/learn/best_practices/modules_programs.md:59
 msgid ""
 "Finally, the `implicit none` statement works for the whole module and there "
 "is no need to repeat it within each procedure."
 msgstr ""
+"Na koniec, instrukcja `implicit none` działa w zakresie całego modułu i nie "
+"ma potrzeby powtarzania jej w każdej procedurze."
 
 #: ../../source/learn/best_practices/modules_programs.md:62
 msgid ""
@@ -3024,6 +3901,10 @@ msgid ""
 "like parameters or enumerators only or export them as _protected_ rather than"
 " _public_."
 msgstr ""
+"Zmienne wewnątrz modułu są statyczne (_niejawnie zapisane_). Zdecydowanie "
+"poleca się ograniczenie stosowania w module zmiennych na rzecz wyrażeń "
+"stałych, takich jak parametry lub enumeratory oraz eksportowanie ich jako "
+"_protected_, a nie _public_."
 
 #: ../../source/learn/best_practices/modules_programs.md:67
 msgid ""
@@ -3032,18 +3913,26 @@ msgid ""
 "to provide specialized and optimized implementations without requiring the "
 "use of preprocessor."
 msgstr ""
+"Podmoduły mogą być używane do łamania długich łańcuchów zależności oraz "
+"skracania kaskad rekompilacji w programach Fortran. Oferują również "
+"możliwość dostarczania specjalistycznych i zoptymalizowanych implementacji "
+"bez konieczności używania preprocesora."
 
 #: ../../source/learn/best_practices/modules_programs.md:71
 msgid ""
 "An example from the Fortran standard library is the quadrature module, which "
 "only defines interfaces to module procedures, but no implementations"
 msgstr ""
+"Przykładem ze standardowej biblioteki Fortran jest moduł kwadraturowy, który "
+"definiuje tylko interfejsy procedur modułu, a nie implementacje"
 
 #: ../../source/learn/best_practices/modules_programs.md:104
 msgid ""
 "While the implementation is provided in separate submodules like the one for "
 "the trapezoidal integration rule given here."
 msgstr ""
+"Implementacja jest zapewniona w osobnym podmodule, takim jak przedstawiona "
+"poniżej reguła całkowania trapezowego."
 
 #: ../../source/learn/best_practices/modules_programs.md:138
 msgid ""
@@ -3051,6 +3940,9 @@ msgid ""
 "submodule. Several submodules can be used to reduce the compilation load for "
 "huge modules."
 msgstr ""
+"Zauważ, że procedury modułu nie muszą być zaimplementowane w tym samym "
+"podmodule. Wiele podmodułów może zostać użytych, aby zmniejszyć obciążenie "
+"kompilacji dla ogromnych modułów."
 
 #: ../../source/learn/best_practices/modules_programs.md:141
 msgid ""
@@ -3059,6 +3951,11 @@ msgid ""
 "modules allows you to write reusable code and focus the program unit on "
 "conveying user input to the respective library functions and objects."
 msgstr ""
+"Na koniec, podczas konfigurowania programu zaleca się zachowanie jak "
+"najmniejszej liczby implementacji w programie. Ponowne używanie "
+"implementacji z modułów pozwala na pisanie kodu wielokrotnego użytku oraz "
+"skupieniu jednostki programu na przekazywaniu danych wejściowych użytkownika "
+"do odpowiednich funkcji biblioteki i obiektów."
 
 #: ../../source/learn/best_practices/multidim_arrays.md:3
 msgid ""
@@ -3069,6 +3966,12 @@ msgid ""
 "the columns. This is important when passing array slices to procedures which "
 "expect to work on contiguous data."
 msgstr ""
+"Tablice wielowymiarowe są przechowywane w kolejności kolumnowej. Oznacza to, "
+"że najbardziej lewy (najbardziej wewnętrzny) indeks adresuje elementy w "
+"sposób ciągły. Z praktycznego punktu widzenia oznacza to, że wycinek tablicy "
+"`V(:, 1)` jest ciągły, podczas gdy odstęp między elementami w wycinku `V(1, "
+":)` jest wymiarem kolumn. Jest to ważne podczas przekazywania wycinków "
+"tablicy do procedur, które mają działać na danych ciągłych."
 
 #: ../../source/learn/best_practices/multidim_arrays.md:10
 msgid ""
@@ -3076,6 +3979,9 @@ msgid ""
 "application, usually when performing operations on a multidimensional the "
 "sequential access should always advance in unity strides."
 msgstr ""
+"Lokalność pamięci jest ważnym czynnikiem, który należy wziąć pod uwagę w "
+"zależności od aplikacji. Zazwyczaj podczas wykonywania operacji na pamięci "
+"wielowymiarowej dostęp sekwencyjny powinien zawsze następować jednostajnie."
 
 #: ../../source/learn/best_practices/multidim_arrays.md:14
 msgid ""
@@ -3084,12 +3990,17 @@ msgid ""
 "`xyz1`/`xyz2`, while the inner-most loop is advancing the left-most index of "
 "the matrix `a`."
 msgstr ""
+"W poniższym przykładzie oceniana jest odwrotna odległość między dwoma "
+"zbiorami punktów. Zauważ, że punkty są przechowywane w sposób ciągły w "
+"tablicach `xyz1`/`xyz2`, podczas gdy najbardziej wewnętrzna pętla przesuwa "
+"najbardziej lewy indeks macierzy `a`."
 
 #: ../../source/learn/best_practices/multidim_arrays.md:33
 msgid ""
 "Another example would be the contraction of the third dimension of a rank "
 "three array:"
 msgstr ""
+"Innym przykładem może być redukcja trzeciego wymiaru tablicy rzędu trzeciego:"
 
 #: ../../source/learn/best_practices/multidim_arrays.md:46
 msgid ""
@@ -3097,16 +4008,22 @@ msgid ""
 "of higher rank arrays as lower rank arrays without requiring to reshape and "
 "potentially create a temporary copy of the array."
 msgstr ""
+"Ciągłe wycinki tablic mogą być użyte do ponownego mapowania tablicy, co "
+"pozwala na używanie tablic o wyższej randze jako tablic o niższej randze, "
+"bez konieczności przekształcania i potencjalnego tworzenia tymczasowej kopii "
+"tablicy."
 
 #: ../../source/learn/best_practices/multidim_arrays.md:50
 msgid ""
 "For example this can be used to contract the third dimension of a rank three "
 "array using a matrix-vector operation:"
 msgstr ""
+"Na przykład można użyć tej funkcji do zmniejszenia trzeciego wymiaru tablicy "
+"rzędu trzeciego za pomocą operacji macierzowo-wektorowej:"
 
 #: ../../source/learn/best_practices/style_guide.md:3
 msgid "Naming Convention"
-msgstr ""
+msgstr "Nazewnictwo"
 
 #: ../../source/learn/best_practices/style_guide.md:5
 msgid ""
@@ -3114,16 +4031,24 @@ msgid ""
 " and that seems to be prevalent in most scientific codes (as well as the "
 "Fortran standard library), and you are welcome to follow it."
 msgstr ""
+"Koniec końców, jest to kwestia preferencji. Oto poradnik stylu, który nam "
+"się podoba i wydaje się być powszechny w większości kodów naukowych (jak "
+"również standardowej bibliotece Fortran), dlatego ty również możesz go "
+"stosować."
 
 #: ../../source/learn/best_practices/style_guide.md:9
 msgid "Use lowercase for all Fortran constructs (`do`, `subroutine`, `module`, ...)."
 msgstr ""
+"Używaj małych liter do wszystkich konstruktów Fortran (`do`, `subroutine`, "
+"`module`, ...)."
 
 #: ../../source/learn/best_practices/style_guide.md:11
 msgid ""
 "Follow short mathematical notation for mathematical variables/functions "
 "(`Ylm`, `Gamma`, `gamma`, `Enl`, `Rnl`, ...)."
 msgstr ""
+"Stosuj krótką notację matematyczną dla zmiennych/funkcji matematycznych "
+"(`Ylm`, `Gamma`, `gamma`, `Enl`, `Rnl`, ...)."
 
 #: ../../source/learn/best_practices/style_guide.md:13
 msgid ""
@@ -3133,6 +4058,11 @@ msgid ""
 "`spline_interp`, `spline_interpolate`, `stoperr`, `stop_error`, "
 "`meshexp_der`)."
 msgstr ""
+"Dla innych nazw używaj wyłącznie małych liter: postaraj się ograniczać do "
+"jednej lub dwóch sylab; jeśli wymagana jest dłuższa nazwa używaj "
+"podkreślników dla lepszego wyjaśnienia (`sortpair`, `whitechar`, `meshexp`, "
+"`numstrings`, `linspace`, `meshgrid`, `argsort`, `spline`, `spline_interp`, "
+"`spline_interpolate`, `stoperr`, `stop_error`, `meshexp_der`)."
 
 #: ../../source/learn/best_practices/style_guide.md:19
 msgid ""
@@ -3143,6 +4073,12 @@ msgid ""
 "in contrast to `get_argument()` where `getarg()` is perfectly clean and "
 "clear."
 msgstr ""
+"Na przykład fraza \"spline inerpolation\" może być skrócona do "
+"`spline_interpolation`, `spline_interpolate`, `spline_interp`, `spline`, ale "
+"nie do `splineint` (\"int\" może oznaczać integration (integrację), integer ("
+"liczbę całkowitą) itd. --- zbyt duża niejednoznaczność nawet w zrozumiałym "
+"kontekście kodu obliczeniowego). Dla porówniania `getarg()` jest prostym i "
+"zrozumiałym skrótem frazy `get_argument()`."
 
 #: ../../source/learn/best_practices/style_guide.md:26
 msgid ""
@@ -3155,10 +4091,18 @@ msgid ""
 "collaboration and for one's own sanity when going back to some old code you "
 "haven't seen in while."
 msgstr ""
+"Powyższe zasady są generalnymi wytycznymi. Wybór odpowiedniej nazwy zależy "
+"od słów, które mają być skrócone i tego czy pierwsza sylaba będzie "
+"wystarczająca. Zazwyczaj jest, jednak nie zawsze. Powinniśmy się również "
+"zastanowić nad krokiem \"postaraj się ograniczać do jednej lub dwóch sylab\""
+", ponieważ może to mieć wpływ na zrozumiałość i prostotę kodu. Jasny i "
+"jednolity system nazewnictwa jest w tym przypadku pomocny -- zarówno dla "
+"współpracy oraz własnego zdrowia psychicznego podczas wracania do starego "
+"kodu, którego nie widziało się przez jakiś czas."
 
 #: ../../source/learn/best_practices/style_guide.md:35
 msgid "Indentation"
-msgstr ""
+msgstr "Wcięcia"
 
 #: ../../source/learn/best_practices/style_guide.md:37
 msgid ""
@@ -3166,10 +4110,13 @@ msgid ""
 "indentation is a matter of preference, the most common choices are two, three"
 " or four spaces."
 msgstr ""
+"Używaj stałych wcięć, aby twój kod był bardziej czytelny. Ilość wcięć jest "
+"kwestią preferencji, najbardziej powszechnym wyborem są dwie, trzy lub "
+"cztery odstępy."
 
 #: ../../source/learn/best_practices/style_guide.md:41
 msgid "Comparison to Other Languages"
-msgstr ""
+msgstr "Porównanie z innymi językami"
 
 #: ../../source/learn/best_practices/style_guide.md:43
 msgid ""
@@ -3183,12 +4130,23 @@ msgid ""
 " with their more general-purpose missions. But Fortran has a different "
 "mission (numerical scientific computing)."
 msgstr ""
+"Z drugiej strony, w większości innych środowisk programistycznych, gdzie "
+"głównym celem jest (w takiej lub innej formie) definiowanie i używanie "
+"dużych zestawów złożonych obiektów z mnóstwem właściwości i zachowań znanych "
+"tylko w kodzie, w którym są zdefiniowane (w przeciwieństwie do "
+"zdefiniowanych tą samą notacją w całej literaturze), większy sens ma "
+"używanie dłuższych, bardziej opisowych nazw. Konwencje nazewnictwa, które "
+"można zauważyć w bardziej ogólnych językach takich jak C++ oraz Python są "
+"zatem całkowicie spójne z ich celem. Fortran jednak stworzony został w innym "
+"celu (numeryczne obliczenia naukowe)."
 
 #: ../../source/learn/best_practices/type_casting.md:3
 msgid ""
 "There are essentially five different ways to do type casting, each with its "
 "own advantages and disadvantages."
 msgstr ""
+"Istnieje zasadniczo pięć różnych sposobów na przeprowadzenie rzutowania "
+"typów, z których każdy ma swoje plusy i minusy."
 
 #: ../../source/learn/best_practices/type_casting.md:6
 msgid ""
@@ -3196,10 +4154,13 @@ msgid ""
 "and IV are only available in Fortran. The method VI is obsolete and should "
 "not be used."
 msgstr ""
+"Metody I, II i V mogą być używane zarówno w języku C, jak i Fortranie. "
+"Metody III i IV dostępne są tylko w Fortranie. Metoda VI przestarzała i nie "
+"powinna być używana."
 
 #: ../../source/learn/best_practices/type_casting.md:10
 msgid "Work Arrays"
-msgstr ""
+msgstr "Tablice robocze"
 
 #: ../../source/learn/best_practices/type_casting.md:12
 msgid ""
@@ -3207,6 +4168,9 @@ msgid ""
 "and unpacked by the called routine. This is the old way -- e.g., how LAPACK "
 "does it."
 msgstr ""
+"Podaj \"tablicę roboczą\", która jest spakowana ze wszystkim, czego "
+"potrzebuje funkcja wywołująca i rozpakowana przez wywołaną procedurę. Jest "
+"to stary sposób - np. tak jak robi to LAPACK."
 
 #: ../../source/learn/best_practices/type_casting.md:16
 #: ../../source/learn/best_practices/type_casting.md:86
@@ -3214,7 +4178,7 @@ msgstr ""
 #: ../../source/learn/best_practices/type_casting.md:233
 #: ../../source/learn/best_practices/type_casting.md:284
 msgid "Integrator:"
-msgstr ""
+msgstr "Integrator:"
 
 #: ../../source/learn/best_practices/type_casting.md:45
 #: ../../source/learn/best_practices/type_casting.md:124
@@ -3223,11 +4187,11 @@ msgstr ""
 #: ../../source/learn/best_practices/type_casting.md:314
 #: ../../source/learn/best_practices/type_casting.md:424
 msgid "Usage:"
-msgstr ""
+msgstr "Użycie:"
 
 #: ../../source/learn/best_practices/type_casting.md:78
 msgid "General Structure"
-msgstr ""
+msgstr "Ogólna struktura"
 
 #: ../../source/learn/best_practices/type_casting.md:80
 msgid ""
@@ -3237,6 +4201,12 @@ msgid ""
 "need to change from passing, say, real numbers to, say, and instantiation of "
 "a text editor."
 msgstr ""
+"Zdefiniuj strukturę generalną, która zawiera wariację, których faktycznie "
+"potrzebujesz (lub, których będziesz potrzebował w przyszłości). Ten "
+"pojedynczy typ struktury może się później zmienić jeśli będzie to koniecznie "
+"i gdy pozwolą na to przyszłe potrzeby/pomysły, jednak prawdopodobnie nie "
+"trzeba będzie zmieniać np. przekazywania liczb rzeczywistych i instancji "
+"edytora tekstu."
 
 #: ../../source/learn/best_practices/type_casting.md:157
 msgid ""
@@ -3245,20 +4215,28 @@ msgid ""
 " Dirac. Each would then be sufficiently general and contain all the needed "
 "pieces with all the right labels."
 msgstr ""
+"Potrzebna jest tylko elastyczność. Na przykład, możesz zdefiniować w tym "
+"celu dwa typy struktur, jeden dla Schroedingera i jeden dla Diraca. Każdy z "
+"nich byłby wtedy wystarczająco ogólny i zawierałby wszystkie potrzebne "
+"elementy ze właściwymi etykietami."
 
 #: ../../source/learn/best_practices/type_casting.md:162
 msgid ""
 "Point is: it needn't be \"one abstract type to encompass all\" or bust. There"
 " are natural and viable options between \"all\" and \"none\"."
 msgstr ""
+"Chodzi o to, że nie musi to być „jeden abstrakcyjny typ obejmujący wszystko” "
+"lub totalna porażka. Istnieją naturalne i wykonalne opcje między „wszystkim” "
+"a „niczym”."
 
 #: ../../source/learn/best_practices/type_casting.md:165
 msgid "Private Module Variables"
-msgstr ""
+msgstr "Prywatne zmienne modułu"
 
 #: ../../source/learn/best_practices/type_casting.md:167
 msgid "Hide the variable arguments completely by passing in module variables."
 msgstr ""
+"Ukryj całkowicie zmienne argumenty poprzez przekazanie zmiennych modułu."
 
 #: ../../source/learn/best_practices/type_casting.md:226
 msgid ""
@@ -3267,21 +4245,27 @@ msgid ""
 "way. However, with a bit of thought, usually there is a better, safer, more "
 "explicit way along the lines of II or IV."
 msgstr ""
+"Najlepiej jest jednak unikać takich zmiennych globalnych (nawet jeśli są "
+"tylko pół-globalne) jeśli to możliwe. Czasami jednak może to być najbardziej "
+"przejrzysty i najprostszy sposób. Często z odrobiną namysłu istnieje lepsza, "
+"bezpieczniejsza i bardziej bezpośrednia droga dzięki sposobom II lub IV."
 
 #: ../../source/learn/best_practices/type_casting.md:231
 #: ../../source/news/2021/05-01-Fortran-Newsletter-May-2021.md:208
 msgid "Nested functions"
-msgstr ""
+msgstr "Funkcje zagnieżdżone"
 
 #: ../../source/learn/best_practices/type_casting.md:279
 msgid "Using type(c_ptr) Pointer"
-msgstr ""
+msgstr "Używanie wskaźnika typu (c_ptr)"
 
 #: ../../source/learn/best_practices/type_casting.md:281
 msgid ""
 "In C, one would use the `void *` pointer. In Fortran, one can use "
 "`type(c_ptr)` for exactly the same purpose."
 msgstr ""
+"W języku C można użyć wskaźnika typu `void*`. W Fortranie `type(c_ptr)`"
+"spełnia taką samą funkcję."
 
 #: ../../source/learn/best_practices/type_casting.md:352
 msgid ""
@@ -3290,6 +4274,11 @@ msgid ""
 "time checks are possible to catch errors; and with that, inevitably more "
 "leaky, bug-prone code. So one always has to balance the costs and benefits."
 msgstr ""
+"Jak zawsze, z zaletami ponownego rzutowania na jakie pozwala Fortran "
+"pojawiają się również wady, takie jak zmniejszenie liczby sprawdzeń w czasie "
+"kompilacji i wykonania programu w celu wyłapania błędów, a wraz z tym "
+"otrzymujemy bardziej nieszczelny i skłonny do błędów kod. Tak więc zawsze "
+"trzeba zrównoważyć koszty i benefity."
 
 #: ../../source/learn/best_practices/type_casting.md:358
 msgid ""
@@ -3299,10 +4288,16 @@ msgid ""
 "interface elements), simplest, least bug-prone, and fastest is to use one of "
 "the previous approaches."
 msgstr ""
+"Zazwyczaj, w kontekście programu naukowego, gdzie główny nacisk kładzie się "
+"na przedstawienie i rozwiązanie dokładnej formuły matematycznej (w "
+"przeciwieństwie do tworzenia interfejsu graficznego z niewyobrażalną ilością "
+"przycisków, rozwijanych list i innych elementów), najprostsze, najmniej "
+"skłonne do błędów i najszybsze jest zastosowanie któregoś z poprzednio "
+"wymienionych sposobów."
 
 #: ../../source/learn/best_practices/type_casting.md:364
 msgid "transfer() Intrinsic Function"
-msgstr ""
+msgstr "transfer() Funkcja wewnętrzna"
 
 #: ../../source/learn/best_practices/type_casting.md:366
 msgid ""
@@ -3311,30 +4306,36 @@ msgid ""
 "verbose and more error prone. It is now obsolete and one should use the "
 "method V instead."
 msgstr ""
+"Przed Fortranem 2003 jedynym sposobem na rzutowanie typów było użycie "
+"funkcji wewnętrznej `transfer`. Spełnia ona taki sam cel jak metoda V, ale "
+"jest bardziej rozwlekła i skłonna do błędów. Jest już przestarzała i zamiast "
+"niej powinno się stosować metodę V."
 
 #: ../../source/learn/best_practices/type_casting.md:371
 msgid "Examples:"
-msgstr ""
+msgstr "Przykłady:"
 
 #: ../../source/learn/best_practices/type_casting.md:373
 msgid "<http://jblevins.org/log/transfer>"
-msgstr ""
+msgstr "<http://jblevins.org/log/transfer>"
 
 #: ../../source/learn/best_practices/type_casting.md:375
 msgid "<http://jblevins.org/research/generic-list.pdf>"
-msgstr ""
+msgstr "<http://jblevins.org/research/generic-list.pdf>"
 
 #: ../../source/learn/best_practices/type_casting.md:377
 msgid "<http://www.macresearch.org/advanced_fortran_90_callbacks_with_the_transfer_function>"
 msgstr ""
+"<http://www.macresearch.org/"
+"advanced_fortran_90_callbacks_with_the_transfer_function>"
 
 #: ../../source/learn/best_practices/type_casting.md:379
 msgid "Object Oriented Approach"
-msgstr ""
+msgstr "Podejście obiektowe"
 
 #: ../../source/learn/best_practices/type_casting.md:381
 msgid "The module:"
-msgstr ""
+msgstr "Moduł:"
 
 #: ../../source/learn/best_practices/type_casting.md:418
 msgid ""
@@ -3344,60 +4345,68 @@ msgid ""
 "eval type bound procedure and adding necessary context data as components of "
 "the extended type."
 msgstr ""
+"Typ abstrakcyjny określa dokładnie czego potrzebuje rutyna integracyjna, "
+"czyli metodę określenia wartości funkcji, ale nie narzuca użytkownikowi "
+"niczego więcej. Użytkownik rozszerza ten typ poprzez zapewnienie konkretnej "
+"implementacji procedur powiązanych typu eval oraz dodanie niezbędnych danych "
+"kontekstowych jako komponenty typu rozszerzonego."
 
 #: ../../source/learn/best_practices/type_casting.md:463
 msgid "Complete Example of void \\* vs type(c_ptr) and transfer()"
-msgstr ""
+msgstr "Przykład porównania void \\* vs type(c_ptr) i transfer()"
 
 #: ../../source/learn/best_practices/type_casting.md:465
 msgid ""
 "Here are three equivalent codes: one in C using `void *` and two codes in "
 "Fortran using `type(c_ptr)` and `transfer()`:"
 msgstr ""
+"Tutaj są trzy równowartościowe przykłady kodu: jeden w C przy użyciu `void*` "
+"oraz dwa przykłady w Fortranie, jeden przy użyciu `type(c_ptr)`, a drugi "
+"`transfer()`:"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "Language &nbsp;"
-msgstr ""
+msgstr "Język &nbsp;"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "Method"
-msgstr ""
+msgstr "Metoda"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "`void *`"
-msgstr ""
+msgstr "`void *`"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "<https://gist.github.com/1665641>"
-msgstr ""
+msgstr "<https://gist.github.com/1665641>"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "Fortran"
-msgstr ""
+msgstr "Fortran"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "`type(c_ptr)` &nbsp;"
-msgstr ""
+msgstr "`type(c_ptr)` &nbsp;"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "<https://gist.github.com/1665626>"
-msgstr ""
+msgstr "<https://gist.github.com/1665626>"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "`transfer()`"
-msgstr ""
+msgstr "`transfer()`"
 
 #: ../../source/learn/best_practices/type_casting.md
 msgid "<https://gist.github.com/1665630>"
-msgstr ""
+msgstr "<https://gist.github.com/1665630>"
 
 #: ../../source/learn/best_practices/type_casting.md:474
 msgid ""
@@ -3406,6 +4415,10 @@ msgid ""
 "same. The `type(c_ptr)` method is equivalent to the C version and that is the"
 " approach that should be used."
 msgstr ""
+"Kod w C używa standardowego podejścia w C dla pisania rozszerzalnych "
+"bibliotek, które akceptują wywołania zwrotne i konteksty. Dwa przykłady kodu "
+"Fortran pokazują jak zrobić to samo. Metoda `type(c_ptr)` jest równoważna "
+"wersji C i jest to podejście, które powinno być używane."
 
 #: ../../source/learn/best_practices/type_casting.md:479
 msgid ""
@@ -3414,11 +4427,15 @@ msgid ""
 " create auxiliary conversion functions for each of his types. As such, the "
 "`type(c_ptr)` method should be used instead."
 msgstr ""
+"Metoda `transfer()` jest tutaj tylko dla kompletności poradnika (przed "
+"Fortran 2003 był to jedyny sposób) i jest trochę nieporęczna, ponieważ "
+"użytkownik musi stworzyć funkcje posiłkowe dla konwersji dla każdego z jego "
+"typów. Dlatego, metoda `type(c_ptr)` powinna być używana zamiast niej."
 
 #: ../../source/learn/building_programs/build_tools.md:1
 #: ../../source/learn/building_programs/index.md:47
 msgid "Build tools"
-msgstr ""
+msgstr "Narzędzia do kompilacji"
 
 #: ../../source/learn/building_programs/build_tools.md:3
 msgid ""
@@ -3428,12 +4445,19 @@ msgid ""
 "can become increasingly complicated unless the right tools are used to "
 "automatically perform those tasks."
 msgstr ""
+"Kompilowanie twojego projektu Fortran ręcznie może być dość skomplikowane w "
+"zależności od liczby plików źródłowych i współzależności w module. Obsługa "
+"różnych kompilatorów i programów łączących lub różnych platform może stawać "
+"się coraz bardziej skomplikowana dopóki nie zostaną użyte odpowiednie "
+"narzędzia do automatycznego wykonania tych zadań."
 
 #: ../../source/learn/building_programs/build_tools.md:9
 msgid ""
 "Depending on the size of your project and the purpose of project different "
 "options for the build automation can be used."
 msgstr ""
+"W zależności od rozmiaru twojego projektu i jego celu użyte mogą być różne "
+"narzędzia do automatyzacji kompilacji."
 
 #: ../../source/learn/building_programs/build_tools.md:12
 msgid ""
@@ -3448,6 +4472,16 @@ msgid ""
 "rel=\"noopener\">Code::Blocks</a>. They offer a graphical user-interface, but"
 " are often very specific for the compiler and platform."
 msgstr ""
+"Na początek, twoje zintegrowane środowisko programistyczne prawdopodobnie "
+"zapewnia sposób na skompilowanie twojego programu. Popularnym "
+"międzyplatformowym narzędziem jest Microsoft <a href=\"https://code."
+"visualstudio.com/\" target=\"_blank\" rel=\"noopener\">Visual Studio Code</"
+"a>, ale istnieją również inne, takie jak <a href=\"https://atom.io/\" target="
+"\"_blank\" rel=\"noopener\">Atom</a>, <a href=\"https://www.eclipse.org/"
+"photran/\" target=\"_blank\" rel=\"noopener\">Eclipse Photran</a> oraz <a "
+"href=\"http://www.codeblocks.org/\" target=\"_blank\" rel=\"noopener\""
+">Code::Blocks</a>. Oferują one graficzny interfejs użytkownika, ale często "
+"są bardzo specyficzne dla kompilatora i platformy."
 
 #: ../../source/learn/building_programs/build_tools.md:22
 msgid ""
@@ -3459,6 +4493,14 @@ msgid ""
 "intermediary object files or libraries and the actual source files. For a "
 "short introduction see [the guide on `make`](#using-make-as-build-tool)."
 msgstr ""
+"Dla mniejszych projektów powszechnym wyborem kompilacji programu jest system "
+"regułowy `make`. Bazując na zdefiniowanych zasadach może wykonywać takie "
+"działania jak (re)kompilowanie plików obiektów z zaktualizowanych plików, "
+"tworzyć biblioteki oraz łączyć pliki wykonywalne. Aby użyć `make` w twoim "
+"projekcie musisz zakodować te reguły w `Makefile`, który definiuje "
+"współzależności finałowego programu, pośrednich obiektów oraz bibliotek i "
+"plików źródłowych. Krótkie wprowadzenie do tematu znajdziesz w [przewodniku "
+"po `make`](#using-make-as-build-tool)."
 
 #: ../../source/learn/building_programs/build_tools.md:31
 msgid ""
@@ -3466,6 +4508,9 @@ msgid ""
 "Studio project files via a high-level description. They abstract away from "
 "the compiler and platform specifics."
 msgstr ""
+"Narzędzia konserwacyjne takie jak autotools i CMake mogą generować Makefiles "
+"lub pliki Visual Studio za pośrednictwem opisów wysokiego poziomu. Odbiegają "
+"one od specyfiki kompilatora i platformy."
 
 #: ../../source/learn/building_programs/build_tools.md:35
 msgid ""
@@ -3475,6 +4520,11 @@ msgid ""
 "build tools than doing actual development work can quickly become "
 "frustrating."
 msgstr ""
+"To, na które z tych narzędzi będzie najlepsze dla twojego projektu zależy od "
+"wielu czynników. Wybierz narzędzie do kompilacji, z którym będzie ci się "
+"komfortowo pracować, nie powinno przeszkadzać ci podczas programowania. "
+"Poświęcanie większej ilości czasu na walkę z narzędziami do kompilacji niż "
+"na faktycznemu tworzeniu programu może szybko stać się frustrujące."
 
 #: ../../source/learn/building_programs/build_tools.md:40
 msgid ""
@@ -3488,10 +4538,21 @@ msgid ""
 " are using, those you are depending on and those that use (or will use) your "
 "project as dependency."
 msgstr ""
+"Zwróć również uwagę na dostępność twoich narzędzi do kompilacji. Jeśli są "
+"ograniczone do specyficznego zintegrowanego środowiska, czy wszyscy "
+"deweloperzy w twoim projekcie będą mieć dostęp do nich? Jeśli używasz "
+"konkretnego systemu kompilacji, czy działa on na wszystkich platformach, na "
+"które tworzysz program? Jak duża jest bariera wejścia twoich narzędzi do "
+"kompilacji? Rozważ również krzywą uczenia się dla narzędzi do kompilacji, "
+"idealne narzędzie do kompilacji będzie bezużyteczne jeśli najpierw musisz "
+"nauczyć się skomplikowanego języka programowania, aby dodać nowy plik "
+"źródłowy. Na koniec, zobacz czego używają inne projekty, takie, których "
+"używasz jako zależności i te które używają (lub będą używać) twojego "
+"projektu jako zależności."
 
 #: ../../source/learn/building_programs/build_tools.md:51
 msgid "Using make as build tool"
-msgstr ""
+msgstr "Korzystanie z make jako narzędzia do kompilacji"
 
 #: ../../source/learn/building_programs/build_tools.md:53
 msgid ""
@@ -3500,6 +4561,10 @@ msgid ""
 "`Makefile` or `makefile`, which usually leads to compiling a program from the"
 " provided source code."
 msgstr ""
+"Najbardziej znanym i powszechnie używanym systemem kompilacji jest system "
+"`make`. Wykonuje działania na podstawie zasad zdefiniowanych w pliku "
+"konfiguracyjnym nazywanym `Makefile` lub `makefile`, który zazwyczaj "
+"prowadzi do skompilowania programu z dostarczonego kodu źródłowego."
 
 #: ../../source/learn/building_programs/build_tools.md:59
 msgid ""
@@ -3508,18 +4573,26 @@ msgid ""
 "href=\"https://www.gnu.org/software/make/manual/make.html\" target=\"_blank\""
 " rel=\"noopener\">info page</a>, available."
 msgstr ""
+"Aby zobaczyć szczegółowy poradnik do `make` odwiedź jego stronę "
+"informacyjną. Wersja online jego strony informacyjnej jest dostępna <a href="
+"\"https://www.gnu.org/software/make/manual/make.html\" target=\"_blank\" rel="
+"\"noopener\">tutaj</a>."
 
 #: ../../source/learn/building_programs/build_tools.md:62
 msgid ""
 "We will start with the basics from your clean source directory. Create and "
 "open the file `Makefile`, we start with a simple rule called _all_:"
 msgstr ""
+"Zaczniemy od podstaw z początkowego folderu źródłowego. Utwórz i otwórz plik "
+"`Makefile`, zaczniemy od prostej zasady _all_:"
 
 #: ../../source/learn/building_programs/build_tools.md:70
 msgid ""
 "After saving the `Makefile` run it by executing `make` in the same directory."
 " You should see the following output:"
 msgstr ""
+"Po zapisaniu `Makefile` otwórz go poprzez wykonanie `make` w tym samym "
+"folderze. Powinieneś zobaczyć następujący wynik:"
 
 #: ../../source/learn/building_programs/build_tools.md:76
 msgid ""
@@ -3527,12 +4600,17 @@ msgid ""
 " second thing to note is that `make` is always printing the command it is "
 "running, finally, we see the result of running `echo \"all\"`."
 msgstr ""
+"Po pierwsze zauważmy, że `make` zastępuje nazwę reguły `$@`. Po drugie, "
+"zauważmy, że `make` zawsze drukuje polecenie, które wykonuje. Na koniec "
+"widzimy rezultat wykonania `echo \"all\"`."
 
 #: ../../source/learn/building_programs/build_tools.md:81
 msgid ""
 "We call the entry point of our `Makefile` always _all_ by convention, but you"
 " can choose whatever name you like."
 msgstr ""
+"Zgodnie z konwencją punkt wejścia naszego pliku `Makefile` powinien nazywać "
+"się _all_, ale możesz wybrać dowolną nazwę."
 
 #: ../../source/learn/building_programs/build_tools.md:85
 msgid ""
@@ -3540,16 +4618,23 @@ msgid ""
 "have to indent the content of a rule with a tab character. In case you have "
 "problems running the above `Makefile` and see an error like"
 msgstr ""
+"Jeśli twój edytor tekstu działa poprawnie to nie powinieneś tego zauważyć, "
+"ale musisz wciąć zawartość znaku reguły za pomocą tabulatora. W przypadku "
+"problemów z uruchomieniem pliku `Makefile` możesz zobaczyć taki błąd"
 
 #: ../../source/learn/building_programs/build_tools.md:91
 msgid ""
 "The indentation is probably not correct. In this case replace the indentation"
 " in the second line with a tab character."
 msgstr ""
+"Wcięcie jest prawdopodobnie niepoprawne. W tym przypadku zamień wcięcie w "
+"drugiej linii znakiem tabulacji."
 
 #: ../../source/learn/building_programs/build_tools.md:96
 msgid "Now we want to make our rules more complicated, therefore we add another rule:"
 msgstr ""
+"Teraz chcemy stworzyć bardziej skomplikowane zasady, więc dodajemy kolejną "
+"regułę:"
 
 #: ../../source/learn/building_programs/build_tools.md:108
 msgid ""
@@ -3557,6 +4642,9 @@ msgid ""
 " variables with `:=`. To access the content of a variable we use the "
 "`$(...)`, note that we have to enclose the variable name in parenthesis."
 msgstr ""
+"Zauważmy jak deklarujemy zmienne w `make`. Zmienne lokalne powinny być "
+"zawsze zadeklarowane poprzez `:=`. Aby zdobyć dostęp do zawartości zmiennej "
+"używamy `$(...)`, nazwa zmienniej musi być zawarta w nawiasach."
 
 #: ../../source/learn/building_programs/build_tools.md:113
 msgid ""
@@ -3565,6 +4653,11 @@ msgid ""
 "first kind of declaration is wanted, as they are more predictable and do not "
 "have a runtime overhead from the recursive expansion."
 msgstr ""
+"Deklaracja zmiennych zazwyczaj odbywa się za pomocą `:=`, jednak `make` "
+"pozwala zarówno na zmienne `=`, jak i na zmienne _rekursywnie rozbudowane_. "
+"Zwykle, pierwszy typ deklaracji jest bardziej pożądany, ponieważ jest "
+"bardziej przewidywalny i nie mają narzutu czasu wykonania wynikającego z "
+"rekurencyjnej rozbudowy."
 
 #: ../../source/learn/building_programs/build_tools.md:119
 msgid ""
@@ -3575,10 +4668,16 @@ msgid ""
 "same thing we did before for the rule _all_, note how the value of `$@` is "
 "dependent on the rule it is used in."
 msgstr ""
+"Wprowadziliśmy zależność dla reguły all, a mianowicie zawartość zmiennej "
+"`PROG`, zmodyfikowaliśmy również wydruk, a teraz chcemy zobaczyć wszystkie "
+"zależności tej reguły, które są przechowywane w zmiennej `$^`. Teraz dla "
+"nowej reguły, której nadajemy nazwę po wartości zmiennej `PROG`, która robi "
+"to samo, co zrobiliśmy wcześniej dla reguły _all_. Zwróćmy uwagę, jak "
+"wartość `$@` jest zależna od reguły, w której jest używana."
 
 #: ../../source/learn/building_programs/build_tools.md:126
 msgid "Again check by running the `make`, you should see:"
-msgstr ""
+msgstr "Ponownie sprawdzamy poprzez wykonanie `make` i powinniśmy zobaczyć:"
 
 #: ../../source/learn/building_programs/build_tools.md:133
 msgid ""
@@ -3586,12 +4685,18 @@ msgid ""
 "any action on the rule _all_. Let's run only the second rule: type `make "
 "my_prog` and you will only find the first two lines in your terminal."
 msgstr ""
+"Zależność została poprawnie rozwiązana i określona zanim jakakolwiek akcja "
+"na reguły _all_ została wykonana. Teraz wykonajmy tylko drugą regułę: "
+"wpiszmy `make my_prog`, a zobaczymy tylko dwa pierwsze wersy w terminalu."
 
 #: ../../source/learn/building_programs/build_tools.md:138
 msgid ""
 "The next step is to perform some real actions with `make`, we take the source"
 " code from the previous chapter here and add new rules to our `Makefile`:"
 msgstr ""
+"Następnym krokiem jest wykonanie prawdziwych akcji z `make`, weźmy kod "
+"źródłowy z poprzedniego rozdziału i dodajmy nowe reguły do naszego "
+"`Makefile`:"
 
 #: ../../source/learn/building_programs/build_tools.md:155
 msgid ""
@@ -3604,34 +4709,53 @@ msgid ""
 "object file, we do not create an executable yet due to the `-c` flag. Note "
 "the usage of the `$<` for the first element of the dependencies here."
 msgstr ""
+"Definiujemy `OBJS`, które jest skrótem od object files (pliki obiektów). "
+"Nasz program zależy od `OBJS` i dla każdego pliku obiektu tworzymy regułę, "
+"aby stworzyć je z pliku źródłowego. Ostatnia reguła, którą wprowadziliśmy to "
+"reguła dopasowania wzorca, `%` jest wspólnym wzorcem dla `tabulate.o` i "
+"`tabulate.f90`, który łączy nasz plik obiektu `tabulate.o` z plikiem "
+"źródłowym `tabulate.f90`. Mając to ustawione, uruchamiamy nasz kompilator ( "
+"`gfortran` ) i tłumaczymy plik źródłowy na plik obiektu, nie tworzymy "
+"jeszcze pliku wykonywalnego z powodu flagi `-c`. Zwróćmy uwagę na użycie `$<`"
+" dla pierwszego elementu zależności tutaj."
 
 #: ../../source/learn/building_programs/build_tools.md:166
 msgid ""
 "After compiling all the object files we attempt to link the program, we do "
 "not use a linker directly, but `gfortran` to produce the executable."
 msgstr ""
+"Po skompilowaniu wszystkich plików obiektowych próbujemy połączyć program. "
+"Nie używamy bezpośredniego linkera, ale `gfortran` do wygenerowania pliku "
+"wykonywalnego."
 
 #: ../../source/learn/building_programs/build_tools.md:169
 msgid "Now we run the build script with `make`:"
-msgstr ""
+msgstr "Teraz uruchamiamy skrypt kompilacji poleceniem `make`:"
 
 #: ../../source/learn/building_programs/build_tools.md:180
 msgid ""
 "We remember that we have dependencies between our source files, therefore we "
 "add this dependency explicitly to the `Makefile` with"
 msgstr ""
+"Pamiętamy, że mamy zależności pomiędzy naszymi plikami źródłowymi, dlatego "
+"dodajemy zależność jawnie do pliku `Makefile` za pomocą"
 
 #: ../../source/learn/building_programs/build_tools.md:187
 msgid ""
 "Now we can retry and find that the build is working correctly. The output "
 "should look like"
 msgstr ""
+"Teraz możemy ponowić próbę i zobaczyć, że kompilacja przebiegła pomyślnie. "
+"Rezultat powinien być następujący"
 
 #: ../../source/learn/building_programs/build_tools.md:194
 msgid ""
 "You should find _four_ new files in the directory now. Run `my_prog` to make "
 "sure everything works as expected. Let's run `make` again:"
 msgstr ""
+"Powinieneś teraz znaleźć _cztery_ nowe pliki w twoim folderze. Uruchom "
+"`my_prog`, aby upewnić się, że wszystko działa zgodnie z oczekiwaniami. "
+"Teraz wykonajmy ponownie `make` :"
 
 #: ../../source/learn/building_programs/build_tools.md:200
 msgid ""
@@ -3640,10 +4764,14 @@ msgid ""
 "`tabulate.f90` and `functions.f90`. Therefore, the program is already up-to-"
 "date with the latest code and no action has to be performed."
 msgstr ""
+"Korzystając z sygnatur czasowych pliku wykonywalnego `make` udało się nam "
+"ustalić, że jest on nowszy niż `tabulate.o` i `functions.o`, które z kolei "
+"są nowsze niż `tabulate.f90` i `functions.f90`. Dlatego program jest już "
+"aktualny, zawiera najnowszy kod i nie trzeba wykonywać żadnych działań."
 
 #: ../../source/learn/building_programs/build_tools.md:206
 msgid "In the end, we will have a look at a complete `Makefile`."
-msgstr ""
+msgstr "Na koniec, spójrzmy na kompletny plik `Makefile`."
 
 #: ../../source/learn/building_programs/build_tools.md:240
 msgid ""
@@ -3651,6 +4779,10 @@ msgid ""
 "first line, like with Fortran's `implicit none` we do not want to have "
 "implicit rules messing up our `Makefile` in surprising and harmful ways."
 msgstr ""
+"Jako że zaczynasz od `make`, zdecydowanie zalecamy, aby zawsze zawierać "
+"pierwszy wiersz, podobnie jak w przypadku `implicit none` języka Fortran, "
+"nie chcemy, aby niejawne reguły zakłócały działanie naszego `Makefile` w "
+"zaskakujący i szkodliwy sposób."
 
 #: ../../source/learn/building_programs/build_tools.md:244
 msgid ""
@@ -3664,6 +4796,15 @@ msgid ""
 "deletes all the build artifacts again such that we indeed start with a clean "
 "directory."
 msgstr ""
+"Następnie, mamy sekcję konfiguracji, gdzie definiujemy zmienne, w przypadku "
+"jeśli chcemy zmienić nasz kompilator może to być z łatwością zrobione tutaj. "
+"Wprowadzamy także zmienną `SRCS` do przechowywania wszystkich plików "
+"źródłowych, co jest bardziej intuicyjne niż określanie plików obiektowych. "
+"Możemy z łatwością stworzyć plik obiektowy poprzez dodanie sufiksu `.o` przy "
+"użyciu funkcji `addsuffix`. `.PHONY` jest specjalną regułą. która powinna "
+"być używana dla każdego punktu wejścia w `Makefile`, tutaj definiujemy dwa "
+"punkty wejścia, _all_, już znamy, a nowa reguła _clean_ usuwa ponownie "
+"wszystkie artefakty kompilacji, tak że zaczynamy od czystego folderu."
 
 #: ../../source/learn/building_programs/build_tools.md:255
 msgid ""
@@ -3673,6 +4814,11 @@ msgid ""
 "added a dependency for the object files on the `Makefile` itself, in case you"
 " change the compiler, this will allow you to safely rebuild."
 msgstr ""
+"Ponadto, zmieniliśmy odrobinę regułę budowania dla plików obiektowych, aby "
+"uwzględnić dodanie sufiksu `.o` zamiast go zastępować. Zwróćmy uwagę, że "
+"nadal musimy jawnie zadeklarować zależności w `Makefile`. Dodaliśmy również "
+"zależność dla plików obiektowych w samym `Makefile`, w przypadku zmiany "
+"kompilatora pozwoli to na bezpieczną rekompilację."
 
 #: ../../source/learn/building_programs/build_tools.md:261
 msgid ""
@@ -3680,6 +4826,9 @@ msgid ""
 "you plan to use `make` more extensively, we have compiled a few tips for you "
 "as well."
 msgstr ""
+"Teraz wiemy już wystarczająco o `make`, aby używać go do kompilowania "
+"mniejszych projektów. Jeśli planujesz używać `make` bardziej szczegółowo, "
+"zebraliśmy dla ciebie parę wskazówek."
 
 #: ../../source/learn/building_programs/build_tools.md:266
 msgid ""
@@ -3689,6 +4838,11 @@ msgid ""
 "not feel confident working with `make`, but explicitly declare all variables "
 "and rules."
 msgstr ""
+"W tym poradniku pominęliśmy lub wyłączyliśmy wiele z powszechnie używanych "
+"funkcji `make`, które mogą być szczególnie kłopotliwe jeśli zostaną użyte "
+"niewłaściwie. Zalecamy unikanie wbudowanych reguł i zmiennych, jeśli nie "
+"czujesz się pewnie pracując z `make`, a jawne deklarowanie wszystkich "
+"zmiennych i reguł."
 
 #: ../../source/learn/building_programs/build_tools.md:271
 msgid ""
@@ -3698,10 +4852,16 @@ msgid ""
 "therefore not used alone but combined with other tools to generate the "
 "`Makefile` completely or in parts."
 msgstr ""
+"Przekonasz się, że `make` jest dobrym narzędziem do zautomatyzowania "
+"krótkich współzależnych przepływów pracy i kompilowania mniejszych "
+"projektów. Jednak dla większych projektów, prawdopodobnie szybko zetkniesz "
+"się z jego ograniczeniami. Z tego powodu, `make` nie jest używane "
+"samodzielnie, ale połączone z innymi narzędziami, aby wygenerować `Makefile` "
+"w całości lub częściowo."
 
 #: ../../source/learn/building_programs/build_tools.md:278
 msgid "Recursively expanded variables"
-msgstr ""
+msgstr "Zmienne rozszerzane rekurencyjnie"
 
 #: ../../source/learn/building_programs/build_tools.md:280
 msgid ""
@@ -3711,24 +4871,35 @@ msgid ""
 "defined as rules, which are expanded at runtime, rather than being defined "
 "while parsing."
 msgstr ""
+"Często w wielu projektach można zobaczyć zmienne rozszerzane rekurencyjnie ("
+"zadeklarowane za pomocą `=` zamiast `:=`). Rozszerzanie rekurencyjne "
+"zmiennych pozwala na deklarowanie poza kolejnością i inne sprytne sztuczki z "
+"`make`, ponieważ są one zdefiniowane jako reguły, które są rozszerzane w "
+"czasie wykonania , a nie definiowane podczas przetwarzania."
 
 #: ../../source/learn/building_programs/build_tools.md:285
 msgid ""
 "For example, declaring and using your Fortran flags with this snippet will "
 "work completely fine:"
 msgstr ""
+"Na przykład zadeklarowanie i użycie flag Fortranu za pomocą tego fragmentu "
+"kodu będzie działać całkowicie poprawnie:"
 
 #: ../../source/learn/building_programs/build_tools.md:297
 msgid ""
 "You should find the expected (or maybe unexpected) printout after running "
 "`make`"
 msgstr ""
+"Powinieneś znaleźć oczekiwany (lub może nieoczekiwany) rezultat po wykonaniu "
+"`make`"
 
 #: ../../source/learn/building_programs/build_tools.md:303
 msgid ""
 "appending with `+=` to an undefined variable will produce a recursively "
 "expanded variable with this state being inherited for all further appending."
 msgstr ""
+"dołączenie `+=` do niezdefiniowanej zmiennej stworzy zmienną rozszerzoną "
+"rekurencyjnie, a ten stan będzie dziedziczony przy każdym dalszym dołączeniu."
 
 #: ../../source/learn/building_programs/build_tools.md:306
 msgid ""
@@ -3737,16 +4908,22 @@ msgid ""
 "your compiler, there is little reason to actually use the recursive expansion"
 " at all."
 msgstr ""
+"Podczas gdy może się wydawać to interesującą funkcją, czasem prowadzi do "
+"niespodziewanych i nieoczekiwanych rezultatów. Zwykle, podczas definiowania "
+"zmiennych jak twój kompilator, nie ma powodu, aby w ogóle używać "
+"rozszerzenia rekurencyjnego."
 
 #: ../../source/learn/building_programs/build_tools.md:310
 msgid "The same can easily be achieved using the `:=` declaration:"
-msgstr ""
+msgstr "To samo może być z łatwością osiągnięte poprzez użycie deklaracji `:=`:"
 
 #: ../../source/learn/building_programs/build_tools.md:322
 msgid ""
 "always think of a `Makefile` as a whole set of rules, it must be parsed "
 "completely before any rule can be evaluated."
 msgstr ""
+"zawsze myśl o `Makefile` jako o całym zbiorze reguł, musi być przetworzony w "
+"całości zanim jakakolwiek zasada zostanie określona."
 
 #: ../../source/learn/building_programs/build_tools.md:325
 msgid ""
@@ -3754,10 +4931,13 @@ msgid ""
 "done carefully, of course. It is important to be aware of the differences "
 "between the two kinds and the respective implications."
 msgstr ""
+"Możesz używać jakichkolwiek zmiennych, które lubisz, jednak powinieneś być "
+"ostrożny przy mieszaniu ich. Ważnym jest, aby być świadomym różnic pomiędzy "
+"tymi dwoma typami i ich konsekwencjami."
 
 #: ../../source/learn/building_programs/build_tools.md:329
 msgid "Comments and whitespace"
-msgstr ""
+msgstr "Komentarze i znaki białe"
 
 #: ../../source/learn/building_programs/build_tools.md:331
 msgid ""
@@ -3768,6 +4948,13 @@ msgid ""
 "file names. If you encounter such case, renaming the file is possibly the "
 "easiest solution at hand."
 msgstr ""
+"Istnieją pewne zastrzeżenia dotyczące znaków białych i komentarzy, które "
+"mogą się od czasu do czasu pojawiać podczas używania `make`. Po pierwsze, "
+"`make` nie zna żadnego typu danych poza ciągami znaków, a domyślnym "
+"separatorem jest po prostu spacja. Oznacza to, że `make` będzie miał "
+"trudności ze zbudowaniem projektu, który ma spacje w nazwach plików. Jeśli "
+"napotkasz taki przypadek, zmiana nazwy pliku jest prawdopodobnie "
+"najłatwiejszym rozwiązaniem."
 
 #: ../../source/learn/building_programs/build_tools.md:338
 msgid ""
@@ -3775,10 +4962,13 @@ msgid ""
 "`make` will happily carry it along and it does in fact make a difference when"
 " comparing strings in `make`."
 msgstr ""
+"Kolejnym powszechnym problemem są spacje na początku i na końcu. Po ich "
+"wprowadzeniu `make` bez problemu je zachowa, co ma znaczenie przy "
+"porównywaniu ciągów znaków w `make`."
 
 #: ../../source/learn/building_programs/build_tools.md:342
 msgid "Those can be introduced by comments like"
-msgstr ""
+msgstr "Można je wprowadzić przy pomocy komentarzy tak jak tutaj"
 
 #: ../../source/learn/building_programs/build_tools.md:350
 msgid ""
@@ -3786,6 +4976,9 @@ msgid ""
 "spaces are now part of the variable content. Run `make` and check that this "
 "is indeed the case:"
 msgstr ""
+"Podczas gdy komentarz zostanie poprawnie usunięty przez `make`, dwie spacje "
+"na końcu są teraz częścią zawartości zmiennej. Wykonaj `make` i sprawdź czy "
+"tak jest w rzeczywistości:"
 
 #: ../../source/learn/building_programs/build_tools.md:359
 msgid ""
@@ -3793,6 +4986,9 @@ msgid ""
 " with the `strip` function instead. Alternatively, you could try to `join` "
 "the strings."
 msgstr ""
+"Aby rozwiązać ten problem, możesz przesunąć komentarz lub usunąć spację za "
+"pomocą funkcji `strip`. Alternatywnym rozwiązaniem może być spróbowanie na "
+"złączenie ciągu znaków przy użyciu `join`."
 
 #: ../../source/learn/building_programs/build_tools.md:370
 msgid ""
@@ -3800,10 +4996,13 @@ msgid ""
 "therefore, it is prudent to pay extra attention to whitespace and comments "
 "when writing and using `make`."
 msgstr ""
+"Koniec końców, żadne z tych rozwiązań nie sprawią, że twój `Makefile` będzie "
+"bardziej czytelny, dlatego rozsądnym jest, aby zwracać uwagę na znaki białe "
+"i komentarze podczas robienia i używania `make`."
 
 #: ../../source/learn/building_programs/build_tools.md:374
 msgid "The meson build system"
-msgstr ""
+msgstr "System kompilacji Meson"
 
 #: ../../source/learn/building_programs/build_tools.md:376
 msgid ""
@@ -3814,6 +5013,13 @@ msgid ""
 "will deal for you with how and generate build files for a low-level build "
 "system."
 msgstr ""
+"Po tym jak nauczyliśmy się już podstaw `make`, które nazywamy systemem "
+"kompilacji niskiego poziomu, teraz możemy zapoznać się z systemem kompilacji "
+"wysokiego poziomu jakim jest `meson`. Podczas gdy w systemie niskiego "
+"poziomu musimy sprecyzować jak skompilować nasz program, w systemie "
+"wysokiego poziomu precyzujemy co skompilować. System wysokiego poziomu "
+"zajmie się sposobem i wygeneruje pliki kompilacji dla systemu kompilacji "
+"niskiego poziomu."
 
 #: ../../source/learn/building_programs/build_tools.md:383
 msgid ""
@@ -3821,10 +5027,14 @@ msgid ""
 "`meson` because it is constructed to be particularly user friendly. The "
 "default low-level build-system of `meson` is called `ninja`."
 msgstr ""
+"Istnieje wiele systemów kompilacji wysokiego poziomu, ale tutaj skupimy się "
+"na systemie `meson`, ponieważ jest skonstruowany w sposób przyjazny dla "
+"użytkownika. Domyślny, niskopoziomowy system kompilacji `meson` nazywa się "
+"`ninja`."
 
 #: ../../source/learn/building_programs/build_tools.md:387
 msgid "Let's have a look at a complete `meson.build` file:"
-msgstr ""
+msgstr "Spójrzmy na kompletny plik `meson.build`:"
 
 #: ../../source/learn/building_programs/build_tools.md:396
 msgid ""
@@ -3832,6 +5042,9 @@ msgid ""
 "system with `meson setup build`, you should see output somewhat similar to "
 "this"
 msgstr ""
+"I już skończyliśmy, następnym krokiem jest skonfigurowanie naszego systemu "
+"kompilacji niskiego poziomu za pomocą `meson setup build`, powinieneś "
+"zobaczyć dane wyjściowe nieco podobne do tego"
 
 #: ../../source/learn/building_programs/build_tools.md:414
 msgid ""
@@ -3839,6 +5052,10 @@ msgid ""
 " we could have provided in a `Makefile`, let's run the build with `ninja -C "
 "build`, which should show something like"
 msgstr ""
+"Informacje przedstawione tutaj są już w tym momencie dużo bardziej "
+"szczegółowe niż cokolwiek, co moglibyśmy zobaczyć w `Makefile`, teraz "
+"rozpocznijmy kompilację przy pomocy `ninja -C build`, która powinna pokazać "
+"coś takiego"
 
 #: ../../source/learn/building_programs/build_tools.md:423
 msgid ""
@@ -3847,6 +5064,10 @@ msgid ""
 "`Makefile` (including the dependency), yet we did not have to specify them, "
 "have a look at your `meson.build` file again:"
 msgstr ""
+"Znajdź i przetestuj swój program w `build/my_prog`, aby upewnić się, że "
+"działa prawidłowo. Możemy zauważyć, że kroki, które wykonał `ninja` są takie "
+"same, jak te, które zakodowalibyśmy w `Makefile` (w tym zależności), ale nie "
+"musieliśmy ich określać, spójrz ponownie na swój plik `meson.build`:"
 
 #: ../../source/learn/building_programs/build_tools.md:433
 msgid ""
@@ -3856,6 +5077,10 @@ msgid ""
 "We had not to tell `meson` how to build the project, it figured this out by "
 "itself."
 msgstr ""
+"Sprecyzowaliśmy tylko, że program jest projektem Fortran (który wymaga "
+"odpowiedniej wersji `meson`) i kazaliśmy `meson` zbudować plik wykonywalny "
+"`my_prog` z plików `tabulate.f90` i `functions.f90`. Nie musieliśmy "
+"precyzować jak zbudować projekt, `meson` zrobił to sam."
 
 #: ../../source/learn/building_programs/build_tools.md:441
 msgid ""
@@ -3864,6 +5089,11 @@ msgid ""
 " or to cross-compile your project for other platforms. Similarly, the "
 "`meson.build` file is portable and will work on different platforms as well."
 msgstr ""
+"`meson` jest międzyplatformowym systemem kompilacji, projekt, który właśnie "
+"określiłeś dla swojego programu, może być użyty do kompilacji plików "
+"binarnych dla twojego natywnego systemu operacyjnego lub do cross-kompilacji "
+"twojego projektu dla innych platform. Podobnie, plik `meson.build` jest "
+"przenośny i będzie działał również na różnych platformach."
 
 #: ../../source/learn/building_programs/build_tools.md:448
 msgid ""
@@ -3871,16 +5101,22 @@ msgid ""
 "href=\"https://mesonbuild.com/\" target=\"_blank\" rel=\"noopener\">meson-"
 "build webpage</a>."
 msgstr ""
+"Dokumentację systemu `meson` można znaleźć na <a href=\"https://mesonbuild."
+"com/\" target=\"_blank\" rel=\"noopener\">stronie internetowej kompilatora "
+"meson</a>."
 
 #: ../../source/learn/building_programs/build_tools.md:451
 msgid "Creating a CMake project"
-msgstr ""
+msgstr "Tworzenie projektu CMake"
 
 #: ../../source/learn/building_programs/build_tools.md:453
 msgid ""
 "Similar to `meson` CMake is a high-level build system as well and commonly "
 "used to build Fortran projects."
 msgstr ""
+"Podobnie jak `meson` CMake jest również wysokopoziomowym systemem "
+"kompilacji, który jest powszechnie używany do kompilowania projektów w "
+"języku Fortran."
 
 #: ../../source/learn/building_programs/build_tools.md:457
 msgid ""
@@ -3889,10 +5125,15 @@ msgid ""
 "that you can do almost everything with CMake, but your CMake build files can "
 "also become as complex as the program you are building."
 msgstr ""
+"CMake stosuję nieco inna strategię i zapewnia kompletny język programowania "
+"do tworzenia twoich plików kompilacji. Największą zaletą tego rozwiązania "
+"jest to, że możesz zrobić prawie wszystko za pomocą CMake, ale twoje pliki "
+"kompilacji CMake mogą stać się bardzo złożone tak samo jak program, który "
+"kompilujesz."
 
 #: ../../source/learn/building_programs/build_tools.md:464
 msgid "Start by creating the file `CMakeLists.txt` with the content"
-msgstr ""
+msgstr "Rozpocznij przez stworzenie pliku `CMakeLists.txt` z taką zawartością"
 
 #: ../../source/learn/building_programs/build_tools.md:472
 msgid ""
@@ -3900,6 +5141,10 @@ msgid ""
 "configure our low-level build files with `cmake -B build -G Ninja`, you "
 "should see output similar to this"
 msgstr ""
+"Podobnie jak w systemie `meson` już skończyliśmy z naszymi plikami "
+"kompilacji CMake. Konfigurujemy nasze niskopoziomowe pliki kompilacji przy "
+"pomocy `cmake -B build -G Ninja` i powinniśmy zobaczyć rezultat podobny do "
+"tego"
 
 #: ../../source/learn/building_programs/build_tools.md:486
 msgid ""
@@ -3909,12 +5154,19 @@ msgid ""
 " environment variable `FC=gfortran` rerunning should show the correct "
 "compiler name now"
 msgstr ""
+"Możesz być zaskoczony tym, że CMake próbuje używać kompilatora `f95`, na "
+"szczęście jest to tylko symboliczny link do `gfortran` w większości "
+"systemów, a nie rzeczywisty kompilator `f95`. Aby dać CMake lepszą "
+"podpowiedź, możesz wyeksportować zmienną środowiskową `FC=gfortran`, a po "
+"ponownym uruchomieniu powinien teraz pokazać poprawną nazwę kompilatora"
 
 #: ../../source/learn/building_programs/build_tools.md:502
 msgid ""
 "In a similar manner you could use your Intel Fortran compiler instead to "
 "build your project (set `FC=ifort`)."
 msgstr ""
+"W podobny sposób możesz użyć kompilatora Intel Fortran do skompilowania "
+"swojego projektu (ustaw `FC=ifort` )."
 
 #: ../../source/learn/building_programs/build_tools.md:505
 msgid ""
@@ -3922,6 +5174,10 @@ msgid ""
 "is platform specific, we will just use `ninja` since we already used it "
 "together with `meson`. As before, build your project with `ninja -C build`:"
 msgstr ""
+"CMake wspiera kilka plików kompilacyjnych niskiego poziomu. Jako, że "
+"standardowy jest używany dla konkretnych platform, użyjemy po prostu `ninja`"
+", ponieważ już wcześniej użyliśmy go razem z `meson`. Tak jak wcześniej, "
+"kompilujemy nasz program za pomocą `ninja -C build`:"
 
 #: ../../source/learn/building_programs/build_tools.md:516
 msgid ""
@@ -3931,12 +5187,20 @@ msgid ""
 "of building a project. Fortunately, we do not have to concern ourselves but "
 "have our build system handle those details for us."
 msgstr ""
+"Znajdź i przetestuj swój program za pomocą `build/my_prog`, aby upewnić się, "
+"że działa prawidłowo. Kroki, które wykonał `ninja` są w pewnym sensie inne, "
+"ponieważ zazwyczaj istnieje więcej niż jeden sposób na napisanie plików "
+"kompilacyjnych niskiego poziomu, aby skompilować program. Na szczęście, nie "
+"musimy się tym martwić, ponieważ nas system kompilacji może zająć się tymi "
+"detalami za nas."
 
 #: ../../source/learn/building_programs/build_tools.md:522
 msgid ""
 "Finally, we will shortly recap on our complete `CMakeLists.txt` to specify "
 "our project:"
 msgstr ""
+"Na koniec szybko podsumujemy nasz skończony `CMakeLists.txt` żeby "
+"sprecyzować nasz projekt:"
 
 #: ../../source/learn/building_programs/build_tools.md:531
 msgid ""
@@ -3945,6 +5209,11 @@ msgid ""
 " knows the details how to build the executable from the specified sources, so"
 " we do not have to worry about the actual steps in the build process."
 msgstr ""
+"Sprecyzowaliśmy już, że projekt jest projektem Fortran i powiedzieliśmy "
+"CMake, aby stworzył plik wykonywalny `my_prog` z plików `tabulate.f90` i "
+"`functions.f90`. CMake sam wie jak skompilować plik wykonywalny ze "
+"wskazanych źródeł, dlatego nie musimy się martwić żadnymi właściwymi krokami "
+"procesu kompilacji."
 
 #: ../../source/learn/building_programs/build_tools.md:537
 msgid ""
